@@ -1,0 +1,15 @@
+C:\Users\DEVELOPER\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.csprojResolveAssemblyReference.cache
+C:\Users\DEVELOPER\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.MainPage.xaml.g.cs
+C:\Users\DEVELOPER\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.App.xaml.g.cs
+C:\Users\DEVELOPER\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.Paginas.MenuPg.xaml.g.cs
+C:\Users\DEVELOPER\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.Paginas.VentasPg.xaml.g.cs
+C:\Users\DEVELOPER\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.Paginas.ComprasPg.xaml.g.cs
+C:\Users\DEVELOPER\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.Paginas.NotasPg.xaml.g.cs
+C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.csprojResolveAssemblyReference.cache
+C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.csproj.CoreCompileInputs.cache
+C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.MainPage.xaml.g.cs
+C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.App.xaml.g.cs
+C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.Paginas.MenuPg.xaml.g.cs
+C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.Paginas.VentasPg.xaml.g.cs
+C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.Paginas.ComprasPg.xaml.g.cs
+C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact\AppKfact\AppKfact\obj\Debug\AppKfact.Paginas.NotasPg.xaml.g.cs
