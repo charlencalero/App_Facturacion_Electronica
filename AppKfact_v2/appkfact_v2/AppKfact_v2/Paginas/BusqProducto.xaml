@@ -2,21 +2,5 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppKfact_v2.Paginas.BusqProducto">
-    <ContentPage.Content>
-               <StackLayout x:Name="StacDetalle" Orientation="Horizontal" HorizontalOptions="Center">
-            <ListView WidthRequest="450" HeightRequest="200" x:Name="ListDetalle"  HasUnevenRows="True" BackgroundColor="White">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout Orientation="Horizontal">
-                                <Label WidthRequest="300" Text="{Binding prod_descr}"/>
-                                <Label WidthRequest="75" Text="{Binding prod_precio}"/>
-                                <Label WidthRequest="75" Text="{Binding prod_stock}"/>
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </StackLayout>
-    </ContentPage.Content>
+  
 </ContentPage>

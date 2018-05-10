@@ -2,16 +2,5 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppKfact_v2.Paginas.Productos">
-    <ContentPage.Content>
-        <StackLayout Orientation="Vertical">
-            <Label Text="Modulo de Productos"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Entry Placeholder="Ingrese codigo" x:Name="textcodigo"></Entry>
-            <Entry Placeholder="Ingrese Descripcion" x:Name="textnombre"></Entry>
-            <Picker Title="Seleccione Unidad" x:Name="combounidad" ></Picker>
-            <Entry Placeholder="Ingrese Precio" x:Name="textprecio"></Entry>
-            <Entry Placeholder="Ingrese Cantidad" x:Name="textcantidad"></Entry>
-        </StackLayout>
-    </ContentPage.Content>
+    
 </ContentPage>

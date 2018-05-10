@@ -1,3 +1,4 @@
+using AppMovilFE.Paginas;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,7 +12,7 @@ namespace AppMovilFE
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new VentasPg();
 		}
 
 		protected override void OnStart ()

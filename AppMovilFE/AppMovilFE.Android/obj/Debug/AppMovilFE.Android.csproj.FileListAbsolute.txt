@@ -98,6 +98,8 @@ C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\ob
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\bin\Debug\AppMovilFE.Android.dll
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\bin\Debug\Microsoft.CSharp.pdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\Microsoft.CSharp.pdb
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\AppMovilFE.Android.dll.mdb
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

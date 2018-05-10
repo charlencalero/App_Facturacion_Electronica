@@ -1,0 +1,8 @@
+C:\Users\charlen.calero\source\repos\movilkfact\AppEntity\obj\Debug\netstandard2.0\AppEntity.csproj.CoreCompileInputs.cache
+C:\Users\charlen.calero\source\repos\movilkfact\AppEntity\obj\Debug\netstandard2.0\AppEntity.AssemblyInfoInputs.cache
+C:\Users\charlen.calero\source\repos\movilkfact\AppEntity\obj\Debug\netstandard2.0\AppEntity.AssemblyInfo.cs
+C:\Users\charlen.calero\source\repos\movilkfact\AppEntity\bin\Debug\netstandard2.0\AppEntity.deps.json
+C:\Users\charlen.calero\source\repos\movilkfact\AppEntity\bin\Debug\netstandard2.0\AppEntity.dll
+C:\Users\charlen.calero\source\repos\movilkfact\AppEntity\bin\Debug\netstandard2.0\AppEntity.pdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppEntity\obj\Debug\netstandard2.0\AppEntity.dll
+C:\Users\charlen.calero\source\repos\movilkfact\AppEntity\obj\Debug\netstandard2.0\AppEntity.pdb
