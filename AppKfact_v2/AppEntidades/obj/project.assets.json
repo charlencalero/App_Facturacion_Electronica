@@ -664,26 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MAXIMO\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAXIMO\\Dropbox\\XAMARIN\\Kfact\\AppKfact_v2\\AppEntidades\\AppEntidades.csproj",
+      "projectUniqueName": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppKfact_v2\\AppEntidades\\AppEntidades.csproj",
       "projectName": "AppEntidades",
-      "projectPath": "C:\\Users\\MAXIMO\\Dropbox\\XAMARIN\\Kfact\\AppKfact_v2\\AppEntidades\\AppEntidades.csproj",
-      "packagesPath": "C:\\Users\\MAXIMO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MAXIMO\\Dropbox\\XAMARIN\\Kfact\\AppKfact_v2\\AppEntidades\\obj\\",
+      "projectPath": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppKfact_v2\\AppEntidades\\AppEntidades.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppKfact_v2\\AppEntidades\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\MAXIMO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -710,7 +707,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           }
         },

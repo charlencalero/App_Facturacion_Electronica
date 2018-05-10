@@ -1,0 +1,9 @@
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\bin\Debug\netstandard2.0\AppMovilFE.deps.json
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\bin\Debug\netstandard2.0\AppMovilFE.dll
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\bin\Debug\netstandard2.0\AppMovilFE.pdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\obj\Debug\netstandard2.0\AppMovilFE.csprojAssemblyReference.cache
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\obj\Debug\netstandard2.0\AppMovilFE.csproj.CoreCompileInputs.cache
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\obj\Debug\netstandard2.0\AppMovilFE.AssemblyInfoInputs.cache
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\obj\Debug\netstandard2.0\AppMovilFE.AssemblyInfo.cs
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\obj\Debug\netstandard2.0\AppMovilFE.dll
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\obj\Debug\netstandard2.0\AppMovilFE.pdb

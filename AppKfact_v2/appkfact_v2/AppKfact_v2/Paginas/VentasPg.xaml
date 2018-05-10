@@ -35,8 +35,8 @@
 
                 <Label WidthRequest="100" Text="Documento"></Label>
                 <Picker WidthRequest="100" TextColor="Black" x:Name="CombTipoDocu"></Picker>
-                <Entry Style="{StaticResource Texto}" WidthRequest="150" x:Name="TextDni"></Entry>
-                <Button WidthRequest="100" BackgroundColor="#0084b4" TextColor="White" x:Name="BuscarDni" Text="Buscar"></Button>
+                <Entry Style="{StaticResource Texto}" WidthRequest="150" x:Name="TextDni"  ></Entry>
+                <Button WidthRequest="100" BackgroundColor="#0084b4" TextColor="White" x:Name="BuscarDni" Text="Buscar" BorderRadius="5" ></Button>
               
          
             </StackLayout>
@@ -46,7 +46,7 @@
 
                 <Label WidthRequest="100"  Text="Nombres"></Label>
                 <Entry Style="{StaticResource Texto}" WidthRequest="250" x:Name="TextNombre"></Entry>
-                <Button WidthRequest="100" BackgroundColor="#0084b4" TextColor="White" x:Name="BuscarCliente" Text="Buscar"></Button>
+                <Button WidthRequest="100" BackgroundColor="#0084b4" TextColor="White" x:Name="BuscarCliente" CornerRadius="5" Text="Buscar"></Button>
                 
 
             </StackLayout>
