@@ -15,13 +15,13 @@
             <Thickness x:Key="prodMargin">10,0,20,10</Thickness>
 
             <Color x:Key="EtiquetasColor">Black</Color>
-            <Thickness x:Key="EtiquetasMargin">10,10,20,10</Thickness>
+            <Thickness x:Key="EtiquetasMargin">10,0,20,10</Thickness>
 
             <Color x:Key="BotonTextColor">White</Color>
             <Color x:Key="BotonBackColor">Red</Color>
             <Thickness x:Key="BotonMargin">8,0,20,8</Thickness>
 
-            <Thickness x:Key="zonaMargin">10,0,20,10</Thickness>
+            <Thickness x:Key="zonaMargin">10,0,10,10</Thickness>
 
             
                <Style x:Key="Texto" TargetType="Entry">

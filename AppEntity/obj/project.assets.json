@@ -177,7 +177,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\charlen.calero\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -186,14 +186,14 @@
       "projectUniqueName": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppEntity\\AppEntity.csproj",
       "projectName": "AppEntity",
       "projectPath": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppEntity\\AppEntity.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\charlen.calero\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppEntity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\charlen.calero\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

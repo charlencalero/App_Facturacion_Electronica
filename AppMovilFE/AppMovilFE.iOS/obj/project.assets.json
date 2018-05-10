@@ -819,7 +819,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\charlen.calero\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -827,12 +827,12 @@
       "projectUniqueName": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppMovilFE\\AppMovilFE.iOS\\AppMovilFE.iOS.csproj",
       "projectName": "AppMovilFE.iOS",
       "projectPath": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppMovilFE\\AppMovilFE.iOS\\AppMovilFE.iOS.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\charlen.calero\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppMovilFE\\AppMovilFE.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\charlen.calero\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
