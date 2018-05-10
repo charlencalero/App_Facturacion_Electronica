@@ -1,4 +1,5 @@
-﻿using AppMovilFE.Data;
+﻿using AppEntity;
+using AppMovilFE.Data;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -190,7 +191,7 @@ namespace AppMovilFE.Paginas
         {
             ApiAcces api = new ApiAcces();
             Comprobante comp = new Comprobante();
-            List<AppEntidades.Detalle> detacomp = new List<AppEntidades.Detalle>();
+            List<Detalle> detacomp = new List<Detalle>();
 
             foreach (var item in detalle)
             {
@@ -244,7 +245,7 @@ namespace AppMovilFE.Paginas
 
         private async void BuscProd_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new BusqProducto());
+            await Navigation.PushAsync(new BuscarProductoPg());
         }
     }
 }

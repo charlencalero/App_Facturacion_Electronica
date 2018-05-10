@@ -3,6 +3,82 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppMovilFE.App">
 	<Application.Resources>
-    
-	</Application.Resources>
+        <ResourceDictionary>
+
+            <Color x:Key="PageBackgroundColor">Yellow</Color>
+            <Color x:Key="EtiquetaColor">Black</Color>
+            <Color x:Key="EtiquetaFondo">White</Color>
+            <Thickness x:Key="MesaMargin">10,0,20,10</Thickness>
+
+            <Color x:Key="prodColor">Blue</Color>
+            <Color x:Key="prodFondo">White</Color>
+            <Thickness x:Key="prodMargin">10,0,20,10</Thickness>
+
+            <Color x:Key="EtiquetasColor">Black</Color>
+            <Thickness x:Key="EtiquetasMargin">10,10,20,10</Thickness>
+
+            <Color x:Key="BotonTextColor">White</Color>
+            <Color x:Key="BotonBackColor">Red</Color>
+            <Thickness x:Key="BotonMargin">8,0,20,8</Thickness>
+
+            <Thickness x:Key="zonaMargin">10,0,20,10</Thickness>
+
+            
+               <Style x:Key="Texto" TargetType="Entry">
+
+                <!--<Setter Property="WidthRequest" Value="120" />
+                <Setter Property="HeightRequest" Value="100" />-->
+                <Setter Property="Margin" Value="{StaticResource zonaMargin}" />
+
+            </Style>
+            
+            <Style x:Key="EtiquetaZona" TargetType="Button">
+
+                <Setter Property="WidthRequest" Value="120" />
+                <Setter Property="HeightRequest" Value="100" />
+                <Setter Property="Margin" Value="{StaticResource zonaMargin}" />
+
+            </Style>
+         
+
+            <Style x:Key="EtiquetaProd" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="WidthRequest" Value="100" />
+                <Setter Property="Margin" Value="{StaticResource prodMargin}" />
+                <Setter Property="BackgroundColor" Value="{StaticResource prodFondo}" />
+                <Setter Property="TextColor" Value="{StaticResource prodColor}" />
+            </Style>
+
+            <Style x:Key="EtiquetaMesa" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="WidthRequest" Value="70" />
+                <Setter Property="Margin" Value="{StaticResource MesaMargin}" />
+                <Setter Property="BackgroundColor" Value="{StaticResource EtiquetaFondo}" />
+                <Setter Property="TextColor" Value="{StaticResource EtiquetaColor}" />
+            </Style>
+
+            <Style x:Key="Etiquetas" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="WidthRequest" Value="100" />
+                <Setter Property="Margin" Value="{StaticResource EtiquetasMargin}" />
+                <Setter Property="TextColor" Value="{StaticResource EtiquetasColor}" />
+            </Style>
+
+            <Style x:Key="Botones" TargetType="Button">
+                <Setter Property="HeightRequest" Value="100" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="Margin" Value="{StaticResource BotonMargin}" />
+                <Setter Property="TextColor" Value="{StaticResource BotonTextColor}" />
+                <Setter Property="BackgroundColor" Value="{StaticResource BotonBackColor}" />
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>

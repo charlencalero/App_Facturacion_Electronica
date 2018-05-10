@@ -47,6 +47,7 @@ C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\ob
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Security.SecureString.dll
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Web.Services.dll
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Xml.XPath.XDocument.dll
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\AppEntity.dll
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Runtime.dll
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Threading.dll

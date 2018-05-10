@@ -23,3 +23,5 @@ Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
 Newtonsoft.Json
+AppEntity
+System.Reflection.Extensions

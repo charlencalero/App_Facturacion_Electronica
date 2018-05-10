@@ -2,14 +2,22 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppMovilFE.Paginas.VentasPg">
-    <ContentPage.Content >
+   
+
+        <ScrollView>
+            
+       
         <StackLayout Orientation="Vertical">
 
             <StackLayout Orientation="Vertical" HorizontalOptions="Center" >
                 <Label Text=""></Label>
+                    <Image Source="logo_escon.png" HeightRequest="70"></Image>
             </StackLayout>
 
-            <StackLayout x:Name="StacEncabezado" Orientation="Horizontal" HorizontalOptions="Center" >
+               <Frame OutlineColor="Gray" Padding="10" Margin="10,10,10,10">
+             
+                   <StackLayout x:Name="StacEncabezado" Orientation="Horizontal" HorizontalOptions="Center" >
+             
                 <Label  Text="Comp."></Label>
                 <Picker WidthRequest="120" TextColor="Black"  x:Name="CombComp"></Picker>
                 <Label Text="Serie"></Label>
@@ -17,14 +25,15 @@
                 <Entry Style="{StaticResource Texto}" x:Name="TextNumero" WidthRequest="100"></Entry>
 
             </StackLayout>
-
+ </Frame>
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                 <Label Text="Fecha"></Label>
                 <DatePicker x:Name="DateFecha"></DatePicker>
                 <Label WidthRequest="220" Text=""></Label>
             </StackLayout>
-
-            <StackLayout Orientation="Vertical" HorizontalOptions="Center" >
+               
+            
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" >
                 <Label Text=""></Label>
                 <Label Text="Datos del Cliente" FontAttributes="Bold"></Label>
             </StackLayout>
@@ -34,7 +43,7 @@
                 <Label WidthRequest="100" Text="Documento"></Label>
                 <Picker WidthRequest="100" TextColor="Black" x:Name="CombTipoDocu"></Picker>
                 <Entry Style="{StaticResource Texto}" WidthRequest="150" x:Name="TextDni"  ></Entry>
-                <Button WidthRequest="100" BackgroundColor="#0084b4" TextColor="White" x:Name="BuscarDni" Text="Buscar" BorderRadius="5" ></Button>
+                <Button WidthRequest="100" BackgroundColor="#0084b4" TextColor="White" x:Name="BuscarDni" Text="Buscar" CornerRadius="20" ></Button>
 
 
             </StackLayout>
@@ -44,7 +53,7 @@
 
                 <Label WidthRequest="100"  Text="Nombres"></Label>
                 <Entry Style="{StaticResource Texto}" WidthRequest="250" x:Name="TextNombre"></Entry>
-                <Button WidthRequest="100" BackgroundColor="#0084b4" TextColor="White" x:Name="BuscarCliente" CornerRadius="5" Text="Buscar"></Button>
+                <Button WidthRequest="100" BackgroundColor="#0084b4" TextColor="White" x:Name="BuscarCliente" CornerRadius="20" Text="Buscar"></Button>
 
 
             </StackLayout>
@@ -101,7 +110,7 @@
                 <Label FontAttributes="Bold" Text="Detalle de la Venta"></Label>
             </StackLayout>
             <StackLayout x:Name="StacDetalle" Orientation="Horizontal" HorizontalOptions="Center">
-                <ListView WidthRequest="450" HeightRequest="200" x:Name="ListDetalle"  HasUnevenRows="True" BackgroundColor="#00aced">
+                <ListView WidthRequest="450" HeightRequest="200" x:Name="ListDetalle"  HasUnevenRows="True" >
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
@@ -138,11 +147,12 @@
             </StackLayout>
 
             <StackLayout x:Name="StacFooter" Orientation="Horizontal" HorizontalOptions="Center">
-                <Button Clicked="Button_Clicked" Text="Guardar"></Button>
+                <Button Clicked="Button_Clicked" CornerRadius="23" Text="Guardar"></Button>
                 <Button Text="Salir"></Button>
             </StackLayout>
 
 
         </StackLayout>
-    </ContentPage.Content>
+        </ScrollView>
+ 
 </ContentPage>
