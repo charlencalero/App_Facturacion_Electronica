@@ -1,9 +1,0 @@
-C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact_v2\AppEntidades\bin\Debug\netcoreapp2.0\AppEntidades.deps.json
-C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact_v2\AppEntidades\bin\Debug\netcoreapp2.0\AppEntidades.dll
-C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact_v2\AppEntidades\bin\Debug\netcoreapp2.0\AppEntidades.pdb
-C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact_v2\AppEntidades\obj\Debug\netcoreapp2.0\AppEntidades.csprojResolveAssemblyReference.cache
-C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact_v2\AppEntidades\obj\Debug\netcoreapp2.0\AppEntidades.csproj.CoreCompileInputs.cache
-C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact_v2\AppEntidades\obj\Debug\netcoreapp2.0\AppEntidades.AssemblyInfoInputs.cache
-C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact_v2\AppEntidades\obj\Debug\netcoreapp2.0\AppEntidades.AssemblyInfo.cs
-C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact_v2\AppEntidades\obj\Debug\netcoreapp2.0\AppEntidades.dll
-C:\Users\MAXIMO\Dropbox\XAMARIN\Kfact\AppKfact_v2\AppEntidades\obj\Debug\netcoreapp2.0\AppEntidades.pdb
