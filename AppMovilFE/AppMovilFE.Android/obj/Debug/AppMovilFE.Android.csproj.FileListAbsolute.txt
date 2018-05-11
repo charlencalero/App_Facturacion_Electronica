@@ -105,7 +105,20 @@ C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\ob
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Xml.pdb
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\bin\Debug\DLL_KS_OSE.dll
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\bin\Debug\Integracion EsconDatagate.dll
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\bin\Debug\DLL_KS_OSE.pdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\bin\Debug\Integracion EsconDatagate.pdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\DLL_KS_OSE.dll.mdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\Integracion EsconDatagate.dll.mdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\bin\Debug\DLL_KS_OSE.dll.mdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\bin\Debug\Integracion EsconDatagate.dll.mdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\DLL_KS_OSE.dll.mdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\Integracion EsconDatagate.dll.mdb
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\bin\Debug\AppMovilFE.Android.dll
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\AppMovilFE.pdb
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\AppMovilFE.Android.dll.mdb
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\DLL_KS_OSE.dll.mdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\Integracion EsconDatagate.dll.mdb

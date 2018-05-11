@@ -10,3 +10,7 @@ C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\bin\Debug\
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\bin\Debug\netstandard2.0\AppEntity.dll
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\bin\Debug\netstandard2.0\AppEntity.pdb
 C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\obj\Debug\netstandard2.0\AppMovilFE.csproj.CopyComplete
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\bin\Debug\netstandard2.0\DLL_KS_OSE.dll
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\bin\Debug\netstandard2.0\Integracion EsconDatagate.dll
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\bin\Debug\netstandard2.0\DLL_KS_OSE.pdb
+C:\Users\charlen.calero\source\repos\movilkfact\AppMovilFE\AppMovilFE\bin\Debug\netstandard2.0\Integracion EsconDatagate.pdb

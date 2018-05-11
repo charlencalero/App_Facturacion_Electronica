@@ -32,6 +32,22 @@ namespace AppMovilFE.Paginas
         {
             InitializeComponent();
             cargar();
+
+            emi.tipoDocId = "6";
+            emi.numeroDocId = "20542471256";
+            emi.nombreComercial = "INGENIERIA E INFORMATICA KING SOFTWARE SAC";
+            emi.razonSocial = "KSOFT";
+            emi.ubigeo = "150131";
+            emi.direccion = "A.H. BELLA DURMIENTE MZ B LOTE 19";
+            emi.urbanizacion = "";
+            emi.provincia = "HUANUCO";
+            emi.distrito = "HUANUCO";
+            emi.departamento = "HUANUCO";
+            emi.codigoPais = "PE";
+            emi.telefono = "998887099";
+            emi.correoElectronico = "charlen.calero@gmail.com";
+
+
         }
 
         List<combo> comprobante = new List<combo>();
@@ -71,7 +87,7 @@ namespace AppMovilFE.Paginas
         }
 
 
-        ObservableCollection<Detalle> detalle = new ObservableCollection<Detalle>();
+       
 
         private void ButtAgregar_Clicked(object sender, EventArgs e)
         {
@@ -100,7 +116,7 @@ namespace AppMovilFE.Paginas
                 return;
             }
 
-            detalle.Add(new Detalle("-", TextServDetalle.Text, "NIU", TextPrecio.Text, "0", TextCantidad.Text, "0", serie[CombSerie.SelectedIndex].codigo, "0", "-"));
+            detalle.Add(new DLL_KS_OSE.Entity.Detalle("-", TextServDetalle.Text, "NIU", TextPrecio.Text, "0", TextCantidad.Text, "0", serie[CombSerie.SelectedIndex].codigo, "0", "-"));
 
             ListDetalle.ItemsSource = detalle;
 
@@ -187,11 +203,18 @@ namespace AppMovilFE.Paginas
 
         }
 
+        ObservableCollection<DLL_KS_OSE.Entity.Detalle> detalle = new ObservableCollection<DLL_KS_OSE.Entity.Detalle>();
+        Integracion_EsconDatagate.Entity.EMI emi = new Integracion_EsconDatagate.Entity.EMI() ;
+
         private async void procesar()
         {
-            ApiAcces api = new ApiAcces();
-            Comprobante comp = new Comprobante();
-            List<Detalle> detacomp = new List<Detalle>();
+           
+
+          DLL_KS_OSE.Entity.Comprobante comp = new DLL_KS_OSE.Entity.Comprobante() ;
+         
+
+
+            List<DLL_KS_OSE.Entity.Detalle> detacomp = new List<DLL_KS_OSE.Entity.Detalle>();
 
             foreach (var item in detalle)
             {
@@ -205,7 +228,7 @@ namespace AppMovilFE.Paginas
             comp.comp = comprobante[CombSerie.SelectedIndex].codigo;
             comp.serie = serie[CombSerie.SelectedIndex].descripcion;
             comp.nume = TextNumero.Text;
-            comp.fecha = DateFecha.ToString();
+            comp.fecha = DateFecha.Date.ToString("yyyyMMdd HH:mm:ss");
             comp.codi_vend = "iddisp";
             comp.clie_tipo = tipodocu[CombTipoDocu.SelectedIndex].codigo;
             comp.clie_docu = TextDni.Text;
@@ -215,7 +238,7 @@ namespace AppMovilFE.Paginas
             comp.clie_celu = "";
             comp.dire_entr = "";
             comp.ubig_entr = "";
-            comp.mone_codi = "PE";
+            comp.mone_codi = "PEN";
             comp.tipo_igv = "SI";
             comp.desc_globa = "";
             comp.obse = "";
@@ -238,9 +261,11 @@ namespace AppMovilFE.Paginas
             comp.detalle = detacomp;
 
 
-            await api.EnviarComprobante(comp);
+            //  await api.EnviarComprobante(comp);
 
+            DLL_KS_OSE.Bussines.CrearComp crear = new DLL_KS_OSE.Bussines.CrearComp();
 
+      await   DisplayAlert("SYSTEM", crear.Crear(comp, emi),"OK");
         }
 
         private async void BuscProd_Clicked(object sender, EventArgs e)

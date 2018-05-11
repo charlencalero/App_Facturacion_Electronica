@@ -18,6 +18,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="DLL_KS_OSE">
+      <HintPath>..\..\..\Integracion-EsconDatagate\DLL_KS_OSE\bin\Debug\DLL_KS_OSE.dll</HintPath>
+    </Reference>
+    <Reference Include="Integracion EsconDatagate">
+      <HintPath>..\..\..\Integracion-EsconDatagate\Integracion EsconDatagate\bin\Debug\Integracion EsconDatagate.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="Paginas\BuscarProductoPg.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

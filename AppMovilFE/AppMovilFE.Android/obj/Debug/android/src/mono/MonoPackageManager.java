@@ -131,6 +131,8 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
 		"AppEntity.dll",
+		"DLL_KS_OSE.dll",
+		"Integracion EsconDatagate.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

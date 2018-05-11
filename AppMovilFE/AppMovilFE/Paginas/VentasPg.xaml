@@ -103,7 +103,7 @@
             
             <StackLayout Orientation="Vertical" HorizontalOptions="Center" >
                
-                <Label FontAttributes="Bold" Text="Agregar Productos Libres"></Label>
+            <Label FontAttributes="Bold" Text="Agregar Productos Libres"></Label>
             </StackLayout>
 
             <Frame OutlineColor="Gray" Padding="10"  Margin="30,10,30,10">
