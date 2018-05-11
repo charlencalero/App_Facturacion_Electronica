@@ -1,0 +1,1498 @@
+{
+  "c4_codigos_paises": [
+    {
+      "cod_num_pais": "004",
+      "cod_2alph_pais": "AF",
+      "cod_3alph_pais": "AFG",
+      "nom_pais": "Afganistán"
+    },
+    {
+      "cod_num_pais": "008",
+      "cod_2alph_pais": "AL",
+      "cod_3alph_pais": "ALB",
+      "nom_pais": "Albania"
+    },
+    {
+      "cod_num_pais": "010",
+      "cod_2alph_pais": "AQ",
+      "cod_3alph_pais": "ATA",
+      "nom_pais": "Antártida"
+    },
+    {
+      "cod_num_pais": "012",
+      "cod_2alph_pais": "DZ",
+      "cod_3alph_pais": "DZA",
+      "nom_pais": "Argelia"
+    },
+    {
+      "cod_num_pais": "016",
+      "cod_2alph_pais": "AS",
+      "cod_3alph_pais": "ASM",
+      "nom_pais": "Samoa Americana"
+    },
+    {
+      "cod_num_pais": "024",
+      "cod_2alph_pais": "AO",
+      "cod_3alph_pais": "AGO",
+      "nom_pais": "Angola"
+    },
+    {
+      "cod_num_pais": "028",
+      "cod_2alph_pais": "AG",
+      "cod_3alph_pais": "ATG",
+      "nom_pais": "Antigua y Barbuda"
+    },
+    {
+      "cod_num_pais": "031",
+      "cod_2alph_pais": "AZ",
+      "cod_3alph_pais": "AZE",
+      "nom_pais": "Azerbaiyán"
+    },
+    {
+      "cod_num_pais": "032",
+      "cod_2alph_pais": "AR",
+      "cod_3alph_pais": "ARG",
+      "nom_pais": "Argentina"
+    },
+    {
+      "cod_num_pais": "036",
+      "cod_2alph_pais": "AU",
+      "cod_3alph_pais": "AUS",
+      "nom_pais": "Australia"
+    },
+    {
+      "cod_num_pais": "040",
+      "cod_2alph_pais": "AT",
+      "cod_3alph_pais": "AUT",
+      "nom_pais": "Austria"
+    },
+    {
+      "cod_num_pais": "044",
+      "cod_2alph_pais": "BS",
+      "cod_3alph_pais": "BHS",
+      "nom_pais": "Bahamas (las)"
+    },
+    {
+      "cod_num_pais": "048",
+      "cod_2alph_pais": "BH",
+      "cod_3alph_pais": "BHR",
+      "nom_pais": "Bahrein"
+    },
+    {
+      "cod_num_pais": "050",
+      "cod_2alph_pais": "BD",
+      "cod_3alph_pais": "BGD",
+      "nom_pais": "Bangladesh"
+    },
+    {
+      "cod_num_pais": "051",
+      "cod_2alph_pais": "AM",
+      "cod_3alph_pais": "ARM",
+      "nom_pais": "Armenia"
+    },
+    {
+      "cod_num_pais": "052",
+      "cod_2alph_pais": "BB",
+      "cod_3alph_pais": "BRB",
+      "nom_pais": "Barbados"
+    },
+    {
+      "cod_num_pais": "056",
+      "cod_2alph_pais": "BE",
+      "cod_3alph_pais": "BEL",
+      "nom_pais": "Bélgica"
+    },
+    {
+      "cod_num_pais": "060",
+      "cod_2alph_pais": "BM",
+      "cod_3alph_pais": "BMU",
+      "nom_pais": "Bermudas"
+    },
+    {
+      "cod_num_pais": "064",
+      "cod_2alph_pais": "BT",
+      "cod_3alph_pais": "BTN",
+      "nom_pais": "Bhután"
+    },
+    {
+      "cod_num_pais": "068",
+      "cod_2alph_pais": "BO",
+      "cod_3alph_pais": "BOL",
+      "nom_pais": "Bolivia (Estado Plurinacional de)"
+    },
+    {
+      "cod_num_pais": "070",
+      "cod_2alph_pais": "BA",
+      "cod_3alph_pais": "BIH",
+      "nom_pais": "Bosnia y Herzegovina"
+    },
+    {
+      "cod_num_pais": "072",
+      "cod_2alph_pais": "BW",
+      "cod_3alph_pais": "BWA",
+      "nom_pais": "Botswana"
+    },
+    {
+      "cod_num_pais": "074",
+      "cod_2alph_pais": "BV",
+      "cod_3alph_pais": "BVT",
+      "nom_pais": "Bouvet, Isla"
+    },
+    {
+      "cod_num_pais": "076",
+      "cod_2alph_pais": "BR",
+      "cod_3alph_pais": "BRA",
+      "nom_pais": "Brasil"
+    },
+    {
+      "cod_num_pais": "084",
+      "cod_2alph_pais": "BZ",
+      "cod_3alph_pais": "BLZ",
+      "nom_pais": "Belice"
+    },
+    {
+      "cod_num_pais": "086",
+      "cod_2alph_pais": "IO",
+      "cod_3alph_pais": "IOT",
+      "nom_pais": "Territorio Británico del Océano Índico (el)"
+    },
+    {
+      "cod_num_pais": "090",
+      "cod_2alph_pais": "SB",
+      "cod_3alph_pais": "SLB",
+      "nom_pais": "Salomón, Islas"
+    },
+    {
+      "cod_num_pais": "092",
+      "cod_2alph_pais": "VG",
+      "cod_3alph_pais": "VGB",
+      "nom_pais": "Vírgenes británicas, Islas"
+    },
+    {
+      "cod_num_pais": "096",
+      "cod_2alph_pais": "BN",
+      "cod_3alph_pais": "BRN",
+      "nom_pais": "Brunei Darussalam"
+    },
+    {
+      "cod_num_pais": "100",
+      "cod_2alph_pais": "BG",
+      "cod_3alph_pais": "BGR",
+      "nom_pais": "Bulgaria"
+    },
+    {
+      "cod_num_pais": "104",
+      "cod_2alph_pais": "MM",
+      "cod_3alph_pais": "MMR",
+      "nom_pais": "Myanmar"
+    },
+    {
+      "cod_num_pais": "108",
+      "cod_2alph_pais": "BI",
+      "cod_3alph_pais": "BDI",
+      "nom_pais": "Burundi"
+    },
+    {
+      "cod_num_pais": "112",
+      "cod_2alph_pais": "BY",
+      "cod_3alph_pais": "BLR",
+      "nom_pais": "Belarús"
+    },
+    {
+      "cod_num_pais": "116",
+      "cod_2alph_pais": "KH",
+      "cod_3alph_pais": "KHM",
+      "nom_pais": "Camboya"
+    },
+    {
+      "cod_num_pais": "120",
+      "cod_2alph_pais": "CM",
+      "cod_3alph_pais": "CMR",
+      "nom_pais": "Camerún"
+    },
+    {
+      "cod_num_pais": "124",
+      "cod_2alph_pais": "CA",
+      "cod_3alph_pais": "CAN",
+      "nom_pais": "Canadá"
+    },
+    {
+      "cod_num_pais": "132",
+      "cod_2alph_pais": "CV",
+      "cod_3alph_pais": "CPV",
+      "nom_pais": "Cabo Verde"
+    },
+    {
+      "cod_num_pais": "136",
+      "cod_2alph_pais": "KY",
+      "cod_3alph_pais": "CYM",
+      "nom_pais": "Caimán, (las) Islas"
+    },
+    {
+      "cod_num_pais": "140",
+      "cod_2alph_pais": "CF",
+      "cod_3alph_pais": "CAF",
+      "nom_pais": "República Centroafricana (la)"
+    },
+    {
+      "cod_num_pais": "144",
+      "cod_2alph_pais": "LK",
+      "cod_3alph_pais": "LKA",
+      "nom_pais": "Sri Lanka"
+    },
+    {
+      "cod_num_pais": "148",
+      "cod_2alph_pais": "TD",
+      "cod_3alph_pais": "TCD",
+      "nom_pais": "Chad"
+    },
+    {
+      "cod_num_pais": "152",
+      "cod_2alph_pais": "CL",
+      "cod_3alph_pais": "CHL",
+      "nom_pais": "Chile"
+    },
+    {
+      "cod_num_pais": "156",
+      "cod_2alph_pais": "CN",
+      "cod_3alph_pais": "CHN",
+      "nom_pais": "China"
+    },
+    {
+      "cod_num_pais": "158",
+      "cod_2alph_pais": "TW",
+      "cod_3alph_pais": "TWN",
+      "nom_pais": "Taiwán (Provincia de China)"
+    },
+    {
+      "cod_num_pais": "162",
+      "cod_2alph_pais": "CX",
+      "cod_3alph_pais": "CXR",
+      "nom_pais": "Navidad, Isla de"
+    },
+    {
+      "cod_num_pais": "166",
+      "cod_2alph_pais": "CC",
+      "cod_3alph_pais": "CCK",
+      "nom_pais": "Cocos / Keeling, (las) Islas"
+    },
+    {
+      "cod_num_pais": "170",
+      "cod_2alph_pais": "CO",
+      "cod_3alph_pais": "COL",
+      "nom_pais": "Colombia"
+    },
+    {
+      "cod_num_pais": "174",
+      "cod_2alph_pais": "KM",
+      "cod_3alph_pais": "COM",
+      "nom_pais": "Comoras (las)"
+    },
+    {
+      "cod_num_pais": "175",
+      "cod_2alph_pais": "YT",
+      "cod_3alph_pais": "MYT",
+      "nom_pais": "Mayotte"
+    },
+    {
+      "cod_num_pais": "178",
+      "cod_2alph_pais": "CG",
+      "cod_3alph_pais": "COG",
+      "nom_pais": "Congo (el)"
+    },
+    {
+      "cod_num_pais": "180",
+      "cod_2alph_pais": "CD",
+      "cod_3alph_pais": "COD",
+      "nom_pais": "Congo (la República Democrática del)"
+    },
+    {
+      "cod_num_pais": "184",
+      "cod_2alph_pais": "CK",
+      "cod_3alph_pais": "COK",
+      "nom_pais": "Cook, (las) Islas"
+    },
+    {
+      "cod_num_pais": "188",
+      "cod_2alph_pais": "CR",
+      "cod_3alph_pais": "CRI",
+      "nom_pais": "Costa Rica"
+    },
+    {
+      "cod_num_pais": "191",
+      "cod_2alph_pais": "HR",
+      "cod_3alph_pais": "HRV",
+      "nom_pais": "Croacia"
+    },
+    {
+      "cod_num_pais": "192",
+      "cod_2alph_pais": "CU",
+      "cod_3alph_pais": "CUB",
+      "nom_pais": "Cuba"
+    },
+    {
+      "cod_num_pais": "196",
+      "cod_2alph_pais": "CY",
+      "cod_3alph_pais": "CYP",
+      "nom_pais": "Chipre"
+    },
+    {
+      "cod_num_pais": "20",
+      "cod_2alph_pais": "AD",
+      "cod_3alph_pais": "AND",
+      "nom_pais": "Andorra"
+    },
+    {
+      "cod_num_pais": "203",
+      "cod_2alph_pais": "CZ",
+      "cod_3alph_pais": "CZE",
+      "nom_pais": "Chequia"
+    },
+    {
+      "cod_num_pais": "204",
+      "cod_2alph_pais": "BJ",
+      "cod_3alph_pais": "BEN",
+      "nom_pais": "Benin"
+    },
+    {
+      "cod_num_pais": "208",
+      "cod_2alph_pais": "DK",
+      "cod_3alph_pais": "DNK",
+      "nom_pais": "Dinamarca"
+    },
+    {
+      "cod_num_pais": "212",
+      "cod_2alph_pais": "DM",
+      "cod_3alph_pais": "DMA",
+      "nom_pais": "Dominica"
+    },
+    {
+      "cod_num_pais": "214",
+      "cod_2alph_pais": "DO",
+      "cod_3alph_pais": "DOM",
+      "nom_pais": "Dominicana, (la) República"
+    },
+    {
+      "cod_num_pais": "218",
+      "cod_2alph_pais": "EC",
+      "cod_3alph_pais": "ECU",
+      "nom_pais": "Ecuador"
+    },
+    {
+      "cod_num_pais": "222",
+      "cod_2alph_pais": "SV",
+      "cod_3alph_pais": "SLV",
+      "nom_pais": "El Salvador"
+    },
+    {
+      "cod_num_pais": "226",
+      "cod_2alph_pais": "GQ",
+      "cod_3alph_pais": "GNQ",
+      "nom_pais": "Guinea Ecuatorial"
+    },
+    {
+      "cod_num_pais": "231",
+      "cod_2alph_pais": "ET",
+      "cod_3alph_pais": "ETH",
+      "nom_pais": "Etiopía"
+    },
+    {
+      "cod_num_pais": "232",
+      "cod_2alph_pais": "ER",
+      "cod_3alph_pais": "ERI",
+      "nom_pais": "Eritrea"
+    },
+    {
+      "cod_num_pais": "233",
+      "cod_2alph_pais": "EE",
+      "cod_3alph_pais": "EST",
+      "nom_pais": "Estonia"
+    },
+    {
+      "cod_num_pais": "234",
+      "cod_2alph_pais": "FO",
+      "cod_3alph_pais": "FRO",
+      "nom_pais": "Feroe, (las) Islas"
+    },
+    {
+      "cod_num_pais": "238",
+      "cod_2alph_pais": "FK",
+      "cod_3alph_pais": "FLK",
+      "nom_pais": "Malvinas [Falkland], (las) Islas"
+    },
+    {
+      "cod_num_pais": "239",
+      "cod_2alph_pais": "GS",
+      "cod_3alph_pais": "SGS",
+      "nom_pais": "Georgia del Sur (la) y las Islas Sandwich del Sur"
+    },
+    {
+      "cod_num_pais": "242",
+      "cod_2alph_pais": "FJ",
+      "cod_3alph_pais": "FJI",
+      "nom_pais": "Fiji"
+    },
+    {
+      "cod_num_pais": "246",
+      "cod_2alph_pais": "FI",
+      "cod_3alph_pais": "FIN",
+      "nom_pais": "Finlandia"
+    },
+    {
+      "cod_num_pais": "248",
+      "cod_2alph_pais": "AX",
+      "cod_3alph_pais": "ALA",
+      "nom_pais": "Åland, Islas"
+    },
+    {
+      "cod_num_pais": "250",
+      "cod_2alph_pais": "FR",
+      "cod_3alph_pais": "FRA",
+      "nom_pais": "Francia"
+    },
+    {
+      "cod_num_pais": "254",
+      "cod_2alph_pais": "GF",
+      "cod_3alph_pais": "GUF",
+      "nom_pais": "Guayana Francesa"
+    },
+    {
+      "cod_num_pais": "258",
+      "cod_2alph_pais": "PF",
+      "cod_3alph_pais": "PYF",
+      "nom_pais": "Polinesia Francesa"
+    },
+    {
+      "cod_num_pais": "260",
+      "cod_2alph_pais": "TF",
+      "cod_3alph_pais": "ATF",
+      "nom_pais": "Tierras Australes Francesas (las)"
+    },
+    {
+      "cod_num_pais": "262",
+      "cod_2alph_pais": "DJ",
+      "cod_3alph_pais": "DJI",
+      "nom_pais": "Djibouti"
+    },
+    {
+      "cod_num_pais": "266",
+      "cod_2alph_pais": "GA",
+      "cod_3alph_pais": "GAB",
+      "nom_pais": "Gabón"
+    },
+    {
+      "cod_num_pais": "268",
+      "cod_2alph_pais": "GE",
+      "cod_3alph_pais": "GEO",
+      "nom_pais": "Georgia"
+    },
+    {
+      "cod_num_pais": "270",
+      "cod_2alph_pais": "GM",
+      "cod_3alph_pais": "GMB",
+      "nom_pais": "Gambia (la)"
+    },
+    {
+      "cod_num_pais": "275",
+      "cod_2alph_pais": "PS",
+      "cod_3alph_pais": "PSE",
+      "nom_pais": "Palestina, Estado de"
+    },
+    {
+      "cod_num_pais": "276",
+      "cod_2alph_pais": "DE",
+      "cod_3alph_pais": "DEU",
+      "nom_pais": "Alemania"
+    },
+    {
+      "cod_num_pais": "288",
+      "cod_2alph_pais": "GH",
+      "cod_3alph_pais": "GHA",
+      "nom_pais": "Ghana"
+    },
+    {
+      "cod_num_pais": "292",
+      "cod_2alph_pais": "GI",
+      "cod_3alph_pais": "GIB",
+      "nom_pais": "Gibraltar"
+    },
+    {
+      "cod_num_pais": "296",
+      "cod_2alph_pais": "KI",
+      "cod_3alph_pais": "KIR",
+      "nom_pais": "Kiribati"
+    },
+    {
+      "cod_num_pais": "300",
+      "cod_2alph_pais": "GR",
+      "cod_3alph_pais": "GRC",
+      "nom_pais": "Grecia"
+    },
+    {
+      "cod_num_pais": "304",
+      "cod_2alph_pais": "GL",
+      "cod_3alph_pais": "GRL",
+      "nom_pais": "Groenlandia"
+    },
+    {
+      "cod_num_pais": "308",
+      "cod_2alph_pais": "GD",
+      "cod_3alph_pais": "GRD",
+      "nom_pais": "Granada"
+    },
+    {
+      "cod_num_pais": "312",
+      "cod_2alph_pais": "GP",
+      "cod_3alph_pais": "GLP",
+      "nom_pais": "Guadeloupe"
+    },
+    {
+      "cod_num_pais": "316",
+      "cod_2alph_pais": "GU",
+      "cod_3alph_pais": "GUM",
+      "nom_pais": "Guam"
+    },
+    {
+      "cod_num_pais": "320",
+      "cod_2alph_pais": "GT",
+      "cod_3alph_pais": "GTM",
+      "nom_pais": "Guatemala"
+    },
+    {
+      "cod_num_pais": "324",
+      "cod_2alph_pais": "GN",
+      "cod_3alph_pais": "GIN",
+      "nom_pais": "Guinea"
+    },
+    {
+      "cod_num_pais": "328",
+      "cod_2alph_pais": "GY",
+      "cod_3alph_pais": "GUY",
+      "nom_pais": "Guyana"
+    },
+    {
+      "cod_num_pais": "332",
+      "cod_2alph_pais": "HT",
+      "cod_3alph_pais": "HTI",
+      "nom_pais": "Haití"
+    },
+    {
+      "cod_num_pais": "334",
+      "cod_2alph_pais": "HM",
+      "cod_3alph_pais": "HMD",
+      "nom_pais": "Heard (Isla) e Islas McDonald"
+    },
+    {
+      "cod_num_pais": "336",
+      "cod_2alph_pais": "VA",
+      "cod_3alph_pais": "VAT",
+      "nom_pais": "Santa Sede (la)"
+    },
+    {
+      "cod_num_pais": "340",
+      "cod_2alph_pais": "HN",
+      "cod_3alph_pais": "HND",
+      "nom_pais": "Honduras"
+    },
+    {
+      "cod_num_pais": "344",
+      "cod_2alph_pais": "HK",
+      "cod_3alph_pais": "HKG",
+      "nom_pais": "Hong Kong"
+    },
+    {
+      "cod_num_pais": "348",
+      "cod_2alph_pais": "HU",
+      "cod_3alph_pais": "HUN",
+      "nom_pais": "Hungría"
+    },
+    {
+      "cod_num_pais": "352",
+      "cod_2alph_pais": "IS",
+      "cod_3alph_pais": "ISL",
+      "nom_pais": "Islandia"
+    },
+    {
+      "cod_num_pais": "356",
+      "cod_2alph_pais": "IN",
+      "cod_3alph_pais": "IND",
+      "nom_pais": "India"
+    },
+    {
+      "cod_num_pais": "360",
+      "cod_2alph_pais": "ID",
+      "cod_3alph_pais": "IDN",
+      "nom_pais": "Indonesia"
+    },
+    {
+      "cod_num_pais": "364",
+      "cod_2alph_pais": "IR",
+      "cod_3alph_pais": "IRN",
+      "nom_pais": "Irán (República Islámica de)"
+    },
+    {
+      "cod_num_pais": "368",
+      "cod_2alph_pais": "IQ",
+      "cod_3alph_pais": "IRQ",
+      "nom_pais": "Iraq"
+    },
+    {
+      "cod_num_pais": "372",
+      "cod_2alph_pais": "IE",
+      "cod_3alph_pais": "IRL",
+      "nom_pais": "Irlanda"
+    },
+    {
+      "cod_num_pais": "376",
+      "cod_2alph_pais": "IL",
+      "cod_3alph_pais": "ISR",
+      "nom_pais": "Israel"
+    },
+    {
+      "cod_num_pais": "380",
+      "cod_2alph_pais": "IT",
+      "cod_3alph_pais": "ITA",
+      "nom_pais": "Italia"
+    },
+    {
+      "cod_num_pais": "384",
+      "cod_2alph_pais": "CI",
+      "cod_3alph_pais": "CIV",
+      "nom_pais": "Côte d\\'Ivoire"
+    },
+    {
+      "cod_num_pais": "388",
+      "cod_2alph_pais": "JM",
+      "cod_3alph_pais": "JAM",
+      "nom_pais": "Jamaica"
+    },
+    {
+      "cod_num_pais": "392",
+      "cod_2alph_pais": "JP",
+      "cod_3alph_pais": "JPN",
+      "nom_pais": "Japón"
+    },
+    {
+      "cod_num_pais": "398",
+      "cod_2alph_pais": "KZ",
+      "cod_3alph_pais": "KAZ",
+      "nom_pais": "Kazajstán"
+    },
+    {
+      "cod_num_pais": "400",
+      "cod_2alph_pais": "JO",
+      "cod_3alph_pais": "JOR",
+      "nom_pais": "Jordania"
+    },
+    {
+      "cod_num_pais": "404",
+      "cod_2alph_pais": "KE",
+      "cod_3alph_pais": "KEN",
+      "nom_pais": "Kenya"
+    },
+    {
+      "cod_num_pais": "408",
+      "cod_2alph_pais": "KP",
+      "cod_3alph_pais": "PRK",
+      "nom_pais": "Corea (la República Popular Democrática de)"
+    },
+    {
+      "cod_num_pais": "410",
+      "cod_2alph_pais": "KR",
+      "cod_3alph_pais": "KOR",
+      "nom_pais": "Corea (la República de)"
+    },
+    {
+      "cod_num_pais": "414",
+      "cod_2alph_pais": "KW",
+      "cod_3alph_pais": "KWT",
+      "nom_pais": "Kuwait"
+    },
+    {
+      "cod_num_pais": "417",
+      "cod_2alph_pais": "KG",
+      "cod_3alph_pais": "KGZ",
+      "nom_pais": "Kirguistán"
+    },
+    {
+      "cod_num_pais": "418",
+      "cod_2alph_pais": "LA",
+      "cod_3alph_pais": "LAO",
+      "nom_pais": "Lao, (la) República Democrática Popular"
+    },
+    {
+      "cod_num_pais": "422",
+      "cod_2alph_pais": "LB",
+      "cod_3alph_pais": "LBN",
+      "nom_pais": "Líbano"
+    },
+    {
+      "cod_num_pais": "426",
+      "cod_2alph_pais": "LS",
+      "cod_3alph_pais": "LSO",
+      "nom_pais": "Lesotho"
+    },
+    {
+      "cod_num_pais": "428",
+      "cod_2alph_pais": "LV",
+      "cod_3alph_pais": "LVA",
+      "nom_pais": "Letonia"
+    },
+    {
+      "cod_num_pais": "430",
+      "cod_2alph_pais": "LR",
+      "cod_3alph_pais": "LBR",
+      "nom_pais": "Liberia"
+    },
+    {
+      "cod_num_pais": "434",
+      "cod_2alph_pais": "LY",
+      "cod_3alph_pais": "LBY",
+      "nom_pais": "Libia"
+    },
+    {
+      "cod_num_pais": "438",
+      "cod_2alph_pais": "LI",
+      "cod_3alph_pais": "LIE",
+      "nom_pais": "Liechtenstein"
+    },
+    {
+      "cod_num_pais": "440",
+      "cod_2alph_pais": "LT",
+      "cod_3alph_pais": "LTU",
+      "nom_pais": "Lituania"
+    },
+    {
+      "cod_num_pais": "442",
+      "cod_2alph_pais": "LU",
+      "cod_3alph_pais": "LUX",
+      "nom_pais": "Luxemburgo"
+    },
+    {
+      "cod_num_pais": "446",
+      "cod_2alph_pais": "MO",
+      "cod_3alph_pais": "MAC",
+      "nom_pais": "Macao"
+    },
+    {
+      "cod_num_pais": "450",
+      "cod_2alph_pais": "MG",
+      "cod_3alph_pais": "MDG",
+      "nom_pais": "Madagascar"
+    },
+    {
+      "cod_num_pais": "454",
+      "cod_2alph_pais": "MW",
+      "cod_3alph_pais": "MWI",
+      "nom_pais": "Malawi"
+    },
+    {
+      "cod_num_pais": "458",
+      "cod_2alph_pais": "MY",
+      "cod_3alph_pais": "MYS",
+      "nom_pais": "Malasia"
+    },
+    {
+      "cod_num_pais": "462",
+      "cod_2alph_pais": "MV",
+      "cod_3alph_pais": "MDV",
+      "nom_pais": "Maldivas"
+    },
+    {
+      "cod_num_pais": "466",
+      "cod_2alph_pais": "ML",
+      "cod_3alph_pais": "MLI",
+      "nom_pais": "Malí"
+    },
+    {
+      "cod_num_pais": "470",
+      "cod_2alph_pais": "MT",
+      "cod_3alph_pais": "MLT",
+      "nom_pais": "Malta"
+    },
+    {
+      "cod_num_pais": "474",
+      "cod_2alph_pais": "MQ",
+      "cod_3alph_pais": "MTQ",
+      "nom_pais": "Martinique"
+    },
+    {
+      "cod_num_pais": "478",
+      "cod_2alph_pais": "MR",
+      "cod_3alph_pais": "MRT",
+      "nom_pais": "Mauritania"
+    },
+    {
+      "cod_num_pais": "480",
+      "cod_2alph_pais": "MU",
+      "cod_3alph_pais": "MUS",
+      "nom_pais": "Mauricio"
+    },
+    {
+      "cod_num_pais": "484",
+      "cod_2alph_pais": "MX",
+      "cod_3alph_pais": "MEX",
+      "nom_pais": "México"
+    },
+    {
+      "cod_num_pais": "492",
+      "cod_2alph_pais": "MC",
+      "cod_3alph_pais": "MCO",
+      "nom_pais": "Mónaco"
+    },
+    {
+      "cod_num_pais": "496",
+      "cod_2alph_pais": "MN",
+      "cod_3alph_pais": "MNG",
+      "nom_pais": "Mongolia"
+    },
+    {
+      "cod_num_pais": "498",
+      "cod_2alph_pais": "MD",
+      "cod_3alph_pais": "MDA",
+      "nom_pais": "Moldova (la República de)"
+    },
+    {
+      "cod_num_pais": "499",
+      "cod_2alph_pais": "ME",
+      "cod_3alph_pais": "MNE",
+      "nom_pais": "Montenegro"
+    },
+    {
+      "cod_num_pais": "500",
+      "cod_2alph_pais": "MS",
+      "cod_3alph_pais": "MSR",
+      "nom_pais": "Montserrat"
+    },
+    {
+      "cod_num_pais": "504",
+      "cod_2alph_pais": "MA",
+      "cod_3alph_pais": "MAR",
+      "nom_pais": "Marruecos"
+    },
+    {
+      "cod_num_pais": "508",
+      "cod_2alph_pais": "MZ",
+      "cod_3alph_pais": "MOZ",
+      "nom_pais": "Mozambique"
+    },
+    {
+      "cod_num_pais": "512",
+      "cod_2alph_pais": "OM",
+      "cod_3alph_pais": "OMN",
+      "nom_pais": "Omán"
+    },
+    {
+      "cod_num_pais": "516",
+      "cod_2alph_pais": "NA",
+      "cod_3alph_pais": "NAM",
+      "nom_pais": "Namibia"
+    },
+    {
+      "cod_num_pais": "520",
+      "cod_2alph_pais": "NR",
+      "cod_3alph_pais": "NRU",
+      "nom_pais": "Nauru"
+    },
+    {
+      "cod_num_pais": "524",
+      "cod_2alph_pais": "NP",
+      "cod_3alph_pais": "NPL",
+      "nom_pais": "Nepal"
+    },
+    {
+      "cod_num_pais": "528",
+      "cod_2alph_pais": "NL",
+      "cod_3alph_pais": "NLD",
+      "nom_pais": "Países Bajos (los)"
+    },
+    {
+      "cod_num_pais": "531",
+      "cod_2alph_pais": "CW",
+      "cod_3alph_pais": "CUW",
+      "nom_pais": "Curaçao"
+    },
+    {
+      "cod_num_pais": "533",
+      "cod_2alph_pais": "AW",
+      "cod_3alph_pais": "ABW",
+      "nom_pais": "Aruba"
+    },
+    {
+      "cod_num_pais": "534",
+      "cod_2alph_pais": "SX",
+      "cod_3alph_pais": "SXM",
+      "nom_pais": "Sint Maarten (parte neerlandesa)"
+    },
+    {
+      "cod_num_pais": "535",
+      "cod_2alph_pais": "BQ",
+      "cod_3alph_pais": "BES",
+      "nom_pais": "Bonaire, San Eustaquio y Saba"
+    },
+    {
+      "cod_num_pais": "540",
+      "cod_2alph_pais": "NC",
+      "cod_3alph_pais": "NCL",
+      "nom_pais": "Nueva Caledonia"
+    },
+    {
+      "cod_num_pais": "548",
+      "cod_2alph_pais": "VU",
+      "cod_3alph_pais": "VUT",
+      "nom_pais": "Vanuatu"
+    },
+    {
+      "cod_num_pais": "554",
+      "cod_2alph_pais": "NZ",
+      "cod_3alph_pais": "NZL",
+      "nom_pais": "Nueva Zelandia"
+    },
+    {
+      "cod_num_pais": "558",
+      "cod_2alph_pais": "NI",
+      "cod_3alph_pais": "NIC",
+      "nom_pais": "Nicaragua"
+    },
+    {
+      "cod_num_pais": "562",
+      "cod_2alph_pais": "NE",
+      "cod_3alph_pais": "NER",
+      "nom_pais": "Níger (el)"
+    },
+    {
+      "cod_num_pais": "566",
+      "cod_2alph_pais": "NG",
+      "cod_3alph_pais": "NGA",
+      "nom_pais": "Nigeria"
+    },
+    {
+      "cod_num_pais": "570",
+      "cod_2alph_pais": "NU",
+      "cod_3alph_pais": "NIU",
+      "nom_pais": "Niue"
+    },
+    {
+      "cod_num_pais": "574",
+      "cod_2alph_pais": "NF",
+      "cod_3alph_pais": "NFK",
+      "nom_pais": "Norfolk, Isla"
+    },
+    {
+      "cod_num_pais": "578",
+      "cod_2alph_pais": "NO",
+      "cod_3alph_pais": "NOR",
+      "nom_pais": "Noruega"
+    },
+    {
+      "cod_num_pais": "580",
+      "cod_2alph_pais": "MP",
+      "cod_3alph_pais": "MNP",
+      "nom_pais": "Marianas del Norte, (las) Islas"
+    },
+    {
+      "cod_num_pais": "581",
+      "cod_2alph_pais": "UM",
+      "cod_3alph_pais": "UMI",
+      "nom_pais": "Islas Ultramarinas Menores de los Estados Unidos (las)"
+    },
+    {
+      "cod_num_pais": "583",
+      "cod_2alph_pais": "FM",
+      "cod_3alph_pais": "FSM",
+      "nom_pais": "Micronesia (Estados Federados de)"
+    },
+    {
+      "cod_num_pais": "584",
+      "cod_2alph_pais": "MH",
+      "cod_3alph_pais": "MHL",
+      "nom_pais": "Marshall, (las) Islas"
+    },
+    {
+      "cod_num_pais": "585",
+      "cod_2alph_pais": "PW",
+      "cod_3alph_pais": "PLW",
+      "nom_pais": "Palau"
+    },
+    {
+      "cod_num_pais": "586",
+      "cod_2alph_pais": "PK",
+      "cod_3alph_pais": "PAK",
+      "nom_pais": "Pakistán"
+    },
+    {
+      "cod_num_pais": "591",
+      "cod_2alph_pais": "PA",
+      "cod_3alph_pais": "PAN",
+      "nom_pais": "Panamá"
+    },
+    {
+      "cod_num_pais": "598",
+      "cod_2alph_pais": "PG",
+      "cod_3alph_pais": "PNG",
+      "nom_pais": "Papua Nueva Guinea"
+    },
+    {
+      "cod_num_pais": "600",
+      "cod_2alph_pais": "PY",
+      "cod_3alph_pais": "PRY",
+      "nom_pais": "Paraguay"
+    },
+    {
+      "cod_num_pais": "604",
+      "cod_2alph_pais": "PE",
+      "cod_3alph_pais": "PER",
+      "nom_pais": "Perú"
+    },
+    {
+      "cod_num_pais": "608",
+      "cod_2alph_pais": "PH",
+      "cod_3alph_pais": "PHL",
+      "nom_pais": "Filipinas (las)"
+    },
+    {
+      "cod_num_pais": "612",
+      "cod_2alph_pais": "PN",
+      "cod_3alph_pais": "PCN",
+      "nom_pais": "Pitcairn"
+    },
+    {
+      "cod_num_pais": "616",
+      "cod_2alph_pais": "PL",
+      "cod_3alph_pais": "POL",
+      "nom_pais": "Polonia"
+    },
+    {
+      "cod_num_pais": "620",
+      "cod_2alph_pais": "PT",
+      "cod_3alph_pais": "PRT",
+      "nom_pais": "Portugal"
+    },
+    {
+      "cod_num_pais": "624",
+      "cod_2alph_pais": "GW",
+      "cod_3alph_pais": "GNB",
+      "nom_pais": "Guinea Bissau"
+    },
+    {
+      "cod_num_pais": "626",
+      "cod_2alph_pais": "TL",
+      "cod_3alph_pais": "TLS",
+      "nom_pais": "Timor-Leste"
+    },
+    {
+      "cod_num_pais": "630",
+      "cod_2alph_pais": "PR",
+      "cod_3alph_pais": "PRI",
+      "nom_pais": "Puerto Rico"
+    },
+    {
+      "cod_num_pais": "634",
+      "cod_2alph_pais": "QA",
+      "cod_3alph_pais": "QAT",
+      "nom_pais": "Qatar"
+    },
+    {
+      "cod_num_pais": "638",
+      "cod_2alph_pais": "RE",
+      "cod_3alph_pais": "REU",
+      "nom_pais": "Reunión"
+    },
+    {
+      "cod_num_pais": "642",
+      "cod_2alph_pais": "RO",
+      "cod_3alph_pais": "ROU",
+      "nom_pais": "Rumania"
+    },
+    {
+      "cod_num_pais": "643",
+      "cod_2alph_pais": "RU",
+      "cod_3alph_pais": "RUS",
+      "nom_pais": "Rusia, (la) Federación de"
+    },
+    {
+      "cod_num_pais": "646",
+      "cod_2alph_pais": "RW",
+      "cod_3alph_pais": "RWA",
+      "nom_pais": "Rwanda"
+    },
+    {
+      "cod_num_pais": "652",
+      "cod_2alph_pais": "BL",
+      "cod_3alph_pais": "BLM",
+      "nom_pais": "Saint Barthélemy"
+    },
+    {
+      "cod_num_pais": "654",
+      "cod_2alph_pais": "SH",
+      "cod_3alph_pais": "SHN",
+      "nom_pais": "Santa Helena, Ascensión y Tristán de Acuña"
+    },
+    {
+      "cod_num_pais": "659",
+      "cod_2alph_pais": "KN",
+      "cod_3alph_pais": "KNA",
+      "nom_pais": "Saint Kitts y Nevis"
+    },
+    {
+      "cod_num_pais": "660",
+      "cod_2alph_pais": "AI",
+      "cod_3alph_pais": "AIA",
+      "nom_pais": "Anguila"
+    },
+    {
+      "cod_num_pais": "662",
+      "cod_2alph_pais": "LC",
+      "cod_3alph_pais": "LCA",
+      "nom_pais": "Santa Lucía"
+    },
+    {
+      "cod_num_pais": "663",
+      "cod_2alph_pais": "MF",
+      "cod_3alph_pais": "MAF",
+      "nom_pais": "Saint Martin (parte francesa)"
+    },
+    {
+      "cod_num_pais": "666",
+      "cod_2alph_pais": "PM",
+      "cod_3alph_pais": "SPM",
+      "nom_pais": "San Pedro y Miquelón"
+    },
+    {
+      "cod_num_pais": "670",
+      "cod_2alph_pais": "VC",
+      "cod_3alph_pais": "VCT",
+      "nom_pais": "San Vicente y las Granadinas"
+    },
+    {
+      "cod_num_pais": "674",
+      "cod_2alph_pais": "SM",
+      "cod_3alph_pais": "SMR",
+      "nom_pais": "San Marino"
+    },
+    {
+      "cod_num_pais": "678",
+      "cod_2alph_pais": "ST",
+      "cod_3alph_pais": "STP",
+      "nom_pais": "Santo Tomé y Príncipe"
+    },
+    {
+      "cod_num_pais": "682",
+      "cod_2alph_pais": "SA",
+      "cod_3alph_pais": "SAU",
+      "nom_pais": "Arabia Saudita"
+    },
+    {
+      "cod_num_pais": "686",
+      "cod_2alph_pais": "SN",
+      "cod_3alph_pais": "SEN",
+      "nom_pais": "Senegal"
+    },
+    {
+      "cod_num_pais": "688",
+      "cod_2alph_pais": "RS",
+      "cod_3alph_pais": "SRB",
+      "nom_pais": "Serbia"
+    },
+    {
+      "cod_num_pais": "690",
+      "cod_2alph_pais": "SC",
+      "cod_3alph_pais": "SYC",
+      "nom_pais": "Seychelles"
+    },
+    {
+      "cod_num_pais": "694",
+      "cod_2alph_pais": "SL",
+      "cod_3alph_pais": "SLE",
+      "nom_pais": "Sierra leona"
+    },
+    {
+      "cod_num_pais": "702",
+      "cod_2alph_pais": "SG",
+      "cod_3alph_pais": "SGP",
+      "nom_pais": "Singapur"
+    },
+    {
+      "cod_num_pais": "703",
+      "cod_2alph_pais": "SK",
+      "cod_3alph_pais": "SVK",
+      "nom_pais": "Eslovaquia"
+    },
+    {
+      "cod_num_pais": "704",
+      "cod_2alph_pais": "VN",
+      "cod_3alph_pais": "VNM",
+      "nom_pais": "Viet Nam"
+    },
+    {
+      "cod_num_pais": "705",
+      "cod_2alph_pais": "SI",
+      "cod_3alph_pais": "SVN",
+      "nom_pais": "Eslovenia"
+    },
+    {
+      "cod_num_pais": "706",
+      "cod_2alph_pais": "SO",
+      "cod_3alph_pais": "SOM",
+      "nom_pais": "Somalia"
+    },
+    {
+      "cod_num_pais": "710",
+      "cod_2alph_pais": "ZA",
+      "cod_3alph_pais": "ZAF",
+      "nom_pais": "Sudáfrica"
+    },
+    {
+      "cod_num_pais": "716",
+      "cod_2alph_pais": "ZW",
+      "cod_3alph_pais": "ZWE",
+      "nom_pais": "Zimbabwe"
+    },
+    {
+      "cod_num_pais": "724",
+      "cod_2alph_pais": "ES",
+      "cod_3alph_pais": "ESP",
+      "nom_pais": "España"
+    },
+    {
+      "cod_num_pais": "728",
+      "cod_2alph_pais": "SS",
+      "cod_3alph_pais": "SSD",
+      "nom_pais": "Sudán del Sur"
+    },
+    {
+      "cod_num_pais": "729",
+      "cod_2alph_pais": "SD",
+      "cod_3alph_pais": "SDN",
+      "nom_pais": "Sudán (el)"
+    },
+    {
+      "cod_num_pais": "732",
+      "cod_2alph_pais": "EH",
+      "cod_3alph_pais": "ESH",
+      "nom_pais": "Sahara Occidental"
+    },
+    {
+      "cod_num_pais": "740",
+      "cod_2alph_pais": "SR",
+      "cod_3alph_pais": "SUR",
+      "nom_pais": "Suriname"
+    },
+    {
+      "cod_num_pais": "744",
+      "cod_2alph_pais": "SJ",
+      "cod_3alph_pais": "SJM",
+      "nom_pais": "Svalbard y Jan Mayen"
+    },
+    {
+      "cod_num_pais": "748",
+      "cod_2alph_pais": "SZ",
+      "cod_3alph_pais": "SWZ",
+      "nom_pais": "Swazilandia"
+    },
+    {
+      "cod_num_pais": "752",
+      "cod_2alph_pais": "SE",
+      "cod_3alph_pais": "SWE",
+      "nom_pais": "Suecia"
+    },
+    {
+      "cod_num_pais": "756",
+      "cod_2alph_pais": "CH",
+      "cod_3alph_pais": "CHE",
+      "nom_pais": "Suiza"
+    },
+    {
+      "cod_num_pais": "760",
+      "cod_2alph_pais": "SY",
+      "cod_3alph_pais": "SYR",
+      "nom_pais": "República Árabe Siria"
+    },
+    {
+      "cod_num_pais": "762",
+      "cod_2alph_pais": "TJ",
+      "cod_3alph_pais": "TJK",
+      "nom_pais": "Tayikistán"
+    },
+    {
+      "cod_num_pais": "764",
+      "cod_2alph_pais": "TH",
+      "cod_3alph_pais": "THA",
+      "nom_pais": "Tailandia"
+    },
+    {
+      "cod_num_pais": "768",
+      "cod_2alph_pais": "TG",
+      "cod_3alph_pais": "TGO",
+      "nom_pais": "Togo"
+    },
+    {
+      "cod_num_pais": "772",
+      "cod_2alph_pais": "TK",
+      "cod_3alph_pais": "TKL",
+      "nom_pais": "Tokelau"
+    },
+    {
+      "cod_num_pais": "776",
+      "cod_2alph_pais": "TO",
+      "cod_3alph_pais": "TON",
+      "nom_pais": "Tonga"
+    },
+    {
+      "cod_num_pais": "780",
+      "cod_2alph_pais": "TT",
+      "cod_3alph_pais": "TTO",
+      "nom_pais": "Trinidad y Tabago"
+    },
+    {
+      "cod_num_pais": "784",
+      "cod_2alph_pais": "AE",
+      "cod_3alph_pais": "ARE",
+      "nom_pais": "Emiratos Árabes Unidos (los)"
+    },
+    {
+      "cod_num_pais": "788",
+      "cod_2alph_pais": "TN",
+      "cod_3alph_pais": "TUN",
+      "nom_pais": "Túnez"
+    },
+    {
+      "cod_num_pais": "792",
+      "cod_2alph_pais": "TR",
+      "cod_3alph_pais": "TUR",
+      "nom_pais": "Turquía"
+    },
+    {
+      "cod_num_pais": "795",
+      "cod_2alph_pais": "TM",
+      "cod_3alph_pais": "TKM",
+      "nom_pais": "Turkmenistán"
+    },
+    {
+      "cod_num_pais": "796",
+      "cod_2alph_pais": "TC",
+      "cod_3alph_pais": "TCA",
+      "nom_pais": "Turcas y Caicos, (las) Islas"
+    },
+    {
+      "cod_num_pais": "798",
+      "cod_2alph_pais": "TV",
+      "cod_3alph_pais": "TUV",
+      "nom_pais": "Tuvalu"
+    },
+    {
+      "cod_num_pais": "800",
+      "cod_2alph_pais": "UG",
+      "cod_3alph_pais": "UGA",
+      "nom_pais": "Uganda"
+    },
+    {
+      "cod_num_pais": "804",
+      "cod_2alph_pais": "UA",
+      "cod_3alph_pais": "UKR",
+      "nom_pais": "Ucrania"
+    },
+    {
+      "cod_num_pais": "807",
+      "cod_2alph_pais": "MK",
+      "cod_3alph_pais": "MKD",
+      "nom_pais": "Macedonia (la ex República Yugoslava de)"
+    },
+    {
+      "cod_num_pais": "818",
+      "cod_2alph_pais": "EG",
+      "cod_3alph_pais": "EGY",
+      "nom_pais": "Egipto"
+    },
+    {
+      "cod_num_pais": "826",
+      "cod_2alph_pais": "GB",
+      "cod_3alph_pais": "GBR",
+      "nom_pais": "Reino Unido de Gran Bretaña e Irlanda del Norte (el)"
+    },
+    {
+      "cod_num_pais": "831",
+      "cod_2alph_pais": "GG",
+      "cod_3alph_pais": "GGY",
+      "nom_pais": "Guernsey"
+    },
+    {
+      "cod_num_pais": "832",
+      "cod_2alph_pais": "JE",
+      "cod_3alph_pais": "JEY",
+      "nom_pais": "Jersey"
+    },
+    {
+      "cod_num_pais": "833",
+      "cod_2alph_pais": "IM",
+      "cod_3alph_pais": "IMN",
+      "nom_pais": "Isla de Man"
+    },
+    {
+      "cod_num_pais": "834",
+      "cod_2alph_pais": "TZ",
+      "cod_3alph_pais": "TZA",
+      "nom_pais": "Tanzania, República Unida de"
+    },
+    {
+      "cod_num_pais": "840",
+      "cod_2alph_pais": "US",
+      "cod_3alph_pais": "USA",
+      "nom_pais": "Estados Unidos de América (los)"
+    },
+    {
+      "cod_num_pais": "850",
+      "cod_2alph_pais": "VI",
+      "cod_3alph_pais": "VIR",
+      "nom_pais": "Vírgenes de los Estados Unidos, Islas"
+    },
+    {
+      "cod_num_pais": "854",
+      "cod_2alph_pais": "BF",
+      "cod_3alph_pais": "BFA",
+      "nom_pais": "Burkina Faso"
+    },
+    {
+      "cod_num_pais": "858",
+      "cod_2alph_pais": "UY",
+      "cod_3alph_pais": "URY",
+      "nom_pais": "Uruguay"
+    },
+    {
+      "cod_num_pais": "860",
+      "cod_2alph_pais": "UZ",
+      "cod_3alph_pais": "UZB",
+      "nom_pais": "Uzbekistán"
+    },
+    {
+      "cod_num_pais": "862",
+      "cod_2alph_pais": "VE",
+      "cod_3alph_pais": "VEN",
+      "nom_pais": "Venezuela (República Bolivariana de)"
+    },
+    {
+      "cod_num_pais": "876",
+      "cod_2alph_pais": "WF",
+      "cod_3alph_pais": "WLF",
+      "nom_pais": "Wallis y Futuna"
+    },
+    {
+      "cod_num_pais": "882",
+      "cod_2alph_pais": "WS",
+      "cod_3alph_pais": "WSM",
+      "nom_pais": "Samoa"
+    },
+    {
+      "cod_num_pais": "887",
+      "cod_2alph_pais": "YE",
+      "cod_3alph_pais": "YEM",
+      "nom_pais": "Yemen"
+    },
+    {
+      "cod_num_pais": "894",
+      "cod_2alph_pais": "ZM",
+      "cod_3alph_pais": "ZMB",
+      "nom_pais": "Zambia"
+    }
+  ]
+}

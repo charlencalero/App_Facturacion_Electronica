@@ -1,0 +1,46 @@
+{
+  "c5_tipo_de_tributos": [
+    {
+      "cod_tributos": "1000",
+      "desc_tributos": "IGV IMPUESTO GENERAL A LAS VENTAS ",
+      "ue5253_tributos": "VAT",
+      "ue5305_tributos": "S"
+    },
+    {
+      "cod_tributos": "2000",
+      "desc_tributos": "ISC IMPUESTO SELECTIVO AL CONSUMO ",
+      "ue5253_tributos": "EXC",
+      "ue5305_tributos": "S"
+    },
+    {
+      "cod_tributos": "9995",
+      "desc_tributos": "EXPORTACIÓN ",
+      "ue5253_tributos": "FRE",
+      "ue5305_tributos": "G"
+    },
+    {
+      "cod_tributos": "9996",
+      "desc_tributos": "GRATUITO ",
+      "ue5253_tributos": "FRE",
+      "ue5305_tributos": "Z"
+    },
+    {
+      "cod_tributos": "9997",
+      "desc_tributos": "EXONERADO ",
+      "ue5253_tributos": "VAT",
+      "ue5305_tributos": "E"
+    },
+    {
+      "cod_tributos": "9998",
+      "desc_tributos": "INAFECTO ",
+      "ue5253_tributos": "FRE",
+      "ue5305_tributos": "O"
+    },
+    {
+      "cod_tributos": "9999",
+      "desc_tributos": "OTROS CONCEPTOS DE PAGO ",
+      "ue5253_tributos": "OTH",
+      "ue5305_tributos": "S"
+    }
+  ]
+}

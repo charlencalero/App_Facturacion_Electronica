@@ -1,0 +1,40 @@
+{
+  "c20_motivo_traslado": [
+    {
+      "cod_moti_traslado": "01",
+      "desc_moti_traslado": "VENTA "
+    },
+    {
+      "cod_moti_traslado": "02",
+      "desc_moti_traslado": "COMPRA "
+    },
+    {
+      "cod_moti_traslado": "04",
+      "desc_moti_traslado": "TRASLADO ENTRE ESTABLECIMIENTOS DE LA MISMA EMPRESA "
+    },
+    {
+      "cod_moti_traslado": "08",
+      "desc_moti_traslado": "IMPORTACION "
+    },
+    {
+      "cod_moti_traslado": "09",
+      "desc_moti_traslado": "EXPORTACION "
+    },
+    {
+      "cod_moti_traslado": "13",
+      "desc_moti_traslado": "OTROS "
+    },
+    {
+      "cod_moti_traslado": "14",
+      "desc_moti_traslado": "VENTA SUJETA A CONFIRMACION DEL COMPRADOR "
+    },
+    {
+      "cod_moti_traslado": "18",
+      "desc_moti_traslado": "TRASLADO EMISOR ITINERANTE CP "
+    },
+    {
+      "cod_moti_traslado": "19",
+      "desc_moti_traslado": "TRASLADO A ZONA PRIMARIA "
+    }
+  ]
+}

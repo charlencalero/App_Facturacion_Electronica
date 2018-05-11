@@ -1,0 +1,164 @@
+{
+  "c15_e_adicional_fact_boleta": [
+    {
+      "cod_elementadic_factyobole": "1000",
+      "desc_elementadic_factyobole": "Monto en Letras "
+    },
+    {
+      "cod_elementadic_factyobole": "1002",
+      "desc_elementadic_factyobole": "Leyenda \\\"TRANSFERENCIA GRATUITA DE UN BIEN Y/O SERVICIO PRESTADO GRATUITAMENTE\\\" "
+    },
+    {
+      "cod_elementadic_factyobole": "2000",
+      "desc_elementadic_factyobole": "Leyenda %u201CCOMPROBANTE DE PERCEPCIÓN%u201D "
+    },
+    {
+      "cod_elementadic_factyobole": "2001",
+      "desc_elementadic_factyobole": "Leyenda %u201CBIENES TRANSFERIDOS EN LA AMAZONÍA REGIÓN SELVAPARA SER CONSUMIDOS EN LA MISMA\\\" "
+    },
+    {
+      "cod_elementadic_factyobole": "2002",
+      "desc_elementadic_factyobole": "Leyenda %u201CSERVICIOS PRESTADOS EN LA AMAZONÍA REGIÓN SELVA PARA SER CONSUMIDOS EN LA MISMA%u201D "
+    },
+    {
+      "cod_elementadic_factyobole": "2003",
+      "desc_elementadic_factyobole": "Leyenda %u201CCONTRATOS DE CONSTRUCCIÓN EJECUTADOS EN LA AMAZONÍA REGIÓN SELVA%u201D "
+    },
+    {
+      "cod_elementadic_factyobole": "2004",
+      "desc_elementadic_factyobole": "Leyenda %u201CAgencia de Viaje - Paquete turístico%u201D "
+    },
+    {
+      "cod_elementadic_factyobole": "2005",
+      "desc_elementadic_factyobole": "Leyenda %u201CVenta realizada por emisor itinerante%u201D "
+    },
+    {
+      "cod_elementadic_factyobole": "2006",
+      "desc_elementadic_factyobole": "Leyenda: Operación sujeta a detracción "
+    },
+    {
+      "cod_elementadic_factyobole": "2007",
+      "desc_elementadic_factyobole": "Leyenda: Operación sujeta a IVAP "
+    },
+    {
+      "cod_elementadic_factyobole": "3000",
+      "desc_elementadic_factyobole": "Detracciones: CODIGO DE BB Y SS SUJETOS A DETRACCION "
+    },
+    {
+      "cod_elementadic_factyobole": "3001",
+      "desc_elementadic_factyobole": "Detracciones: NUMERO DE CTA EN EL BN "
+    },
+    {
+      "cod_elementadic_factyobole": "3002",
+      "desc_elementadic_factyobole": "Detracciones: Recursos Hidrobiológicos-Nombre y matrícula de la embarcación "
+    },
+    {
+      "cod_elementadic_factyobole": "3003",
+      "desc_elementadic_factyobole": "Detracciones: Recursos Hidrobiológicos-Tipo y cantidad de especie vendida "
+    },
+    {
+      "cod_elementadic_factyobole": "3004",
+      "desc_elementadic_factyobole": "Detracciones: Recursos Hidrobiológicos -Lugar de descarga "
+    },
+    {
+      "cod_elementadic_factyobole": "3005",
+      "desc_elementadic_factyobole": "Detracciones: Recursos Hidrobiológicos -Fecha de descarga "
+    },
+    {
+      "cod_elementadic_factyobole": "3006",
+      "desc_elementadic_factyobole": "Detracciones: Transporte Bienes vía terrestre %u2013 Numero Registro MTC "
+    },
+    {
+      "cod_elementadic_factyobole": "3007",
+      "desc_elementadic_factyobole": "Detracciones: Transporte Bienes vía terrestre %u2013 configuración vehicular "
+    },
+    {
+      "cod_elementadic_factyobole": "3008",
+      "desc_elementadic_factyobole": "Detracciones: Transporte Bienes vía terrestre %u2013 punto de origen "
+    },
+    {
+      "cod_elementadic_factyobole": "3009",
+      "desc_elementadic_factyobole": "Detracciones: Transporte Bienes vía terrestre %u2013 punto destino "
+    },
+    {
+      "cod_elementadic_factyobole": "3010",
+      "desc_elementadic_factyobole": "Detracciones: Transporte Bienes vía terrestre %u2013 valor referencial preliminar "
+    },
+    {
+      "cod_elementadic_factyobole": "4000",
+      "desc_elementadic_factyobole": "Beneficio hospedajes: Código País de emisión del pasaporte "
+    },
+    {
+      "cod_elementadic_factyobole": "4001",
+      "desc_elementadic_factyobole": "Beneficio hospedajes: Código País de residencia del sujeto no domiciliado "
+    },
+    {
+      "cod_elementadic_factyobole": "4002",
+      "desc_elementadic_factyobole": "Beneficio Hospedajes: Fecha de ingreso al país "
+    },
+    {
+      "cod_elementadic_factyobole": "4003",
+      "desc_elementadic_factyobole": "Beneficio Hospedajes: Fecha de ingreso al establecimiento "
+    },
+    {
+      "cod_elementadic_factyobole": "4004",
+      "desc_elementadic_factyobole": "Beneficio Hospedajes: Fecha de salida del establecimiento "
+    },
+    {
+      "cod_elementadic_factyobole": "4005",
+      "desc_elementadic_factyobole": "Beneficio Hospedajes: Número de días de permanencia "
+    },
+    {
+      "cod_elementadic_factyobole": "4006",
+      "desc_elementadic_factyobole": "Beneficio Hospedajes: Fecha de consumo "
+    },
+    {
+      "cod_elementadic_factyobole": "4007",
+      "desc_elementadic_factyobole": "Beneficio Hospedajes: Paquete turístico - Nombres y Apellidos del Huésped "
+    },
+    {
+      "cod_elementadic_factyobole": "4008",
+      "desc_elementadic_factyobole": "Beneficio Hospedajes: Paquete turístico %u2013 Tipo documento identidad del huésped "
+    },
+    {
+      "cod_elementadic_factyobole": "4009",
+      "desc_elementadic_factyobole": "Beneficio Hospedajes: Paquete turístico %u2013 Numero de documento identidad de huésped "
+    },
+    {
+      "cod_elementadic_factyobole": "5000",
+      "desc_elementadic_factyobole": "Proveedores Estado: Número de Expediente "
+    },
+    {
+      "cod_elementadic_factyobole": "5001",
+      "desc_elementadic_factyobole": "Proveedores Estado : Código de unidad ejecutora "
+    },
+    {
+      "cod_elementadic_factyobole": "5002",
+      "desc_elementadic_factyobole": "Proveedores Estado : N° de proceso de selección "
+    },
+    {
+      "cod_elementadic_factyobole": "5003",
+      "desc_elementadic_factyobole": "Proveedores Estado : N° de contrato "
+    },
+    {
+      "cod_elementadic_factyobole": "6000",
+      "desc_elementadic_factyobole": "Comercialización de Oro : Código Unico Concesión Minera "
+    },
+    {
+      "cod_elementadic_factyobole": "6001",
+      "desc_elementadic_factyobole": "Comercialización de Oro : N° declaración compromiso "
+    },
+    {
+      "cod_elementadic_factyobole": "6002",
+      "desc_elementadic_factyobole": "Comercialización de Oro : N° Reg. Especial .Comerci. Oro "
+    },
+    {
+      "cod_elementadic_factyobole": "6003",
+      "desc_elementadic_factyobole": "Comercialización de Oro : N° Resolución que autoriza Planta de Beneficio "
+    },
+    {
+      "cod_elementadic_factyobole": "6004",
+      "desc_elementadic_factyobole": "Comercialización de Oro : Ley Mineral (% concent. oro) "
+    }
+  ]
+}

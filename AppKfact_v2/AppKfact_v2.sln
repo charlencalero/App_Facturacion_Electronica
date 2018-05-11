@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMovilFE.Android", "..\Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMovilFE.iOS", "..\AppMovilFE\AppMovilFE.iOS\AppMovilFE.iOS.csproj", "{5BB04829-8C50-4940-9CA3-A701E77935DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMovilFE", "..\AppMovilFE\AppMovilFE\AppMovilFE.csproj", "{7716165E-6F8E-4A7C-9F4F-34AD15928C29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppMovilFE", "..\AppMovilFE\AppMovilFE\AppMovilFE.csproj", "{7716165E-6F8E-4A7C-9F4F-34AD15928C29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppEntity", "..\AppEntity\AppEntity.csproj", "{0EB5EEC1-1D1B-4820-AF9A-B9C41893F32C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppEntity", "..\AppEntity\AppEntity.csproj", "{0EB5EEC1-1D1B-4820-AF9A-B9C41893F32C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

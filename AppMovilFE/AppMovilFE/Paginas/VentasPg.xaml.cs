@@ -51,7 +51,7 @@ namespace AppMovilFE.Paginas
         }
 
         List<combo> comprobante = new List<combo>();
-        List<combo> serie = new List<combo>();
+        List<Serie> serie = new List<Serie>();
         List<combo> tipodocu = new List<combo>();
 
         private void cargar()
@@ -59,13 +59,14 @@ namespace AppMovilFE.Paginas
             comprobante.Add(new combo("01", "FACTURA"));
             comprobante.Add(new combo("03", "BOLETA"));
 
-            serie.Add(new combo("IGV", "B001"));
-            serie.Add(new combo("EXO", "B002"));
+            serie.Add(new Serie("B001", "IGV","03","10"));
+            serie.Add(new Serie("B002", "EXO","03","20"));
+            serie.Add(new Serie("B003", "INA", "03", "30"));
 
             tipodocu.Add(new combo("1", "DNI"));
             tipodocu.Add(new combo("6", "RUC"));
             tipodocu.Add(new combo("4", "CE"));
-            tipodocu.Add(new combo("-", "OTROS"));
+            tipodocu.Add(new combo("0", "OTROS"));
 
 
             for (int i = 0; i < comprobante.Count; i++)
@@ -116,7 +117,7 @@ namespace AppMovilFE.Paginas
                 return;
             }
 
-            detalle.Add(new DLL_KS_OSE.Entity.Detalle("-", TextServDetalle.Text, "NIU", TextPrecio.Text, "0", TextCantidad.Text, "0", serie[CombSerie.SelectedIndex].codigo, "0", "-"));
+            detalle.Add(new DLL_KS_OSE.Entity.Detalle("-", TextServDetalle.Text, "NIU", TextPrecio.Text, "0", TextCantidad.Text, "0",serie[CombSerie.SelectedIndex].tipoigv , "0", "-"));
 
             ListDetalle.ItemsSource = detalle;
 
@@ -228,7 +229,7 @@ namespace AppMovilFE.Paginas
             comp.comp = comprobante[CombSerie.SelectedIndex].codigo;
             comp.serie = serie[CombSerie.SelectedIndex].descripcion;
             comp.nume = TextNumero.Text;
-            comp.fecha = DateFecha.Date.ToString("yyyyMMdd HH:mm:ss");
+            comp.fecha = DateFecha.Date.ToString("yyyy-MM-dd HH:mm:ss");
             comp.codi_vend = "iddisp";
             comp.clie_tipo = tipodocu[CombTipoDocu.SelectedIndex].codigo;
             comp.clie_docu = TextDni.Text;
@@ -239,7 +240,7 @@ namespace AppMovilFE.Paginas
             comp.dire_entr = "";
             comp.ubig_entr = "";
             comp.mone_codi = "PEN";
-            comp.tipo_igv = "SI";
+            comp.tipo_igv = serie[CombSerie.SelectedIndex].tipocomp;
             comp.desc_globa = "";
             comp.obse = "";
             comp.guia = "";
@@ -250,10 +251,26 @@ namespace AppMovilFE.Paginas
             comp.valorresumen = "";
             comp.valorhash = "";
 
+            comp.gravado = "0.00";
+            comp.exonerado = "0.00";
+            comp.inafecto = "0.00";
 
-            comp.gravado = "";
-            comp.inafecto = "";
-            comp.exonerado = "";
+            switch (serie[CombSerie.SelectedIndex].tipocomp)
+            {
+                case "IGV":
+             comp.gravado = double.Parse(TextSubtotal.Text).ToString("0.00");
+                    break;
+                case "EXO":
+            comp.inafecto = double.Parse(TextSubtotal.Text).ToString("0.00");
+                    break;
+                case "INA":
+            comp.exonerado = double.Parse(TextSubtotal.Text).ToString("0.00");
+                    break;
+                default:
+                    break;
+            }
+                       
+            
 
             comp.igv = TextIgv.Text;
             comp.total = TextTotal.Text;
@@ -265,7 +282,7 @@ namespace AppMovilFE.Paginas
 
             DLL_KS_OSE.Bussines.CrearComp crear = new DLL_KS_OSE.Bussines.CrearComp();
 
-      await   DisplayAlert("SYSTEM", crear.Crear(comp, emi),"OK");
+            await   DisplayAlert("SYSTEM", crear.Crear(comp, emi),"OK");
         }
 
         private async void BuscProd_Clicked(object sender, EventArgs e)

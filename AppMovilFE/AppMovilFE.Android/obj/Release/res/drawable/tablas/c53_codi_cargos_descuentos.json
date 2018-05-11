@@ -1,0 +1,32 @@
+{
+  "c53_codi_cargos_descuentos": [
+    {
+      "cod_cargos_descuentos": "00",
+      "desc_cargos_descuentos": "OTROS DESCUENTOS "
+    },
+    {
+      "cod_cargos_descuentos": "50",
+      "desc_cargos_descuentos": "OTROS CARGOS "
+    },
+    {
+      "cod_cargos_descuentos": "51",
+      "desc_cargos_descuentos": "PERCEPCION VENTA INTERNA "
+    },
+    {
+      "cod_cargos_descuentos": "52",
+      "desc_cargos_descuentos": "PERCEPCION A LA ADQUISICION DE COMBUSTIBLE "
+    },
+    {
+      "cod_cargos_descuentos": "53",
+      "desc_cargos_descuentos": "PERCEPCION REALIZADA AL AGENTE DE PERCEPCION CON TASA ESPECIAL "
+    },
+    {
+      "cod_cargos_descuentos": "54",
+      "desc_cargos_descuentos": "OTROS CARGOS RELACIONADOS AL SERVICIO "
+    },
+    {
+      "cod_cargos_descuentos": "55",
+      "desc_cargos_descuentos": "OTROS CARGOS NO RELACIONADOS AL SERVICIO "
+    }
+  ]
+}

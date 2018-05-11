@@ -1,0 +1,44 @@
+{
+  "c52_codi_leyendas": [
+    {
+      "cod_leyendas": "1000",
+      "desc_leyenda": "Monto en Letras "
+    },
+    {
+      "cod_leyendas": "1002",
+      "desc_leyenda": "Leyenda \\\"TRANSFERENCIA GRATUITA DE UN BIEN Y/O SERVICIO PRESTADO GRATUITAMENTE\\\" "
+    },
+    {
+      "cod_leyendas": "2000",
+      "desc_leyenda": "Leyenda %u201CCOMPROBANTE DE PERCEPCIÓN%u201D "
+    },
+    {
+      "cod_leyendas": "2001",
+      "desc_leyenda": "Leyenda %u201CBIENES TRANSFERIDOS EN LA AMAZONÍA REGIÓN SELVAPARA SER CONSUMIDOS EN LA MISMA\\\" "
+    },
+    {
+      "cod_leyendas": "2002",
+      "desc_leyenda": "Leyenda %u201CSERVICIOS PRESTADOS EN LA AMAZONÍA REGIÓN SELVA PARA SER CONSUMIDOS EN LA MISMA%u201D "
+    },
+    {
+      "cod_leyendas": "2003",
+      "desc_leyenda": "Leyenda %u201CCONTRATOS DE CONSTRUCCIÓN EJECUTADOS EN LA AMAZONÍA REGIÓN SELVA%u201D "
+    },
+    {
+      "cod_leyendas": "2004",
+      "desc_leyenda": "Leyenda %u201CAgencia de Viaje - Paquete turístico%u201D "
+    },
+    {
+      "cod_leyendas": "2005",
+      "desc_leyenda": "Leyenda %u201CVenta realizada por emisor itinerante%u201D "
+    },
+    {
+      "cod_leyendas": "2006",
+      "desc_leyenda": "Leyenda \\\"Operación sujeta a detracción\\\" "
+    },
+    {
+      "cod_leyendas": "3000",
+      "desc_leyenda": "Código interno generado por el software de Facturación "
+    }
+  ]
+}

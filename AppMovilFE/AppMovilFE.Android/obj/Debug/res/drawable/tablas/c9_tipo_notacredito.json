@@ -1,0 +1,44 @@
+{
+  "c9_tipo_notacredito": [
+    {
+      "cod_tipo_notacredito": "01",
+      "desc_tipo_notacredito": "Anulación de la operación "
+    },
+    {
+      "cod_tipo_notacredito": "02",
+      "desc_tipo_notacredito": "Anulación por error en el RUC "
+    },
+    {
+      "cod_tipo_notacredito": "03",
+      "desc_tipo_notacredito": "Corrección por error en la descripción "
+    },
+    {
+      "cod_tipo_notacredito": "04",
+      "desc_tipo_notacredito": "Descuento global "
+    },
+    {
+      "cod_tipo_notacredito": "05",
+      "desc_tipo_notacredito": "Descuento por ítem "
+    },
+    {
+      "cod_tipo_notacredito": "06",
+      "desc_tipo_notacredito": "Devolución total "
+    },
+    {
+      "cod_tipo_notacredito": "07",
+      "desc_tipo_notacredito": "Devolución por ítem "
+    },
+    {
+      "cod_tipo_notacredito": "08",
+      "desc_tipo_notacredito": "Bonificación "
+    },
+    {
+      "cod_tipo_notacredito": "09",
+      "desc_tipo_notacredito": "Disminución en el valor "
+    },
+    {
+      "cod_tipo_notacredito": "10",
+      "desc_tipo_notacredito": "Otros Conceptos "
+    }
+  ]
+}

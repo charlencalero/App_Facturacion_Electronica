@@ -1,0 +1,28 @@
+{
+  "c21_docrel_aplica_guia_rem_electronica": [
+    {
+      "cod_docrel_aplica_guiaremielect": "01",
+      "desc_docrel_aplica_guiaremielect": "NUMERACION DAM "
+    },
+    {
+      "cod_docrel_aplica_guiaremielect": "02",
+      "desc_docrel_aplica_guiaremielect": "NUMERO DE ORDEN DE ENTREGA "
+    },
+    {
+      "cod_docrel_aplica_guiaremielect": "03",
+      "desc_docrel_aplica_guiaremielect": "NUMERO SCOP "
+    },
+    {
+      "cod_docrel_aplica_guiaremielect": "04",
+      "desc_docrel_aplica_guiaremielect": "NUMERO DE MANIFIESTO DE CARGA "
+    },
+    {
+      "cod_docrel_aplica_guiaremielect": "05",
+      "desc_docrel_aplica_guiaremielect": "NUMERO DE CONSTANCIA DE DETRACCION "
+    },
+    {
+      "cod_docrel_aplica_guiaremielect": "06",
+      "desc_docrel_aplica_guiaremielect": "OTROS "
+    }
+  ]
+}

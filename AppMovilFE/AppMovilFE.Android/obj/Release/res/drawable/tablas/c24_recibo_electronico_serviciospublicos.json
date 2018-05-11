@@ -1,0 +1,64 @@
+{
+  "c24_recibo_electronico_serviciospublicos": [
+    {
+      "cod_tarifa_recibelect_serviospublicos": "A011",
+      "cod_recibelect_serviospublicos": "COMERCIAL ",
+      "desc_serviospublicos": "AGUA "
+    },
+    {
+      "cod_tarifa_recibelect_serviospublicos": "A012",
+      "cod_recibelect_serviospublicos": "INDUSTRIAL ",
+      "desc_serviospublicos": "AGUA "
+    },
+    {
+      "cod_tarifa_recibelect_serviospublicos": "A014",
+      "cod_recibelect_serviospublicos": "DOMESTICO ",
+      "desc_serviospublicos": "AGUA "
+    },
+    {
+      "cod_tarifa_recibelect_serviospublicos": "A015",
+      "cod_recibelect_serviospublicos": "SOCIAL ",
+      "desc_serviospublicos": "AGUA "
+    },
+    {
+      "cod_tarifa_recibelect_serviospublicos": "L001",
+      "cod_recibelect_serviospublicos": "AT ",
+      "desc_serviospublicos": "LUZ "
+    },
+    {
+      "cod_tarifa_recibelect_serviospublicos": "L002",
+      "cod_recibelect_serviospublicos": "MT2 ",
+      "desc_serviospublicos": "LUZ "
+    },
+    {
+      "cod_tarifa_recibelect_serviospublicos": "L003",
+      "cod_recibelect_serviospublicos": "MT3 ",
+      "desc_serviospublicos": "LUZ "
+    },
+    {
+      "cod_tarifa_recibelect_serviospublicos": "L004",
+      "cod_recibelect_serviospublicos": "MT4 ",
+      "desc_serviospublicos": "LUZ "
+    },
+    {
+      "cod_tarifa_recibelect_serviospublicos": "L005",
+      "cod_recibelect_serviospublicos": "BT2 ",
+      "desc_serviospublicos": "LUZ "
+    },
+    {
+      "cod_tarifa_recibelect_serviospublicos": "L006",
+      "cod_recibelect_serviospublicos": "BT3 ",
+      "desc_serviospublicos": "LUZ "
+    },
+    {
+      "cod_tarifa_recibelect_serviospublicos": "L009",
+      "cod_recibelect_serviospublicos": "BT5B NO RESIDENCIAL ",
+      "desc_serviospublicos": "LUZ "
+    },
+    {
+      "cod_tarifa_recibelect_serviospublicos": "L010",
+      "cod_recibelect_serviospublicos": "BT6 ",
+      "desc_serviospublicos": "LUZ "
+    }
+  ]
+}

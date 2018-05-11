@@ -1,0 +1,40 @@
+{
+  "c6_tipo_doc_identidad": [
+    {
+      "cod_doc_identidad": "0",
+      "desc_doc_identidad": "DOC.TRIB.NO.DOM.SIN.RUC "
+    },
+    {
+      "cod_doc_identidad": "1",
+      "desc_doc_identidad": "DOC. NACIONAL DE IDENTIDAD "
+    },
+    {
+      "cod_doc_identidad": "4",
+      "desc_doc_identidad": "CARNET DE EXTRANJERIA "
+    },
+    {
+      "cod_doc_identidad": "6",
+      "desc_doc_identidad": "REG. UNICO DE CONTRIBUYENTES "
+    },
+    {
+      "cod_doc_identidad": "7",
+      "desc_doc_identidad": "PASAPORTE "
+    },
+    {
+      "cod_doc_identidad": "A",
+      "desc_doc_identidad": "CED. DIPLOMATICA DE IDENTIDAD "
+    },
+    {
+      "cod_doc_identidad": "B",
+      "desc_doc_identidad": "DOC.IDENT.PAIS.RESIDENCIA-NO.D "
+    },
+    {
+      "cod_doc_identidad": "C",
+      "desc_doc_identidad": "Tax Identification Number - TIN %u2013 Doc Trib PP.NN "
+    },
+    {
+      "cod_doc_identidad": "D",
+      "desc_doc_identidad": "Identification Number - IN %u2013 Doc Trib PP. JJ "
+    }
+  ]
+}

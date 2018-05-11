@@ -1,0 +1,16 @@
+{
+  "c10_tipo_notadebito": [
+    {
+      "cod_tipo_notadebito": "1",
+      "desc_tipo_notadebito": "Intereses por mora "
+    },
+    {
+      "cod_tipo_notadebito": "2",
+      "desc_tipo_notadebito": "Aumento en el valor "
+    },
+    {
+      "cod_tipo_notadebito": "3",
+      "desc_tipo_notadebito": "Penalidades/ otros conceptos "
+    }
+  ]
+}
