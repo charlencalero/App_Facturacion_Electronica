@@ -31,9 +31,9 @@
                     </Grid.ColumnDefinitions>
 
                     <Label Grid.Column="0" Grid.Row="0" Text="Comprobante"></Label>
-                    <Picker Grid.Column="1" Grid.Row="0" Title="Tipo" WidthRequest="120" TextColor="Black"  x:Name="CombComp"></Picker>
-                    <Picker Grid.Column="2" Grid.Row="0" Title="Serie" WidthRequest="100" TextColor="Black" x:Name="CombSerie"></Picker>
-                    <Entry Grid.Column="3" Grid.Row="0" Style="{StaticResource Texto}" x:Name="TextNumero" WidthRequest="100"></Entry>
+                    <Picker Grid.Column="1" Grid.Row="0" Title="Tipo" WidthRequest="120" TextColor="Black" SelectedIndexChanged="cargar_serie"  x:Name="CombComp"></Picker>
+                    <Picker Grid.Column="2" Grid.Row="0" Title="Serie" WidthRequest="100" TextColor="Black" SelectedIndexChanged="obtener_numero" x:Name="CombSerie"></Picker>
+                    <Entry Grid.Column="3" Grid.Row="0" Style="{StaticResource Texto}" x:Name="TextNumero" WidthRequest="100" Text="000000001"></Entry>
 
                     <Label Grid.Column="0" Grid.Row="1" Text="Fecha"></Label>
                     <DatePicker Grid.Column="1" Grid.Row="1" x:Name="DateFecha"></DatePicker>
@@ -58,7 +58,7 @@
             <StackLayout  Orientation="Horizontal" HorizontalOptions="Center">
 
                     <Label FontAttributes="Bold" Text="Cliente"></Label>
-                <Picker WidthRequest="100" TextColor="Black" x:Name="CombTipoDocu"></Picker>
+                <Picker WidthRequest="150" TextColor="Black" x:Name="CombTipoDocu" Title="Tipo Docu."></Picker>
                 <Entry Style="{StaticResource Texto}" WidthRequest="150" x:Name="TextDni"  ></Entry>
                     <Button Style="{StaticResource Botones}"  x:Name="BuscarDni" Text="Buscar"  ></Button>
             </StackLayout>
@@ -90,23 +90,21 @@
   
             </Frame>
 
-            <Frame OutlineColor="Gray" Padding="10"  Margin="30,10,30,10">
+            <Frame x:Name="prod_busca" OutlineColor="Gray" Padding="10"  Margin="30,10,30,10">
 
                 <StackLayout x:Name="StacProducto" Orientation="Horizontal" HorizontalOptions="Center" >
-                    <Label FontAttributes="Bold" Text="Buscar Productos"></Label>
+                   
             
-                    <Entry Style="{StaticResource Texto}"  WidthRequest="250" x:Name="TextBuscProd"></Entry>
+                    <Entry Placeholder="Buscar Producto" Style="{StaticResource Texto}"  WidthRequest="250" x:Name="TextBuscProd"></Entry>
+                    <Button  Style="{StaticResource Botones}" x:Name="BuscCode"  Clicked="BuscCode_Clicked" Text="BARCODE"></Button>
                     <Button  Style="{StaticResource Botones}" x:Name="BuscProd"  Clicked="BuscProd_Clicked" Text="Buscar"></Button>
-
+                    <Button  Style="{StaticResource Botones}" x:Name="BuscLibre"  Clicked="BuscLibre_Clicked" Text="Libre"></Button>
                 </StackLayout>
             </Frame>
             
-            <StackLayout Orientation="Vertical" HorizontalOptions="Center" >
-               
-            <Label FontAttributes="Bold" Text="Agregar Productos Libres"></Label>
-            </StackLayout>
+           
 
-            <Frame OutlineColor="Gray" Padding="10"  Margin="30,10,30,10">
+            <Frame IsVisible="False" x:Name="prod_libre" OutlineColor="Gray" Padding="10"   Margin="30,10,30,10">
 
                 <Grid HorizontalOptions="Center">
                     <Grid.RowDefinitions>
@@ -121,15 +119,17 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
-                    <Label Grid.Column="0" Grid.Row="0" WidthRequest="100" Text="Detalle"></Label>
-                    <Entry Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" Style="{StaticResource Texto}" WidthRequest="350" x:Name="TextServDetalle"></Entry>
+                    <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" FontAttributes="Bold" Text="Agregar Productos Libres"></Label>
+                    
+                    <Label Grid.Column="0" Grid.Row="1" WidthRequest="100" Text="Detalle"></Label>
+                    <Entry Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Style="{StaticResource Texto}" WidthRequest="350" x:Name="TextServDetalle"></Entry>
 
 
-                    <Label Grid.Column="0" Grid.Row="1" WidthRequest="100" Text="Precio"></Label>
-                    <Entry Grid.Column="1" Grid.Row="1" Style="{StaticResource Texto}" WidthRequest="75" x:Name="TextPrecio" ></Entry>
-                    <Label Grid.Column="2" Grid.Row="1" WidthRequest="100" Text="Cantidad"></Label>
-                    <Entry Grid.Column="3" Grid.Row="1" Style="{StaticResource Texto}" WidthRequest="75" x:Name="TextCantidad"  ></Entry>
-                    <Button Grid.Column="4" Grid.Row="1" Style="{StaticResource Botones}" x:Name="ButtAgregar" Clicked="ButtAgregar_Clicked" FontAttributes="Bold" FontSize="Large" Text="+"></Button>
+                    <Label Grid.Column="0" Grid.Row="2" WidthRequest="100" Text="Precio"></Label>
+                    <Entry Grid.Column="1" Grid.Row="2" Style="{StaticResource Texto}" WidthRequest="75" x:Name="TextPrecio" ></Entry>
+                    <Label Grid.Column="2" Grid.Row="2" WidthRequest="100" Text="Cantidad"></Label>
+                    <Entry Grid.Column="3" Grid.Row="2" Style="{StaticResource Texto}" WidthRequest="75" x:Name="TextCantidad"  ></Entry>
+                    <Button Grid.Column="4" Grid.Row="2" Style="{StaticResource Botones}" x:Name="ButtAgregar" Clicked="ButtAgregar_Clicked" FontAttributes="Bold" FontSize="Large" Text="+"></Button>
                 </Grid>
 
 

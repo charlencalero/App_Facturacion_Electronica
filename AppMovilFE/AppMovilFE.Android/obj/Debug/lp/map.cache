@@ -1,7 +1,7 @@
 AppMovilFE
-System.Runtime
 FormsViewGroup
 Newtonsoft.Json
+System.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
@@ -24,6 +24,6 @@ Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
 AppEntity
-System.Reflection.Extensions
 DLL_KS_OSE
 Integracion EsconDatagate
+System.Reflection.Extensions

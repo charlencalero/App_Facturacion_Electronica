@@ -5,12 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
-    <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
+    <Compile Remove="Entidad\**" />
+    <EmbeddedResource Remove="Entidad\**" />
+    <None Remove="Entidad\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Entidad\" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
   </ItemGroup>
 
   <ItemGroup>

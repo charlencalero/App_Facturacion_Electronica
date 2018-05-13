@@ -177,23 +177,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\charlen.calero\\.nuget\\packages\\": {},
+    "C:\\Users\\MAXIMO\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppEntity\\AppEntity.csproj",
+      "projectUniqueName": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj",
       "projectName": "AppEntity",
-      "projectPath": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppEntity\\AppEntity.csproj",
-      "packagesPath": "C:\\Users\\charlen.calero\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppEntity\\obj\\",
+      "projectPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj",
+      "packagesPath": "C:\\Users\\MAXIMO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppEntity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\charlen.calero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MAXIMO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

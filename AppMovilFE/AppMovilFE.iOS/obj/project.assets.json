@@ -819,20 +819,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\charlen.calero\\.nuget\\packages\\": {}
+    "C:\\Users\\MAXIMO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppMovilFE\\AppMovilFE.iOS\\AppMovilFE.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.iOS\\AppMovilFE.iOS.csproj",
       "projectName": "AppMovilFE.iOS",
-      "projectPath": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppMovilFE\\AppMovilFE.iOS\\AppMovilFE.iOS.csproj",
-      "packagesPath": "C:\\Users\\charlen.calero\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppMovilFE\\AppMovilFE.iOS\\obj\\",
+      "projectPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.iOS\\AppMovilFE.iOS.csproj",
+      "packagesPath": "C:\\Users\\MAXIMO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\charlen.calero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MAXIMO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -845,8 +845,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj": {
-              "projectPath": "C:\\Users\\charlen.calero\\source\\repos\\movilkfact\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj"
+            "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj": {
+              "projectPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj"
             }
           }
         }

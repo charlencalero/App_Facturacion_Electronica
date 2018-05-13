@@ -1,9 +1,0 @@
-{
-  "c23_regimen_retencion": [
-    {
-      "cod_regimen_retencion": "01",
-      "desc_regimen_retencion": "RETENCION",
-      "tasa_regimen_retencion": "TASA 3%"
-    }
-  ]
-}

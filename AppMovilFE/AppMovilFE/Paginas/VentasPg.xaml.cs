@@ -54,20 +54,47 @@ namespace AppMovilFE.Paginas
         List<Serie> serie = new List<Serie>();
         List<combo> tipodocu = new List<combo>();
 
+        private void obtener_numero()
+        {
+            var nume = Double.Parse(TextNumero.Text).ToString("00000000");
+            TextNumero.Text = nume;
+
+        }
+
+        private void cargar_serie()
+        {
+           string comp =CombComp.SelectedItem.ToString();
+
+            CombSerie.Items.Clear();
+
+           for (int i = 0; i < serie.Count; i++)
+           {
+                if ( comp== serie[i].tipocomp)
+                {
+                 CombSerie.Items.Add(serie[i].descripcion);
+            }
+               
+           }
+        }
+
         private void cargar()
         {
             comprobante.Add(new combo("01", "FACTURA"));
             comprobante.Add(new combo("03", "BOLETA"));
 
-            serie.Add(new Serie("B001", "IGV","03","10"));
-            serie.Add(new Serie("B002", "EXO","03","20"));
-            serie.Add(new Serie("B003", "INA", "03", "30"));
+            serie.Add(new Serie("B001", "IGV","BOLETA","10"));
+            serie.Add(new Serie("B002", "EXO","BOLETA","20"));
+            serie.Add(new Serie("B003", "INA", "BOLETA", "30"));
+            serie.Add(new Serie("F002", "IGV", "FACTURA", "10"));
+            serie.Add(new Serie("F003", "EXO", "FACTURA", "20"));
 
             tipodocu.Add(new combo("1", "DNI"));
             tipodocu.Add(new combo("6", "RUC"));
             tipodocu.Add(new combo("4", "CE"));
             tipodocu.Add(new combo("0", "OTROS"));
 
+
+          
 
             for (int i = 0; i < comprobante.Count; i++)
             {
@@ -79,10 +106,10 @@ namespace AppMovilFE.Paginas
                 CombTipoDocu.Items.Add(tipodocu[i].descripcion);
             }
 
-            for (int i = 0; i < serie.Count; i++)
-            {
-                CombSerie.Items.Add(serie[i].descripcion);
-            }
+            //for (int i = 0; i < serie.Count; i++)
+            //{
+            //    CombSerie.Items.Add(serie[i].descripcion);
+            //}
 
 
         }
@@ -226,7 +253,7 @@ namespace AppMovilFE.Paginas
             comp.codi_cab = "0";
             comp.esta_pod = "0";
             comp.codi_caja = "id dispo";
-            comp.comp = comprobante[CombSerie.SelectedIndex].codigo;
+            comp.comp = comprobante[CombComp.SelectedIndex].codigo;
             comp.serie = serie[CombSerie.SelectedIndex].descripcion;
             comp.nume = TextNumero.Text;
             comp.fecha = DateFecha.Date.ToString("yyyy-MM-dd HH:mm:ss");
@@ -288,6 +315,17 @@ namespace AppMovilFE.Paginas
         private async void BuscProd_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new BuscarProductoPg());
+        }
+
+        private async void BuscCode_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new BuscarProductoPg());
+        }
+
+        private async void BuscLibre_Clicked(object sender, EventArgs e)
+        {
+            prod_busca.IsVisible = false;
+            prod_libre.IsVisible = true;
         }
     }
 }
