@@ -26,16 +26,15 @@
             
                <Style x:Key="Texto" TargetType="Entry">
 
-                <!--<Setter Property="WidthRequest" Value="120" />
-                <Setter Property="HeightRequest" Value="100" />-->
+                <!--<Setter Property="WidthRequest" Value="120" />-->
+                <Setter Property="HeightRequest" Value="45" />
                 <Setter Property="Margin" Value="{StaticResource zonaMargin}" />
 
             </Style>
             
-            <Style x:Key="EtiquetaZona" TargetType="Button">
+            <Style x:Key="Etiqueta" TargetType="Button">
 
-                <Setter Property="WidthRequest" Value="120" />
-                <Setter Property="HeightRequest" Value="100" />
+                <Setter Property="HeightRequest" Value="35" />
                 <Setter Property="Margin" Value="{StaticResource zonaMargin}" />
 
             </Style>
@@ -61,13 +60,10 @@
                 <Setter Property="TextColor" Value="{StaticResource EtiquetaColor}" />
             </Style>
 
-            <Style x:Key="Etiquetas" TargetType="Label">
-                <Setter Property="FontAttributes" Value="Bold" />
-                <Setter Property="HorizontalOptions" Value="Center" />
-                <Setter Property="HorizontalTextAlignment" Value="Center" />
-                <Setter Property="WidthRequest" Value="100" />
+            <Style x:Key="Combo" TargetType="Picker">
+                <Setter Property="HeightRequest" Value="45" />
                 <Setter Property="Margin" Value="{StaticResource EtiquetasMargin}" />
-                <Setter Property="TextColor" Value="{StaticResource EtiquetasColor}" />
+             
             </Style>
 
             <Style x:Key="Botones" TargetType="Button">

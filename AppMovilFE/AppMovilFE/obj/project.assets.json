@@ -2927,11 +2927,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj",
+      "projectUniqueName": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj",
       "projectName": "AppMovilFE",
-      "projectPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj",
+      "projectPath": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj",
       "packagesPath": "C:\\Users\\MAXIMO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\obj\\",
+      "outputPath": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2950,8 +2950,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj": {
-              "projectPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj"
+            "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj": {
+              "projectPath": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj"
             }
           }
         }

@@ -714,11 +714,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.Android\\AppMovilFE.Android.csproj",
+      "projectUniqueName": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.Android\\AppMovilFE.Android.csproj",
       "projectName": "AppMovilFE.Android",
-      "projectPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.Android\\AppMovilFE.Android.csproj",
+      "projectPath": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.Android\\AppMovilFE.Android.csproj",
       "packagesPath": "C:\\Users\\MAXIMO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.Android\\obj\\",
+      "outputPath": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -735,8 +735,8 @@
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj": {
-              "projectPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj"
+            "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj": {
+              "projectPath": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj"
             }
           }
         }

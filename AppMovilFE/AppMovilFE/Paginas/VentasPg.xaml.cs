@@ -26,6 +26,7 @@ namespace AppMovilFE.Paginas
 
             public string codigo { get; set; }
             public string descripcion { get; set; }
+
         }
 
         public VentasPg()
@@ -65,6 +66,14 @@ namespace AppMovilFE.Paginas
         {
            string comp =CombComp.SelectedItem.ToString();
 
+            if (comp == "BOLETA")
+            {
+                CombTipoDocu.SelectedItem = "OTROS";
+                TextDni.Text = "0";
+                TextNombre.Text = "CLIENTE VARIOS";
+                TextDireccion.Text = "-";
+            }
+
             CombSerie.Items.Clear();
 
            for (int i = 0; i < serie.Count; i++)
@@ -75,6 +84,24 @@ namespace AppMovilFE.Paginas
             }
                
            }
+        }
+
+        private async void BuscarCliente()
+        {
+         
+
+            List<string> myList = new List<string>();
+
+            myList.Add("calero");
+            myList.Add("maximo");
+            myList.Add("charlen");
+
+            string[] myArray = myList.ToArray();
+
+          var action = await DisplayActionSheet("hola", "ok", null, myArray);
+
+            var id = myList.IndexOf(action);
+
         }
 
         private void cargar()
@@ -161,6 +188,8 @@ namespace AppMovilFE.Paginas
             TextCantidad.Text = "";
             TextServDetalle.Text = "";
 
+            prod_busca.IsVisible = true;
+            prod_libre.IsVisible = false;
         }
 
 
@@ -322,7 +351,7 @@ namespace AppMovilFE.Paginas
             await Navigation.PushAsync(new BuscarProductoPg());
         }
 
-        private async void BuscLibre_Clicked(object sender, EventArgs e)
+        private  void BuscLibre_Clicked(object sender, EventArgs e)
         {
             prod_busca.IsVisible = false;
             prod_libre.IsVisible = true;

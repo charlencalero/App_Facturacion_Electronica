@@ -159,4 +159,7 @@
       <Name>AppMovilFE</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="logo_escon.png" />
+  </ItemGroup>
 </Project>
