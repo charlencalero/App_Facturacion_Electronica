@@ -15,3 +15,12 @@ C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\net
 C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\netstandard2.0\AppEntity.AssemblyInfo.cs
 C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\netstandard2.0\AppEntity.dll
 C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\netstandard2.0\AppEntity.pdb
+C:\Users\charlen.calero\Source\Repos\App_Facturacion_Electronica\AppEntity\bin\Debug\netstandard2.0\AppEntity.deps.json
+C:\Users\charlen.calero\Source\Repos\App_Facturacion_Electronica\AppEntity\bin\Debug\netstandard2.0\AppEntity.dll
+C:\Users\charlen.calero\Source\Repos\App_Facturacion_Electronica\AppEntity\bin\Debug\netstandard2.0\AppEntity.pdb
+C:\Users\charlen.calero\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\netstandard2.0\AppEntity.csprojAssemblyReference.cache
+C:\Users\charlen.calero\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\netstandard2.0\AppEntity.csproj.CoreCompileInputs.cache
+C:\Users\charlen.calero\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\netstandard2.0\AppEntity.AssemblyInfoInputs.cache
+C:\Users\charlen.calero\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\netstandard2.0\AppEntity.AssemblyInfo.cs
+C:\Users\charlen.calero\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\netstandard2.0\AppEntity.dll
+C:\Users\charlen.calero\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\netstandard2.0\AppEntity.pdb
