@@ -57,3 +57,4 @@ System.Diagnostics.Debug
 System.Threading
 System.Linq.Queryable
 System.Resources.ResourceManager
+System.Configuration

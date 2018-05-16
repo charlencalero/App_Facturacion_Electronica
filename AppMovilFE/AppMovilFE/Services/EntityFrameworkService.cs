@@ -23,7 +23,9 @@ namespace AppMovilFE.Services
 
         public void Insert(Serie item)
         {
-            var todoItem = _context.TodoItems.Find(item.descripcion);
+
+            var todoItem = _context.TodoItems.Single(x => x.Id == item.Id);
+                   
 
             if (todoItem == null)
             {
@@ -31,12 +33,12 @@ namespace AppMovilFE.Services
             }
             else
             {
-                todoItem.descripcion = item.descripcion;
-                todoItem.tipocomp = item.tipocomp;
-                todoItem.tipoafectacion = item.tipoafectacion;
-                todoItem.tipoigv = item.tipoigv;
+               // todoItem[0].descripcion = item.descripcion;
+               // todoItem.tipocomp = item.tipocomp;
+               // todoItem.tipoafectacion = item.tipoafectacion;
+               //todoItem.tipoigv = item.tipoigv;
 
-                _context.TodoItems.Update(todoItem);
+               // _context.TodoItems.Update(todoItem);
             }
 
             _context.SaveChanges();

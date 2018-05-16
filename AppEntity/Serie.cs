@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace AppEntity
@@ -9,14 +10,17 @@ namespace AppEntity
         public Serie()
             {}
 
-        public Serie(string descripcion, string tipoigv, string tipocomp, string tipoafectacion)
+        public Serie(int Id,string descripcion, string tipoigv, string tipocomp, string tipoafectacion)
         {
+            this.Id = Id;
             this.descripcion = descripcion;
             this.tipoigv = tipoigv;
             this.tipocomp = tipocomp;
             this.tipoafectacion = tipoafectacion;
         }
 
+        [Key]
+        public int Id { get; set; }
         public string descripcion { get; set; }
         public string tipoigv { get; set; }
         public string tipocomp { get; set; }

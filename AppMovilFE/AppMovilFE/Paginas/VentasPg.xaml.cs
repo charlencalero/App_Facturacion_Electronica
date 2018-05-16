@@ -1,5 +1,6 @@
 ﻿using AppEntity;
 using AppMovilFE.Data;
+using AppMovilFE.Services;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -29,6 +30,8 @@ namespace AppMovilFE.Paginas
 
         }
 
+    private EntityFrameworkService _entityFrameworkService = new EntityFrameworkService();
+
         public VentasPg()
         {
             InitializeComponent();
@@ -48,6 +51,12 @@ namespace AppMovilFE.Paginas
             emi.telefono = "998887099";
             emi.correoElectronico = "charlen.calero@gmail.com";
 
+            var item = new Serie(2,"Xmm2", "exo", "BOLETA", "01");
+
+        _entityFrameworkService.Insert(item);
+            
+
+            var result = _entityFrameworkService.GetAll();
 
         }
 
@@ -109,11 +118,11 @@ namespace AppMovilFE.Paginas
             comprobante.Add(new combo("01", "FACTURA"));
             comprobante.Add(new combo("03", "BOLETA"));
 
-            serie.Add(new Serie("B001", "IGV","BOLETA","10"));
-            serie.Add(new Serie("B002", "EXO","BOLETA","20"));
-            serie.Add(new Serie("B003", "INA", "BOLETA", "30"));
-            serie.Add(new Serie("F002", "IGV", "FACTURA", "10"));
-            serie.Add(new Serie("F003", "EXO", "FACTURA", "20"));
+            serie.Add(new Serie(0,"B001", "IGV","BOLETA","10"));
+            serie.Add(new Serie(0,"B002", "EXO","BOLETA","20"));
+            serie.Add(new Serie(0,"B003", "INA", "BOLETA", "30"));
+            serie.Add(new Serie(0,"F002", "IGV", "FACTURA", "10"));
+            serie.Add(new Serie(0,"F003", "EXO", "FACTURA", "20"));
 
             tipodocu.Add(new combo("1", "DNI"));
             tipodocu.Add(new combo("6", "RUC"));

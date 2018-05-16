@@ -91,6 +91,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Services\EF\DatabaseService.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -165,4 +166,5 @@
   <ItemGroup>
     <BundleResource Include="logo_escon.png" />
   </ItemGroup>
+  <ItemGroup />
 </Project>
