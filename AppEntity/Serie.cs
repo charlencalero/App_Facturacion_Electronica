@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace AppEntity
@@ -19,7 +19,7 @@ namespace AppEntity
             this.tipoafectacion = tipoafectacion;
         }
 
-  
+
         public int Id { get; set; }
         public string descripcion { get; set; }
         public string tipoigv { get; set; }

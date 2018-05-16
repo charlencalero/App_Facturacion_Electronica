@@ -51,10 +51,10 @@ namespace AppMovilFE.Paginas
             emi.telefono = "998887099";
             emi.correoElectronico = "charlen.calero@gmail.com";
 
-            var item = new Serie(2,"Xmm2", "exo", "BOLETA", "01");
+            var item = new Serie(10,"Xmm2", "exo", "BOLETA", "01");
 
-        _entityFrameworkService.Insert(item);
-            var result = _entityFrameworkService.GetAll();
+        _entityFrameworkService.SerieInse(item);
+            var result = _entityFrameworkService.SerieAll();
 
         }
 
@@ -64,8 +64,8 @@ namespace AppMovilFE.Paginas
 
         private void obtener_numero()
         {
-            var nume = Double.Parse(TextNumero.Text).ToString("00000000");
-            TextNumero.Text = nume;
+           
+            TextNumero.Text = _entityFrameworkService.ComprobanteMax("B001","03");
 
         }
 
@@ -346,6 +346,16 @@ namespace AppMovilFE.Paginas
             DLL_KS_OSE.Bussines.CrearComp crear = new DLL_KS_OSE.Bussines.CrearComp();
 
             await   DisplayAlert("SYSTEM", crear.Crear(comp, emi),"OK");
+
+            //INSERTAR BD
+
+            var complocal = new Comprobante();
+            complocal.comp = comp.comp;
+            complocal.serie = comp.serie;
+            complocal.nume = comp.nume;
+           
+            _entityFrameworkService.ComprobanteInse(complocal);
+
         }
 
         private async void BuscProd_Clicked(object sender, EventArgs e)

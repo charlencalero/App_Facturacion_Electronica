@@ -8,13 +8,14 @@ namespace AppEntity
     {
         public Comprobante()
         {
-            this.factguia = new FacturaGuia();
-            this.detalle = new List<Detalle>();
+            // this.factguia = new FacturaGuia();
+            //  this.detalle = new List<Detalle>();
         }
 
-        public Comprobante(string codi_cab, string esta_pod, string codi_caja, string comp, string serie, string nume, string fecha, string codi_vend, string clie_tipo, string clie_docu, string clie_nomb, string clie_dire, string clie_email, string clie_celu, string dire_entr, string ubig_entr, string mone_codi, string tipo_igv, string desc_globa, string obse, string guia, string placa, string codi_moti, string motivo, string doc_refe, string valorresumen, string valorhash, string gravado, string inafecto, string exonerado, string igv, string total, string percepcion, List<Detalle> detalle, FacturaGuia factguia)
+        public Comprobante(int Id, string esta_pod, string codi_caja, string comp, string serie, string nume, string fecha, string codi_vend, string clie_tipo, string clie_docu, string clie_nomb, string clie_dire, string clie_email, string clie_celu, string dire_entr, string ubig_entr, string mone_codi, string tipo_igv, string desc_globa, string obse, string guia, string placa, string codi_moti, string motivo, string doc_refe, string valorresumen, string valorhash, string gravado, string inafecto, string exonerado, string igv, string total, string percepcion)
+            //, List<Detalle> detalle, FacturaGuia factguia)
         {
-            this.codi_cab = codi_cab;
+            this.Id = Id;
             this.esta_pod = esta_pod;
             this.codi_caja = codi_caja;
             this.comp = comp;
@@ -47,11 +48,11 @@ namespace AppEntity
             this.igv = igv;
             this.total = total;
             this.percepcion = percepcion;
-            this.detalle = detalle;
-            this.factguia = factguia;
+         //   this.detalle = detalle;
+         //   this.factguia = factguia;
         }
 
-        public String codi_cab { get; set; }
+        public int Id { get; set; }
         public String esta_pod { get; set; }
         public String codi_caja { get; set; }
         public String comp { get; set; }
@@ -91,9 +92,9 @@ namespace AppEntity
         public String total { get; set; }
         public String percepcion { get; set; }
 
-        public List<Detalle> detalle { get; set; }
+      //  public List<Detalle> detalle { get; set; }
 
-        public FacturaGuia factguia { get; set; }
+       // public FacturaGuia factguia { get; set; }
 
     }
 }

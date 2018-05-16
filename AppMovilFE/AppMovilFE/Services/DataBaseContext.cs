@@ -10,9 +10,10 @@ namespace AppMovilFE.Services
     class DatabaseContext: DbContext
     {
 
-     public DbSet<Serie> TodoItems { get; set; }
+     public DbSet<Serie> TablaSerie { get; set; }
+     public DbSet<Comprobante> TablaComprobante { get; set; }
 
-    public DatabaseContext()
+        public DatabaseContext()
     {
         this.Database.EnsureCreated();
     }

@@ -7,8 +7,9 @@ namespace AppMovilFE.Services
 {
     interface IEntityFrameworkService
     {
-        IList<Serie> GetAll();
-        void Insert(Serie item);
-        void Remove(Serie item);
+        IList<Serie> SerieAll();
+        void SerieInse(Serie item);
+        void SerieUpda(Serie item);
+        void SerieDele(Serie item);
     }
 }
