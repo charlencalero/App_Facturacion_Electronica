@@ -24,7 +24,7 @@ namespace AppMovilFE.Services
         public void Insert(Serie item)
         {
 
-            var todoItem = _context.TodoItems.Single(x => x.Id == item.Id);
+            var todoItem = _context.TodoItems.FirstOrDefault(x => x.Id == item.Id);
                    
 
             if (todoItem == null)

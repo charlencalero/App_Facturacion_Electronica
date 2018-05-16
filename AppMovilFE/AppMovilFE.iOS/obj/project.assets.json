@@ -956,6 +956,9 @@
       "AppEntity/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.0.3"
+        },
         "compile": {
           "bin/placeholder/AppEntity.dll": {}
         },
@@ -1875,6 +1878,9 @@
       "AppEntity/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.0.3"
+        },
         "compile": {
           "bin/placeholder/AppEntity.dll": {}
         },
@@ -2794,6 +2800,9 @@
       "AppEntity/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.0.3"
+        },
         "compile": {
           "bin/placeholder/AppEntity.dll": {}
         },
@@ -3713,6 +3722,9 @@
       "AppEntity/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.0.3"
+        },
         "compile": {
           "bin/placeholder/AppEntity.dll": {}
         },

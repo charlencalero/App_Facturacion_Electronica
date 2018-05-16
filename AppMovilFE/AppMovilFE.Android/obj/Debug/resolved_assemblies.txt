@@ -72,7 +72,6 @@ C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppM
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Web.Services.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Xml.XPath.XDocument.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\AppEntity.dll
-C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.ComponentModel.DataAnnotations.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\DLL_KS_OSE.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\Integracion EsconDatagate.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Runtime.dll
@@ -90,6 +89,7 @@ C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppM
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.ComponentModel.Annotations.dll
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.ComponentModel.DataAnnotations.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.IO.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\android\assets\System.Xml.XDocument.dll

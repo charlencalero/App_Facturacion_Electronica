@@ -54,8 +54,6 @@ namespace AppMovilFE.Paginas
             var item = new Serie(2,"Xmm2", "exo", "BOLETA", "01");
 
         _entityFrameworkService.Insert(item);
-            
-
             var result = _entityFrameworkService.GetAll();
 
         }

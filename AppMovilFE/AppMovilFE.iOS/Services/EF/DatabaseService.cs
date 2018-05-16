@@ -17,8 +17,10 @@ namespace AppMovilFE.iOS.Services.EF
     {
         public string GetDatabasePath()
         {
+
+          
             return Path.Combine(Environment.GetFolderPath(
-                Environment.SpecialFolder.MyDocuments),
+                Environment.SpecialFolder.Personal),
                 "..",
                 "Library",
                 AppSettings.DatabaseName);
