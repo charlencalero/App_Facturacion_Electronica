@@ -15,8 +15,66 @@ namespace AppMovilFE.Services
             _context = new DatabaseContext();
         }
 
+        #region Tabla Cliente
+
+        public IList<Cliente> ClienteAll()
+        {
+            _context = new DatabaseContext();
+            return _context.TablaCliente.ToList();
+        }
+
+        public void ClienteInse(Cliente model)
+        {
+
+            _context.TablaCliente.Add(model);
+            _context.SaveChanges();
+        }
+
+        public void ClienteUpda(Cliente model)
+        {
+            _context.TablaCliente.Update(model);
+            _context.SaveChanges();
+        }
+
+        public void ClienteDele(Cliente item)
+        {
+            _context.TablaCliente.Remove(item);
+            _context.SaveChanges();
+        }
+
+        #endregion
+
+        #region Tabla Producto
+
+        public IList<Producto> ProductoAll()
+        {
+            _context = new DatabaseContext();
+            return _context.TablaProducto.ToList();
+        }
+
+        public void ProductoInse(Producto model)
+        {
+
+            _context.TablaProducto.Add(model);
+            _context.SaveChanges();
+        }
+
+        public void ProductoUpda(Producto model)
+        {
+            _context.TablaProducto.Update(model);
+            _context.SaveChanges();
+        }
+
+        public void productoDele(Producto item)
+        {
+            _context.TablaProducto.Remove(item);
+            _context.SaveChanges();
+        }
+
+        #endregion
+
         #region Tabla Serie
-        
+
         public IList<Serie> SerieAll()
         {
             _context = new DatabaseContext();
@@ -75,12 +133,12 @@ namespace AppMovilFE.Services
         {
             try
             {
-            var  model=  _context.TablaComprobante.Where(p=> p.serie==serie & p.comp==comp).Max();
-            return double.Parse(model.nume).ToString("00000000");
+            var  model=  _context.TablaComprobante.Where(p=> p.serie==serie & p.comp==comp).Max(p => p.nume);
+            return (model+1).ToString("00000000");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-              
+                string error = ex.Message;
                 return "00000001";
             }
            

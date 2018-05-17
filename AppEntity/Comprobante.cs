@@ -12,7 +12,7 @@ namespace AppEntity
             //  this.detalle = new List<Detalle>();
         }
 
-        public Comprobante(int Id, string esta_pod, string codi_caja, string comp, string serie, string nume, string fecha, string codi_vend, string clie_tipo, string clie_docu, string clie_nomb, string clie_dire, string clie_email, string clie_celu, string dire_entr, string ubig_entr, string mone_codi, string tipo_igv, string desc_globa, string obse, string guia, string placa, string codi_moti, string motivo, string doc_refe, string valorresumen, string valorhash, string gravado, string inafecto, string exonerado, string igv, string total, string percepcion)
+        public Comprobante(int Id, string esta_pod, string codi_caja, string comp, string serie,int nume, string fecha, string codi_vend, string clie_tipo, string clie_docu, string clie_nomb, string clie_dire, string clie_email, string clie_celu, string dire_entr, string ubig_entr, string mone_codi, string tipo_igv, string desc_globa, string obse, string guia, string placa, string codi_moti, string motivo, string doc_refe, string valorresumen, string valorhash, string gravado, string inafecto, string exonerado, string igv, string total, string percepcion)
             //, List<Detalle> detalle, FacturaGuia factguia)
         {
             this.Id = Id;
@@ -57,7 +57,7 @@ namespace AppEntity
         public String codi_caja { get; set; }
         public String comp { get; set; }
         public String serie { get; set; }
-        public String nume { get; set; }
+        public int nume { get; set; }
         public String fecha { get; set; }
         public String codi_vend { get; set; }
 

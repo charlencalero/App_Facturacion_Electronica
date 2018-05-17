@@ -30,7 +30,7 @@ namespace AppMovilFE.Paginas
 
         }
 
-    private EntityFrameworkService _entityFrameworkService = new EntityFrameworkService();
+    private EntityFrameworkService _entityFrameworkService ;
 
         public VentasPg()
         {
@@ -51,10 +51,8 @@ namespace AppMovilFE.Paginas
             emi.telefono = "998887099";
             emi.correoElectronico = "charlen.calero@gmail.com";
 
-            var item = new Serie(10,"Xmm2", "exo", "BOLETA", "01");
+       
 
-        _entityFrameworkService.SerieInse(item);
-            var result = _entityFrameworkService.SerieAll();
 
         }
 
@@ -64,8 +62,9 @@ namespace AppMovilFE.Paginas
 
         private void obtener_numero()
         {
-           
-            TextNumero.Text = _entityFrameworkService.ComprobanteMax("B001","03");
+            _entityFrameworkService = new EntityFrameworkService();
+
+            TextNumero.Text = _entityFrameworkService.ComprobanteMax(CombSerie.SelectedItem.ToString(), comprobante[CombSerie.SelectedIndex].codigo);
 
         }
 
@@ -285,6 +284,7 @@ namespace AppMovilFE.Paginas
                 detacomp.Add(item);
             }
 
+            _entityFrameworkService = new EntityFrameworkService();
 
             comp.codi_cab = "0";
             comp.esta_pod = "0";
@@ -318,23 +318,10 @@ namespace AppMovilFE.Paginas
             comp.exonerado = "0.00";
             comp.inafecto = "0.00";
 
-            switch (serie[CombSerie.SelectedIndex].tipocomp)
-            {
-                case "IGV":
-             comp.gravado = double.Parse(TextSubtotal.Text).ToString("0.00");
-                    break;
-                case "EXO":
-            comp.inafecto = double.Parse(TextSubtotal.Text).ToString("0.00");
-                    break;
-                case "INA":
-            comp.exonerado = double.Parse(TextSubtotal.Text).ToString("0.00");
-                    break;
-                default:
-                    break;
-            }
-                       
-            
 
+
+            comp.tipo_igv = serie[CombSerie.SelectedIndex].tipocomp;
+            comp.montoafectado= double.Parse(TextSubtotal.Text).ToString("0.00");
             comp.igv = TextIgv.Text;
             comp.total = TextTotal.Text;
             comp.percepcion = "0";
@@ -344,17 +331,24 @@ namespace AppMovilFE.Paginas
             //  await api.EnviarComprobante(comp);
 
             DLL_KS_OSE.Bussines.CrearComp crear = new DLL_KS_OSE.Bussines.CrearComp();
+            var resp = crear.Crear(comp, emi);
+            await   DisplayAlert("SYSTEM", resp,"OK");
 
-            await   DisplayAlert("SYSTEM", crear.Crear(comp, emi),"OK");
+            DependencyService.Get<ISaveAndLoad>().SaveText(comp.serie+"-"+comp.nume+".json", resp);
 
             //INSERTAR BD
 
             var complocal = new Comprobante();
             complocal.comp = comp.comp;
             complocal.serie = comp.serie;
-            complocal.nume = comp.nume;
+            complocal.nume = int.Parse(comp.nume);
            
             _entityFrameworkService.ComprobanteInse(complocal);
+
+
+
+            //var result = _entityFrameworkService.ComprobanteAll();
+            obtener_numero();
 
         }
 

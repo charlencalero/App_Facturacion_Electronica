@@ -121,11 +121,11 @@ C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppM
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\bin\Debug\System.ComponentModel.DataAnnotations.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\bin\Debug\System.Configuration.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\bin\Debug\System.Security.dll
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\res\drawable\confi_icon.png
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\bin\Debug\AppMovilFE.Android.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\bin\Debug\DLL_KS_OSE.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\bin\Debug\Integracion EsconDatagate.dll
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\AppMovilFE.pdb
-C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\AppEntity.pdb
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\AppMovilFE.Android.dll.mdb
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

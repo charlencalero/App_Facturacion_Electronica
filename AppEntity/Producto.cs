@@ -11,8 +11,9 @@ namespace AppEntity
 
         }
 
-        public Producto(string prod_codi, string prod_descr, string prod_unid, string prod_precio, string prod_stock)
+        public Producto(int Id,string prod_codi, string prod_descr, string prod_unid, string prod_precio, string prod_stock)
         {
+            this.Id= Id;
             this.prod_codi = prod_codi;
             this.prod_descr = prod_descr;
             this.prod_unid = prod_unid;
@@ -20,6 +21,7 @@ namespace AppEntity
             this.prod_stock = prod_stock;
         }
 
+        public int Id { get; set; }
         public string prod_codi { get; set; }
         public string prod_descr { get; set; }
         public string prod_unid { get; set; }

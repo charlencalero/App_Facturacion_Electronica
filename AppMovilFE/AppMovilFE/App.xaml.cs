@@ -8,11 +8,12 @@ namespace AppMovilFE
 {
 	public partial class App : Application
 	{
-		public App ()
+        public static MasterDetailPage MasterDetail { get; set; }
+
+        public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new VentasPg();
+            MainPage = new AppMovilFE.MainPage();
 		}
 
 		protected override void OnStart ()

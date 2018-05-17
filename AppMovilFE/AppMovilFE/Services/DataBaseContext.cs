@@ -12,6 +12,8 @@ namespace AppMovilFE.Services
 
      public DbSet<Serie> TablaSerie { get; set; }
      public DbSet<Comprobante> TablaComprobante { get; set; }
+     public DbSet<Producto> TablaProducto { get; set; }
+     public DbSet<Cliente> TablaCliente { get; set; }
 
         public DatabaseContext()
     {

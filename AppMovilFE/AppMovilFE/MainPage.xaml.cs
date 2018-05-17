@@ -4,14 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
+  
 namespace AppMovilFE
 {
-	public partial class MainPage : ContentPage
-	{
-		public MainPage()
-		{
-			InitializeComponent();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MainPage : MasterDetailPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+            Master = new Master();
+            Detail = new NavigationPage(new Detail());
+
+            App.MasterDetail = this;
+        }
+    }
 }

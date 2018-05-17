@@ -3,15 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppMovilFE.Paginas.ProductosPg">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical">
-            <Label Text="Modulo de Productos"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Entry Placeholder="Ingrese codigo" x:Name="textcodigo"></Entry>
+       
+            <Frame OutlineColor="Gray" Padding="10" Margin="30,10,30,10">
+            <StackLayout Orientation="Vertical">     
+                <Label FontSize="Medium" FontAttributes="Bold" Text="Modulo de Productos"></Label>
+                <Entry Placeholder="Ingrese codigo" x:Name="textcodigo"></Entry>
             <Entry Placeholder="Ingrese Descripcion" x:Name="textnombre"></Entry>
             <Picker Title="Seleccione Unidad" x:Name="combounidad" ></Picker>
-            <Entry Placeholder="Ingrese Precio" x:Name="textprecio"></Entry>
+            <Entry  Placeholder="Ingrese Precio" x:Name="textprecio"></Entry>
             <Entry Placeholder="Ingrese Cantidad" x:Name="textcantidad"></Entry>
-        </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button Style="{StaticResource Botones}" Text="Grabar"></Button>
+                    <Button Style="{StaticResource Botones}" Text="Nuevo"></Button>
+                    <Button Style="{StaticResource Botones}" Text="Listar"></Button>
+            </StackLayout>
+             </StackLayout>
+            
+            </Frame>
+           
+            
+       
     </ContentPage.Content>
 </ContentPage>

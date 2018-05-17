@@ -1,0 +1,16 @@
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\bin\Release\netstandard2.0\AppMovilFE.deps.json
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\bin\Release\netstandard2.0\AppMovilFE.dll
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\bin\Release\netstandard2.0\AppMovilFE.pdb
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\bin\Release\netstandard2.0\AppEntity.dll
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\bin\Release\netstandard2.0\DLL_KS_OSE.dll
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\bin\Release\netstandard2.0\Integracion EsconDatagate.dll
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\bin\Release\netstandard2.0\AppEntity.pdb
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\bin\Release\netstandard2.0\DLL_KS_OSE.pdb
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\bin\Release\netstandard2.0\Integracion EsconDatagate.pdb
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\obj\Release\netstandard2.0\AppMovilFE.csprojAssemblyReference.cache
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\obj\Release\netstandard2.0\AppMovilFE.csproj.CoreCompileInputs.cache
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\obj\Release\netstandard2.0\AppMovilFE.AssemblyInfoInputs.cache
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\obj\Release\netstandard2.0\AppMovilFE.AssemblyInfo.cs
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\obj\Release\netstandard2.0\AppMovilFE.csproj.CopyComplete
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\obj\Release\netstandard2.0\AppMovilFE.dll
+C:\Users\charlen.calero\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE\obj\Release\netstandard2.0\AppMovilFE.pdb
