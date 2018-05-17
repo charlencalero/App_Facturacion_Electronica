@@ -23,6 +23,7 @@ namespace AppMovilFE
                 Title = "Ventas",
                 IconSource = "confi_icon.png",
                 TargetType = typeof(VentasPg)
+               
             });
 
             masterPageItems.Add(new MasterPageItem
@@ -43,6 +44,13 @@ namespace AppMovilFE
                 Title = "Productos",
                 IconSource = "confi_icon.png",
                 TargetType = typeof(ProductosPg)
+            });
+
+            masterPageItems.Add(new MasterPageItem
+            {
+                Title = "Emisor",
+                IconSource = "confi_icon.png",
+                TargetType = typeof(EmisorPg)
             });
 
             listView.ItemsSource = masterPageItems;

@@ -23,13 +23,16 @@
 
             <Thickness x:Key="zonaMargin">10,0,10,10</Thickness>
 
-            
-               <Style x:Key="Texto" TargetType="Entry">
+            <Color x:Key="TextoColor">Black</Color>
+            <Color x:Key="PlaceHolderColor">Silver</Color>
+
+            <Style x:Key="Texto" TargetType="Entry">
 
                 <!--<Setter Property="WidthRequest" Value="120" />-->
                 <Setter Property="HeightRequest" Value="45" />
                 <Setter Property="Margin" Value="{StaticResource zonaMargin}" />
-
+                <Setter Property="TextColor" Value="{StaticResource TextoColor}" />
+                <Setter Property="PlaceholderColor" Value="{StaticResource PlaceHolderColor}" />
             </Style>
             
             <Style x:Key="Etiqueta" TargetType="Button">
@@ -38,6 +41,7 @@
                 <Setter Property="Margin" Value="{StaticResource zonaMargin}" />
 
             </Style>
+
          
 
             <Style x:Key="EtiquetaProd" TargetType="Label">

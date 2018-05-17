@@ -11,5 +11,11 @@ namespace AppMovilFE.Services
         void SerieInse(Serie item);
         void SerieUpda(Serie item);
         void SerieDele(Serie item);
+
+
+        IList<Producto> ProductoAll();
+        void ProductoInse(Producto item);
+        void ProductoUpda(Producto item);
+        void ProductoDele(Producto item);
     }
 }

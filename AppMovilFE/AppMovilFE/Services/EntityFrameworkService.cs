@@ -1,14 +1,16 @@
 ﻿using AppEntity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace AppMovilFE.Services
 {
     class EntityFrameworkService: IEntityFrameworkService
     {
-        private DatabaseContext _context;
+        private static DatabaseContext _context;
 
         public EntityFrameworkService()
         {
@@ -46,29 +48,29 @@ namespace AppMovilFE.Services
 
         #region Tabla Producto
 
-        public IList<Producto> ProductoAll()
+        public  IList<Producto> ProductoAll()
         {
-            _context = new DatabaseContext();
-            return _context.TablaProducto.ToList();
+            return   _context.TablaProducto.ToList();
         }
 
-        public void ProductoInse(Producto model)
+        public async void ProductoInse(Producto model)
         {
-
-            _context.TablaProducto.Add(model);
-            _context.SaveChanges();
+           _context.TablaProducto.Add(model);
+             await    _context.SaveChangesAsync();
         }
 
-        public void ProductoUpda(Producto model)
+      
+
+        public async void ProductoUpda(Producto model)
         {
             _context.TablaProducto.Update(model);
-            _context.SaveChanges();
+        await  _context.SaveChangesAsync();
         }
 
-        public void productoDele(Producto item)
+        public async void ProductoDele(Producto item)
         {
             _context.TablaProducto.Remove(item);
-            _context.SaveChanges();
+          await  _context.SaveChangesAsync();
         }
 
         #endregion

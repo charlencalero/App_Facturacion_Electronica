@@ -1,4 +1,5 @@
 using AppMovilFE.Paginas;
+using AppMovilFE.Services;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -10,10 +11,14 @@ namespace AppMovilFE
 	{
         public static MasterDetailPage MasterDetail { get; set; }
 
-        public App ()
-		{
-			InitializeComponent();
+
+        public App()
+        {
+            InitializeComponent();
+  
+
             MainPage = new AppMovilFE.MainPage();
+        
 		}
 
 		protected override void OnStart ()

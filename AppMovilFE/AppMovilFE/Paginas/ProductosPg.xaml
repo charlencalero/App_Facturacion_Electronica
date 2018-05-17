@@ -4,22 +4,43 @@
              x:Class="AppMovilFE.Paginas.ProductosPg">
     <ContentPage.Content>
        
-            <Frame OutlineColor="Gray" Padding="10" Margin="30,10,30,10">
-            <StackLayout Orientation="Vertical">     
-                <Label FontSize="Medium" FontAttributes="Bold" Text="Modulo de Productos"></Label>
-                <Entry Placeholder="Ingrese codigo" x:Name="textcodigo"></Entry>
-            <Entry Placeholder="Ingrese Descripcion" x:Name="textnombre"></Entry>
+           
+            <StackLayout Orientation="Vertical" Margin="50,10,50,10">
+            <Label Text=""></Label>
+            <Label FontSize="Large" FontAttributes="Bold" Text="Registro de Productos" TextColor="Navy"></Label>
+            <Label Text=""></Label>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese codigo" x:Name="textcodigo"></Entry>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Descripcion" x:Name="textnombre"></Entry>
             <Picker Title="Seleccione Unidad" x:Name="combounidad" ></Picker>
-            <Entry  Placeholder="Ingrese Precio" x:Name="textprecio"></Entry>
-            <Entry Placeholder="Ingrese Cantidad" x:Name="textcantidad"></Entry>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Precio" x:Name="textprecio"></Entry>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Cantidad" x:Name="textcantidad"></Entry>
+            <Label Text=""></Label>
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                    <Button Style="{StaticResource Botones}" Text="Grabar"></Button>
-                    <Button Style="{StaticResource Botones}" Text="Nuevo"></Button>
-                    <Button Style="{StaticResource Botones}" Text="Listar"></Button>
+                    <Button Style="{StaticResource Botones}" Text="Grabar" Clicked="cmd_grabar"></Button>
+                    <Button Style="{StaticResource Botones}" Text="Nuevo" Clicked="cmd_nuevo"></Button>
+                    <Button Style="{StaticResource Botones}" Text="Listar" Clicked="cmd_listar"></Button>
             </StackLayout>
-             </StackLayout>
-            
-            </Frame>
+            <Label x:Name="Alerta" TextColor="Red"></Label>
+
+            <ListView WidthRequest="450" HeightRequest="200" x:Name="ListDetalle"  HasUnevenRows="True" BackgroundColor="White">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label WidthRequest="300" Text="{Binding prod_codi}"/>
+                                <Label WidthRequest="300" Text="{Binding prod_descr}"/>
+                                <Label WidthRequest="75" Text="{Binding prod_precio}"/>
+                                <Label WidthRequest="75" Text="{Binding prod_stock}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+        </StackLayout>
+      
+          
            
             
        

@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace AppMovilFE.Services
 {
-    class DatabaseContext: DbContext
+   class DatabaseContext: DbContext
     {
 
      public DbSet<Serie> TablaSerie { get; set; }
@@ -15,10 +15,12 @@ namespace AppMovilFE.Services
      public DbSet<Producto> TablaProducto { get; set; }
      public DbSet<Cliente> TablaCliente { get; set; }
 
-        public DatabaseContext()
+    public DatabaseContext()
     {
         this.Database.EnsureCreated();
-    }
+       this.Database.Migrate();
+
+     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

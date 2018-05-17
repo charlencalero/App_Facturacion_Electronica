@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMovilFE.Paginas.EmisorPg">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Margin="50,10,50,10">
+            <Label Text=""></Label>
+            <Label FontSize="Large" FontAttributes="Bold" Text="Registro de Emisor" TextColor="Navy"></Label>
+            <Label Text=""></Label>
+
+            <Entry Style="{StaticResource Texto}"  Placeholder="Ingrese Nro Documento" x:Name="textdocumento"></Entry>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Nombre de la Empresa" x:Name="textnombre"></Entry>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Razon Social" x:Name="textrazon"></Entry>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Ubigeo" x:Name="textubigeo"></Entry>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Direccion" x:Name="textdireccion"></Entry>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Urbanizacion" x:Name="texturbanizacion"></Entry>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Departamento" x:Name="textdepartamento"></Entry>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Provincia" x:Name="textprovincia"></Entry>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Distrito" x:Name="textdistrito"></Entry>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Telefono" x:Name="texttelefono"></Entry>
+            <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Email" x:Name="textemail"></Entry>
+            <Label Text=""></Label>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Style="{StaticResource Botones}" Text="Grabar" ></Button>
+                <Button Style="{StaticResource Botones}" Text="Nuevo" ></Button>
+                <Button Style="{StaticResource Botones}" Text="Listar" ></Button>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
