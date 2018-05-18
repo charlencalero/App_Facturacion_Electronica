@@ -14,9 +14,9 @@
             <Entry Style="{StaticResource Texto}" Placeholder="Ingrese Celular" x:Name="textcelular"></Entry>
             <Label Text=""></Label>
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                <Button Style="{StaticResource Botones}" Text="Grabar" ></Button>
-                <Button Style="{StaticResource Botones}" Text="Nuevo" ></Button>
-                <Button Style="{StaticResource Botones}" Text="Listar" ></Button>
+                <Button Style="{StaticResource Botones}" Text="Grabar" Clicked="cmd_grabar" ></Button>
+                <Button Style="{StaticResource Botones}" Text="Nuevo" Clicked="cmd_nuevo" ></Button>
+       
             </StackLayout>
 
         </StackLayout>

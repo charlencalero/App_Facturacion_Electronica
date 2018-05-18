@@ -40,7 +40,8 @@ namespace AppMovilFE.Paginas
                 var producto = new Producto();
 
                 producto.Id = 0;
-                producto.prod_descr = textcantidad.Text;
+                producto.prod_codi = textcodigo.Text;
+                producto.prod_descr = textnombre.Text;
                 producto.prod_unid = combounidad.SelectedItem.ToString();
                 producto.prod_stock = textcantidad.Text;
                 producto.prod_precio = textprecio.Text;
@@ -74,20 +75,6 @@ namespace AppMovilFE.Paginas
             textcantidad.Text = "";
        
         }
-        private void cmd_listar()
-        {
-            ObservableCollection<Producto> producto = new ObservableCollection<Producto>();
-            _entityFrameworkService = new EntityFrameworkService();
-
-           var prod=_entityFrameworkService.ProductoAll();
-
-            for (int i = 0; i < prod.Count; i++)
-            {
-                producto.Add(new Producto(prod[i].Id, prod[i].prod_codi, prod[i].prod_descr, prod[i].prod_unid, prod[i].prod_precio, prod[i].prod_stock));
-            }
-         
-
-            ListDetalle.ItemsSource = producto;
-        }
+      
     }
 }

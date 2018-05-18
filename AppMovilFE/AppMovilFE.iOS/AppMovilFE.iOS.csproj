@@ -167,5 +167,7 @@
   <ItemGroup>
     <BundleResource Include="logo_escon.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BundleResource Include="confi_icon.png" />
+  </ItemGroup>
 </Project>

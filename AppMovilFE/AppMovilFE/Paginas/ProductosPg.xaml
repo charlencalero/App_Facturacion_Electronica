@@ -18,25 +18,9 @@
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Button Style="{StaticResource Botones}" Text="Grabar" Clicked="cmd_grabar"></Button>
                     <Button Style="{StaticResource Botones}" Text="Nuevo" Clicked="cmd_nuevo"></Button>
-                    <Button Style="{StaticResource Botones}" Text="Listar" Clicked="cmd_listar"></Button>
+                 
             </StackLayout>
-            <Label x:Name="Alerta" TextColor="Red"></Label>
-
-            <ListView WidthRequest="450" HeightRequest="200" x:Name="ListDetalle"  HasUnevenRows="True" BackgroundColor="White">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout Orientation="Horizontal">
-                                <Label WidthRequest="300" Text="{Binding prod_codi}"/>
-                                <Label WidthRequest="300" Text="{Binding prod_descr}"/>
-                                <Label WidthRequest="75" Text="{Binding prod_precio}"/>
-                                <Label WidthRequest="75" Text="{Binding prod_stock}"/>
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-
+           
 
         </StackLayout>
       
