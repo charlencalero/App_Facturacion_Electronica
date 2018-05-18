@@ -49,3 +49,11 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
+System.ComponentModel.Annotations
+System.Threading.Tasks
+System.Collections
+System.Diagnostics.Debug
+System.Threading
+System.Reflection.Extensions
+System.Linq.Queryable
+System.Resources.ResourceManager

@@ -9,10 +9,11 @@ namespace AppEntity
         public Cliente()
         { }
 
-        public Cliente(int id,string tipodocu, string nombres, string direccion, string email, string celular)
+        public Cliente(int id,string tipodocu,string documento, string nombres, string direccion, string email, string celular)
         {
             Id = id;
             this.tipodocu = tipodocu;
+            this.documento = documento;
             this.nombres = nombres;
             this.direccion = direccion;
             this.email = email;
@@ -21,6 +22,7 @@ namespace AppEntity
 
         public int Id { get; set; }
         public string tipodocu { get; set; }
+        public string documento { get; set; }
         public string nombres { get; set; }
         public string direccion { get; set; }
         public string email { get; set; }

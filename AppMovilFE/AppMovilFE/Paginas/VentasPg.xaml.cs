@@ -94,19 +94,53 @@ namespace AppMovilFE.Paginas
 
         private async void BuscarCliente()
         {
-         
+            if (CombTipoDocu.SelectedIndex < 0)
+            {
+             await   DisplayAlert("system", "Seleccione El Tipo de Documento", "ok");
+                return;
+            }
 
-            List<string> myList = new List<string>();
+            if (TextDni.Text == "" || TextDni.Text == null)
+            {
+             await   DisplayAlert("system", "Ingrese una parametro a buscar", "ok");
+                return;
+            }
 
-            myList.Add("calero");
-            myList.Add("maximo");
-            myList.Add("charlen");
+            _entityFrameworkService = new EntityFrameworkService();
 
-            string[] myArray = myList.ToArray();
+        var clie= _entityFrameworkService.ClienteDocu(CombTipoDocu.SelectedItem.ToString(), TextDni.Text);
 
-          var action = await DisplayActionSheet("hola", "ok", null, myArray);
+            if (clie != null)
+            {
+                TextNombre.Text = clie.nombres;
+                TextDireccion.Text = clie.direccion;
+                TextEmail.Text = clie.email;
+                
+            }
+            else
+            {
+                var clientes = _entityFrameworkService.ClienteTexto(TextDni.Text);
 
-            var id = myList.IndexOf(action);
+                 List<string> myList = new List<string>();
+
+                for (int i = 0; i < clientes.Count; i++)
+                {
+                 myList.Add(clientes[i].nombres);
+                }
+                 string[] myArray = myList.ToArray();
+
+                var action = await DisplayActionSheet("Selecciona Cliente", "ok", null, myArray);
+
+                var id = myList.IndexOf(action);
+
+                TextNombre.Text = clientes[id].nombres;
+                TextDireccion.Text = clientes[id].direccion;
+                TextEmail.Text = clientes[id].email;
+
+            }
+
+
+                    
 
         }
 

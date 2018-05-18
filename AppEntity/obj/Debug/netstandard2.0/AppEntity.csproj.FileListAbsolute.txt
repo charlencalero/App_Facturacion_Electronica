@@ -32,3 +32,4 @@ C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\net
 C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\netstandard2.0\AppEntity.csproj.CopyComplete
 C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\netstandard2.0\AppEntity.dll
 C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppEntity\obj\Debug\netstandard2.0\AppEntity.pdb
+C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppEntity\obj\Debug\netstandard2.0\AppEntity.csprojAssemblyReference.cache

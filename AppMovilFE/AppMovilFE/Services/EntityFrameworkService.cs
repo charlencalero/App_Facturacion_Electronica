@@ -25,6 +25,16 @@ namespace AppMovilFE.Services
             return _context.TablaCliente.ToList();
         }
 
+        public Cliente ClienteDocu(string tipodoc,string docu)
+        {
+            return _context.TablaCliente.Where(p=> p.tipodocu==tipodoc && p.documento==docu ).FirstOrDefault();
+        }
+
+        public IList<Cliente> ClienteTexto(string filtro)
+        {
+            return _context.TablaCliente.Where(p=>p.documento.Contains(filtro) || p.nombres.Contains(filtro)).ToList();
+        }
+
         public void ClienteInse(Cliente model)
         {
 

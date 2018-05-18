@@ -37,13 +37,15 @@ namespace AppMovilFE.Paginas
                 cliente.Id = 0;
                 cliente.tipodocu =combotipodocu.SelectedItem.ToString();
                 cliente.nombres = textnombre.Text;
+                cliente.documento = textdocu.Text;
                 cliente.direccion = textdireccion.Text;
                 cliente.email = textemail.Text;
                 cliente.celular = textcelular.Text;
               
                 textdireccion.Text = "";
                 textnombre.Text = "";
-               textemail.Text = "";
+                textdocu.Text = "";
+                textemail.Text = "";
                 textcelular.Text = "";
 
                 _entityFrameworkService.ClienteInse(cliente);
@@ -65,7 +67,7 @@ namespace AppMovilFE.Paginas
             textnombre.Text = "";
             textemail.Text = "";
             textcelular.Text = "";
-
+            textdocu.Text = "";
         }
        
     }
