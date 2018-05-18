@@ -116,7 +116,7 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
-                    <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" FontAttributes="Bold" Text="Agregar Productos Libres"></Label>
+                 
 
                     <Label Grid.Column="0" Grid.Row="1"  Style="{StaticResource Etiqueta}" WidthRequest="100" Text="Detalle"></Label>
                     <Entry Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Style="{StaticResource Texto}" WidthRequest="350" x:Name="TextServDetalle"></Entry>
@@ -124,8 +124,8 @@
 
                     <Label Grid.Column="0" Grid.Row="2"  Style="{StaticResource Etiqueta}" WidthRequest="100" Text="Precio"></Label>
                     <Entry Grid.Column="1" Grid.Row="2" Style="{StaticResource Texto}" WidthRequest="75" x:Name="TextPrecio" ></Entry>
-                    <Label Grid.Column="2" Grid.Row="2" Style="{StaticResource Etiqueta}" WidthRequest="100" Text="Cantidad"></Label>
-                    <Entry Grid.Column="3" Grid.Row="2" Style="{StaticResource Texto}" WidthRequest="75" x:Name="TextCantidad"  ></Entry>
+                    <Label Grid.Column="2" Grid.Row="2" Style="{StaticResource Etiqueta}" WidthRequest="100"  Text="Cantidad"></Label>
+                    <Entry Grid.Column="3" Grid.Row="2" Style="{StaticResource Texto}" WidthRequest="75" Text="1" x:Name="TextCantidad"  ></Entry>
                     <Button Grid.Column="4" Grid.Row="2" Style="{StaticResource Botones}" x:Name="ButtAgregar" Clicked="ButtAgregar_Clicked" FontAttributes="Bold" FontSize="Large" Text="+"></Button>
                 </Grid>
 

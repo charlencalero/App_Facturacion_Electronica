@@ -187,31 +187,36 @@ namespace AppMovilFE.Paginas
         private void ButtAgregar_Clicked(object sender, EventArgs e)
         {
 
+            AgregarDetalle("-", TextServDetalle.Text, TextCantidad.Text, TextPrecio.Text,"NIU");
+        }
+
+        private void AgregarDetalle(string codigo,string descripcion,string cantidad,string precio,string unidad)
+        {
             if (CombSerie.SelectedIndex < 0)
             {
                 DisplayAlert("system", "Seleccione una Serie Valida", "ok");
                 return;
             }
 
-            if (TextServDetalle.Text == "" || TextServDetalle.Text == null)
+            if (descripcion == "" || descripcion == null)
             {
                 DisplayAlert("system", "Ingrese una descripcion para el Detalle", "ok");
                 return;
             }
 
-            if (TextCantidad.Text == "" || TextCantidad.Text == null)
+            if (cantidad == "" || cantidad == null)
             {
                 DisplayAlert("system", "Ingrese una descripcion para el Detalle", "ok");
                 return;
             }
 
-            if (TextPrecio.Text == "" || TextPrecio.Text == null)
+            if (precio == "" ||precio == null)
             {
                 DisplayAlert("system", "Ingrese una descripcion para el Detalle", "ok");
                 return;
             }
 
-            detalle.Add(new DLL_KS_OSE.Entity.Detalle("-", TextServDetalle.Text, "NIU", TextPrecio.Text, "0", TextCantidad.Text, "0",serie[CombSerie.SelectedIndex].tipoigv , "0", "-"));
+            detalle.Add(new DLL_KS_OSE.Entity.Detalle(codigo, descripcion, unidad, precio, "0",cantidad, "0", serie[CombSerie.SelectedIndex].tipoigv, "0", "-"));
 
             ListDetalle.ItemsSource = detalle;
 
@@ -231,8 +236,6 @@ namespace AppMovilFE.Paginas
             prod_busca.IsVisible = true;
             prod_libre.IsVisible = false;
         }
-
-
 
         private void Button_Clicked(object sender, EventArgs e)
         {
@@ -386,14 +389,57 @@ namespace AppMovilFE.Paginas
 
         }
 
-        private async void BuscProd_Clicked(object sender, EventArgs e)
+        private  void BuscProd_Clicked(object sender, EventArgs e)
+        {
+
+           BuscarProducto(TextBuscProd.Text);
+
+        }
+        
+        private async void BuscCode_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new BuscarProductoPg());
         }
 
-        private async void BuscCode_Clicked(object sender, EventArgs e)
+        private async void BuscarProducto(string filtro)
         {
-            await Navigation.PushAsync(new BuscarProductoPg());
+            
+
+            if (filtro == "" || filtro == null)
+            {
+               await DisplayAlert("system", "Ingrese una parametro a buscar", "ok");
+                return;
+            }
+
+            _entityFrameworkService = new EntityFrameworkService();
+
+            var prod = _entityFrameworkService.ProductoCodi(filtro);
+
+            if (prod != null)
+            {
+                AgregarDetalle(prod.prod_codi, prod.prod_descr, "1", prod.prod_precio, prod.prod_unid);
+
+            }
+            else
+            {
+                var productos= _entityFrameworkService.ProductoTexto(filtro);
+
+                List<string> myList = new List<string>();
+
+                for (int i = 0; i < productos.Count; i++)
+                {
+                    myList.Add(productos[i].prod_descr);
+                }
+                string[] myArray = myList.ToArray();
+
+                var action = await DisplayActionSheet("Selecciona Producto", "ok", null, myArray);
+
+                var id = myList.IndexOf(action);
+
+                AgregarDetalle(productos[id].prod_codi, productos[id].prod_descr, "1", productos[id].prod_precio, productos[id].prod_unid);
+
+            }
+
         }
 
         private  void BuscLibre_Clicked(object sender, EventArgs e)

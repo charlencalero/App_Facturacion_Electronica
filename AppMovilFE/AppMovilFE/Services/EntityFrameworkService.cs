@@ -63,13 +63,21 @@ namespace AppMovilFE.Services
             return   _context.TablaProducto.ToList();
         }
 
+        public Producto ProductoCodi(string codi)
+        {
+            return _context.TablaProducto.Where(p => p.prod_codi == codi ).FirstOrDefault();
+        }
+
+        public IList<Producto> ProductoTexto(string filtro)
+        {
+            return _context.TablaProducto.Where(p => p.prod_codi.Contains(filtro) || p.prod_descr.Contains(filtro)).ToList();
+        }
+
         public async void ProductoInse(Producto model)
         {
            _context.TablaProducto.Add(model);
              await    _context.SaveChangesAsync();
         }
-
-      
 
         public async void ProductoUpda(Producto model)
         {

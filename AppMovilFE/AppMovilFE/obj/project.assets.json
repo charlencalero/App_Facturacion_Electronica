@@ -3786,23 +3786,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MAXIMO\\.nuget\\packages\\": {},
+    "C:\\Users\\charlen.calero\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj",
+      "projectUniqueName": "C:\\Users\\charlen.calero\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj",
       "projectName": "AppMovilFE",
-      "projectPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj",
-      "packagesPath": "C:\\Users\\MAXIMO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\obj\\",
+      "projectPath": "C:\\Users\\charlen.calero\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj",
+      "packagesPath": "C:\\Users\\charlen.calero\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\charlen.calero\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\MAXIMO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\charlen.calero\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3815,8 +3815,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj": {
-              "projectPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj"
+            "C:\\Users\\charlen.calero\\Source\\Repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj": {
+              "projectPath": "C:\\Users\\charlen.calero\\Source\\Repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj"
             }
           }
         }
