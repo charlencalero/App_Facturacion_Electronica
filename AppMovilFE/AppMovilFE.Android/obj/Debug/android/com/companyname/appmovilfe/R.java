@@ -3062,6 +3062,7 @@ containing a value of this type.
         public static final int clip_vertical=0x7f09003a;
         public static final int collapseActionView=0x7f090024;
         public static final int container=0x7f090075;
+        public static final int contentFrame=0x7f0900b4;
         public static final int contentPanel=0x7f09004e;
         public static final int coordinator=0x7f090076;
         public static final int custom=0x7f090055;
@@ -3100,7 +3101,7 @@ containing a value of this type.
         public static final int line3=0x7f0900af;
         public static final int listMode=0x7f09000f;
         public static final int list_item=0x7f090048;
-        public static final int masked=0x7f0900b5;
+        public static final int masked=0x7f0900b6;
         public static final int media_actions=0x7f0900a1;
         public static final int middle=0x7f090022;
         public static final int mini=0x7f09003e;
@@ -3202,7 +3203,7 @@ containing a value of this type.
         public static final int up=0x7f090009;
         public static final int useLogo=0x7f090018;
         public static final int view_offset_helper=0x7f09000e;
-        public static final int visible=0x7f0900b4;
+        public static final int visible=0x7f0900b5;
         public static final int volume_item_container=0x7f090093;
         public static final int withText=0x7f090027;
         public static final int wrap_content=0x7f09001f;
@@ -3294,6 +3295,8 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f040041;
         public static final int tabbar=0x7f040042;
         public static final int toolbar=0x7f040043;
+        public static final int zxingscanneractivitylayout=0x7f040044;
+        public static final int zxingscannerfragmentlayout=0x7f040045;
     }
     public static final class mipmap {
         public static final int icon=0x7f030000;

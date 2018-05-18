@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "3ce176fddb31ada995900e6efece2e52953e27cc"
+    "signature": "d97bd6fa47ccc3ddaf9f3e4189aa18f13863de18"
   },
   "compilationOptions": {},
   "targets": {
@@ -14,6 +14,8 @@
           "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "9.0.1",
           "Xamarin.Forms": "3.0.0.446417",
+          "ZXing.Net": "0.16.4",
+          "ZXing.Net.Mobile": "2.4.1",
           "DLL_KS_OSE": "1.0.0.0",
           "Integracion EsconDatagate": "1.0.0.0"
         },
@@ -619,6 +621,21 @@
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
         }
       },
+      "ZXing.Net/0.16.4": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile/2.4.1": {
+        "runtime": {
+          "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll": {},
+          "lib/netstandard1.0/ZXingNetMobile.dll": {},
+          "lib/netstandard1.0/zxing.portable.dll": {}
+        }
+      },
       "AppEntity/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": "2.0.3"
@@ -1078,6 +1095,20 @@
       "sha512": "sha512-9Q6dING0FdSiOlsWUdNUzNiZgEljZ7rez5rn3+77+h0hfaFjSyV0tZQ1y2u2pXzRqgWNjDH3rrcCSoKgkMIxzA==",
       "path": "xamarin.forms/3.0.0.446417",
       "hashPath": "xamarin.forms.3.0.0.446417.nupkg.sha512"
+    },
+    "ZXing.Net/0.16.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9Qaq+ovAlJ5SL+1HiIzNXOLObj0iCPAytDtsa7QVSn7qx/CspfnlnleGYLeCiESTHBwW1ERxI1MBc2veFsK1sg==",
+      "path": "zxing.net/0.16.4",
+      "hashPath": "zxing.net.0.16.4.nupkg.sha512"
+    },
+    "ZXing.Net.Mobile/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
+      "path": "zxing.net.mobile/2.4.1",
+      "hashPath": "zxing.net.mobile.2.4.1.nupkg.sha512"
     },
     "AppEntity/1.0.0": {
       "type": "project",

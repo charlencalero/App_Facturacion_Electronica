@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace AppMovilFE.Paginas
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
@@ -31,11 +32,13 @@ namespace AppMovilFE.Paginas
         }
 
     private EntityFrameworkService _entityFrameworkService ;
+        private ScanService scanservice;
 
         public VentasPg()
         {
             InitializeComponent();
             cargar();
+            scanservice = new ScanService();
 
             emi.tipoDocId = "6";
             emi.numeroDocId = "20542471256";
@@ -224,7 +227,7 @@ namespace AppMovilFE.Paginas
 
             BindingContext = this;
 
-            double total = (double.Parse(TextTotal.Text) + (double.Parse(TextPrecio.Text) * double.Parse(TextCantidad.Text)));
+            double total = (double.Parse(TextTotal.Text) + (double.Parse(precio) * double.Parse(cantidad)));
             TextTotal.Text = total.ToString();
             TextIgv.Text = (total / 1.18).ToString("0.00");
             TextSubtotal.Text = (total * 0.82).ToString();
@@ -398,7 +401,8 @@ namespace AppMovilFE.Paginas
         
         private async void BuscCode_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new BuscarProductoPg());
+            var code = await scanservice.ScannerQr();
+            BuscarProducto(code.ToString());
         }
 
         private async void BuscarProducto(string filtro)
@@ -432,12 +436,17 @@ namespace AppMovilFE.Paginas
                 }
                 string[] myArray = myList.ToArray();
 
+                if (productos.Count > 0)
+                {
                 var action = await DisplayActionSheet("Selecciona Producto", "ok", null, myArray);
 
                 var id = myList.IndexOf(action);
 
                 AgregarDetalle(productos[id].prod_codi, productos[id].prod_descr, "1", productos[id].prod_precio, productos[id].prod_unid);
 
+                }
+
+          
             }
 
         }

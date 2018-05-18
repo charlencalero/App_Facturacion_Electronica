@@ -108,6 +108,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "AppMovilFE.Android.dll" comes first in this list. */
 		"AppMovilFE.Android.dll",
 		"AppMovilFE.dll",
+		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
 		"Microsoft.Data.Sqlite.dll",
 		"Microsoft.EntityFrameworkCore.dll",
@@ -153,6 +154,10 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"zxing.monoandroid.dll",
+		"ZXing.Net.Mobile.Core.dll",
+		"zxing.portable.dll",
+		"ZXingNetMobile.dll",
 		"AppEntity.dll",
 		"DLL_KS_OSE.dll",
 		"Integracion EsconDatagate.dll",
