@@ -1,4 +1,5 @@
 ﻿using AppEntity;
+using AppMovilFE.Data;
 using AppMovilFE.Services;
 using System;
 using System.Collections.Generic;
@@ -29,12 +30,13 @@ namespace AppMovilFE.Paginas
         private async void cmd_grabar()
         {
             _entityFrameworkService = new EntityFrameworkService();
+            DataAcces data = new DataAcces();
 
             try
             {
                 var cliente = new Cliente();
 
-                cliente.Id = 0;
+              
                 cliente.tipodocu =combotipodocu.SelectedItem.ToString();
                 cliente.nombres = textnombre.Text;
                 cliente.documento = textdocu.Text;
@@ -48,11 +50,13 @@ namespace AppMovilFE.Paginas
                 textemail.Text = "";
                 textcelular.Text = "";
 
-                _entityFrameworkService.ClienteInse(cliente);
+                // _entityFrameworkService.ClienteInse(cliente);
+
+                data.Insert<Cliente>(cliente);
 
                 await DisplayAlert("System", "Cliente agregado con exito", "ok");
                 //Alerta.Text = "Producto agregado con exito";
-
+                var result = data.GetList<Cliente>(false);
 
             }
             catch (Exception ex)

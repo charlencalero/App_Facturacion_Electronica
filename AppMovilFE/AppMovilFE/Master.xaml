@@ -4,13 +4,13 @@
              x:Class="AppMovilFE.Master"
              Title="MOVILF@CT">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="FillAndExpand" WidthRequest="150" Padding="30">
-            <ListView x:Name="listView"  VerticalOptions="FillAndExpand" 
+        <StackLayout VerticalOptions="FillAndExpand"   >
+            <ListView x:Name="listView"   VerticalOptions="FillAndExpand" 
                       SeparatorVisibility="Default"
-                      ItemSelected="ListView_OnItemSelected">
+                      ItemSelected="ListView_OnItemSelected" >
                 <ListView.ItemTemplate  >
                     <DataTemplate>
-                        <ImageCell   TextColor="Navy" Text="{Binding Title}" ImageSource="{Binding IconSource}"  />
+                        <ImageCell  DetailColor="Azure"  TextColor="Navy" Text="{Binding Title}" ImageSource="{Binding IconSource}"   />
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppMovilFE.Paginas.VentasPg">
+             x:Class="AppMovilFE.Paginas.VentasPg"
+             Title="Ventas"
+             BackgroundImage="fondo.jpg"
+             >
   
 
         <ScrollView>
@@ -11,10 +14,10 @@
 
             <StackLayout Orientation="Vertical" HorizontalOptions="Center" >
                 <Label Text=""></Label>
-                    <Image Source="logo_escon.png" HeightRequest="80"></Image>
+                    <!--<Image Source="logo_escon.png" HeightRequest="80"></Image>-->
             </StackLayout>
 
-               <Frame OutlineColor="Gray" Padding="10" Margin="30,10,30,10">
+               <Frame  Padding="10" Margin="30,10,30,10">
              
                   
                     <Grid HorizontalOptions="Center">
@@ -51,7 +54,7 @@
             
              
 
-              <Frame OutlineColor="Gray" Padding="10" Margin="30,10,30,10">
+              <Frame  Padding="10" Margin="30,10,30,10">
             <StackLayout  Orientation="Horizontal" HorizontalOptions="Center">
 
                     <Label  Style="{StaticResource Etiqueta}" Text="Cliente"></Label>
@@ -60,7 +63,7 @@
                     <Button Style="{StaticResource Botones}"  x:Name="BuscarDni" Clicked="BuscarCliente" Text="Buscar"  ></Button>
             </StackLayout>
            </Frame>
-            <Frame OutlineColor="Gray" Padding="10"  Margin="30,10,30,10">
+            <Frame  Padding="10"  Margin="30,10,30,10">
             
 
                     <Grid HorizontalOptions="Center">
@@ -87,7 +90,7 @@
   
             </Frame>
 
-            <Frame x:Name="prod_busca" OutlineColor="Gray" Padding="10"  Margin="30,10,30,10">
+            <Frame x:Name="prod_busca"  Padding="10"  Margin="30,10,30,10">
 
                 <StackLayout x:Name="StacProducto" Orientation="Horizontal" HorizontalOptions="Center" >
                    
@@ -101,7 +104,7 @@
             
            
 
-            <Frame IsVisible="False" x:Name="prod_libre" OutlineColor="Gray" Padding="10"   Margin="30,10,30,10">
+            <Frame IsVisible="False" x:Name="prod_libre"  Padding="10"   Margin="30,10,30,10">
 
                 <Grid HorizontalOptions="Center">
                     <Grid.RowDefinitions>
@@ -118,15 +121,15 @@
 
                  
 
-                    <Label Grid.Column="0" Grid.Row="1"  Style="{StaticResource Etiqueta}" WidthRequest="100" Text="Detalle"></Label>
-                    <Entry Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Style="{StaticResource Texto}" WidthRequest="350" x:Name="TextServDetalle"></Entry>
+                    <Label Grid.Column="0" Grid.Row="0"  Style="{StaticResource Etiqueta}" WidthRequest="100" Text="Detalle"></Label>
+                    <Entry Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" Style="{StaticResource Texto}" WidthRequest="350" x:Name="TextServDetalle"></Entry>
 
 
-                    <Label Grid.Column="0" Grid.Row="2"  Style="{StaticResource Etiqueta}" WidthRequest="100" Text="Precio"></Label>
-                    <Entry Grid.Column="1" Grid.Row="2" Style="{StaticResource Texto}" WidthRequest="75" x:Name="TextPrecio" ></Entry>
-                    <Label Grid.Column="2" Grid.Row="2" Style="{StaticResource Etiqueta}" WidthRequest="100"  Text="Cantidad"></Label>
-                    <Entry Grid.Column="3" Grid.Row="2" Style="{StaticResource Texto}" WidthRequest="75" Text="1" x:Name="TextCantidad"  ></Entry>
-                    <Button Grid.Column="4" Grid.Row="2" Style="{StaticResource Botones}" x:Name="ButtAgregar" Clicked="ButtAgregar_Clicked" FontAttributes="Bold" FontSize="Large" Text="+"></Button>
+                    <Label Grid.Column="0" Grid.Row="1"  Style="{StaticResource Etiqueta}" WidthRequest="100" Text="Precio"></Label>
+                    <Entry Grid.Column="1" Grid.Row="1" Style="{StaticResource Texto}" WidthRequest="75" x:Name="TextPrecio" ></Entry>
+                    <Label Grid.Column="2" Grid.Row="1" Style="{StaticResource Etiqueta}" WidthRequest="100"  Text="Cantidad"></Label>
+                    <Entry Grid.Column="3" Grid.Row="1" Style="{StaticResource Texto}" WidthRequest="75" Text="1" x:Name="TextCantidad"  ></Entry>
+                    <Button Grid.Column="4" Grid.Row="1" Style="{StaticResource Botones}" x:Name="ButtAgregar" Clicked="ButtAgregar_Clicked" FontAttributes="Bold" FontSize="Large" Text="+"></Button>
                 </Grid>
 
 
@@ -136,7 +139,7 @@
                 <Label FontAttributes="Bold" Text="Detalle de la Venta"></Label>
             </StackLayout>
 
-            <Frame OutlineColor="Gray" Padding="10"  Margin="30,10,30,10">
+            <Frame  Padding="10"  Margin="30,10,30,10">
                 <StackLayout x:Name="StacDetalle" Orientation="Horizontal" HorizontalOptions="Center">
                     <ListView WidthRequest="450" HeightRequest="200" x:Name="ListDetalle"  HasUnevenRows="True" >
                         <ListView.ItemTemplate>

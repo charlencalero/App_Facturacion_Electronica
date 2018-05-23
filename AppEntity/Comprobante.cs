@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite.Net.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -52,6 +53,7 @@ namespace AppEntity
          //   this.factguia = factguia;
         }
 
+        [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public String esta_pod { get; set; }
         public String codi_caja { get; set; }

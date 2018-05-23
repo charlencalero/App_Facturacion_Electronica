@@ -31,14 +31,22 @@ namespace AppMovilFE.Paginas
 
         }
 
-    private EntityFrameworkService _entityFrameworkService ;
+   // private EntityFrameworkService _entityFrameworkService ;
+        DataAcces data = new DataAcces();
         private ScanService scanservice;
+      private  Servidor ServidorEscon ;
 
         public VentasPg()
         {
             InitializeComponent();
             cargar();
             scanservice = new ScanService();
+            ServidorEscon = new Servidor();
+
+            ServidorEscon.servidor = "http://calidad.escondatagate.net";
+            ServidorEscon.url = "/wsParser/rest/parserWS";
+            ServidorEscon.usuario = "20542471256King02";
+            ServidorEscon.clave = "King2018*";
 
             emi.tipoDocId = "6";
             emi.numeroDocId = "20542471256";
@@ -65,10 +73,11 @@ namespace AppMovilFE.Paginas
 
         private void obtener_numero()
         {
-            _entityFrameworkService = new EntityFrameworkService();
+            //_entityFrameworkService = new EntityFrameworkService();
 
-            TextNumero.Text = _entityFrameworkService.ComprobanteMax(CombSerie.SelectedItem.ToString(), comprobante[CombSerie.SelectedIndex].codigo);
+            // TextNumero.Text = _entityFrameworkService.ComprobanteMax(CombSerie.SelectedItem.ToString(), comprobante[CombSerie.SelectedIndex].codigo);
 
+            TextNumero.Text = data.ComprobanteMax(CombSerie.SelectedItem.ToString(), comprobante[CombComp.SelectedIndex].codigo);
         }
 
         private void cargar_serie()
@@ -109,9 +118,10 @@ namespace AppMovilFE.Paginas
                 return;
             }
 
-            _entityFrameworkService = new EntityFrameworkService();
+           // _entityFrameworkService = new EntityFrameworkService();
 
-        var clie= _entityFrameworkService.ClienteDocu(CombTipoDocu.SelectedItem.ToString(), TextDni.Text);
+      //  var clie= _entityFrameworkService.ClienteDocu(CombTipoDocu.SelectedItem.ToString(), TextDni.Text);
+          var clie= data.ClienteDocu(CombTipoDocu.SelectedItem.ToString(), TextDni.Text);
 
             if (clie != null)
             {
@@ -122,9 +132,11 @@ namespace AppMovilFE.Paginas
             }
             else
             {
-                var clientes = _entityFrameworkService.ClienteTexto(TextDni.Text);
+                var clientes = data.ClienteTexto(TextDni.Text);
 
                  List<string> myList = new List<string>();
+
+             
 
                 for (int i = 0; i < clientes.Count; i++)
                 {
@@ -132,13 +144,24 @@ namespace AppMovilFE.Paginas
                 }
                  string[] myArray = myList.ToArray();
 
-                var action = await DisplayActionSheet("Selecciona Cliente", "ok", null, myArray);
+                if (clientes.Count != 0)
+                {
+                    var action = await DisplayActionSheet("Selecciona Cliente", "ok", null, myArray);
 
-                var id = myList.IndexOf(action);
+                    if (action != null)
+                    {
+                    var id = myList.IndexOf(action);
 
-                TextNombre.Text = clientes[id].nombres;
-                TextDireccion.Text = clientes[id].direccion;
-                TextEmail.Text = clientes[id].email;
+                    TextNombre.Text = clientes[id].nombres;
+                    TextDireccion.Text = clientes[id].direccion;
+                    TextEmail.Text = clientes[id].email;
+                    }
+                  
+                }
+                else
+                {
+                    await DisplayAlert("System","no se encontro ningun Cliente", "ok");
+                }
 
             }
 
@@ -229,8 +252,8 @@ namespace AppMovilFE.Paginas
 
             double total = (double.Parse(TextTotal.Text) + (double.Parse(precio) * double.Parse(cantidad)));
             TextTotal.Text = total.ToString();
-            TextIgv.Text = (total / 1.18).ToString("0.00");
-            TextSubtotal.Text = (total * 0.82).ToString();
+            TextIgv.Text = (total-(total / 1.18)).ToString("0.00");
+            TextSubtotal.Text = (total / 1.18).ToString("0.00");
 
             TextPrecio.Text = "";
             TextCantidad.Text = "";
@@ -324,7 +347,7 @@ namespace AppMovilFE.Paginas
                 detacomp.Add(item);
             }
 
-            _entityFrameworkService = new EntityFrameworkService();
+           // _entityFrameworkService = new EntityFrameworkService();
 
             comp.codi_cab = "0";
             comp.esta_pod = "0";
@@ -338,7 +361,7 @@ namespace AppMovilFE.Paginas
             comp.clie_docu = TextDni.Text;
             comp.clie_nomb = TextNombre.Text;
             comp.clie_dire = TextDireccion.Text;
-            comp.clie_email = TextDireccion.Text;
+            comp.clie_email = TextEmail.Text;
             comp.clie_celu = "";
             comp.dire_entr = "";
             comp.ubig_entr = "";
@@ -360,7 +383,7 @@ namespace AppMovilFE.Paginas
 
 
 
-            comp.tipo_igv = serie[CombSerie.SelectedIndex].tipocomp;
+            comp.tipo_igv = serie[CombSerie.SelectedIndex].tipoigv;
             comp.montoafectado= double.Parse(TextSubtotal.Text).ToString("0.00");
             comp.igv = TextIgv.Text;
             comp.total = TextTotal.Text;
@@ -371,7 +394,7 @@ namespace AppMovilFE.Paginas
             //  await api.EnviarComprobante(comp);
 
             DLL_KS_OSE.Bussines.CrearComp crear = new DLL_KS_OSE.Bussines.CrearComp();
-            var resp = crear.Crear(comp, emi);
+            var resp =await crear.Crear(comp, emi,ServidorEscon.servidor,ServidorEscon.url,ServidorEscon.usuario,ServidorEscon.clave);
             await   DisplayAlert("SYSTEM", resp,"OK");
 
             DependencyService.Get<ISaveAndLoad>().SaveText(comp.serie+"-"+comp.nume+".json", resp);
@@ -382,8 +405,8 @@ namespace AppMovilFE.Paginas
             complocal.comp = comp.comp;
             complocal.serie = comp.serie;
             complocal.nume = int.Parse(comp.nume);
-           
-            _entityFrameworkService.ComprobanteInse(complocal);
+
+            data.Insert<Comprobante>(complocal);
 
 
 
@@ -415,9 +438,9 @@ namespace AppMovilFE.Paginas
                 return;
             }
 
-            _entityFrameworkService = new EntityFrameworkService();
+            //_entityFrameworkService = new EntityFrameworkService();
 
-            var prod = _entityFrameworkService.ProductoCodi(filtro);
+            var prod = data.ProductoCodi(filtro);
 
             if (prod != null)
             {
@@ -426,8 +449,9 @@ namespace AppMovilFE.Paginas
             }
             else
             {
-                var productos= _entityFrameworkService.ProductoTexto(filtro);
+                var productos= data.ProductoTexto(filtro);
 
+           
                 List<string> myList = new List<string>();
 
                 for (int i = 0; i < productos.Count; i++)
@@ -438,14 +462,19 @@ namespace AppMovilFE.Paginas
 
                 if (productos.Count > 0)
                 {
-                var action = await DisplayActionSheet("Selecciona Producto", "ok", null, myArray);
+                    var action = await DisplayActionSheet("Selecciona Producto", "ok", null, myArray);
+                    if (action != null)
+                    {
+                    var id = myList.IndexOf(action);
+                    AgregarDetalle(productos[id].prod_codi, productos[id].prod_descr, "1", productos[id].prod_precio, productos[id].prod_unid);
 
-                var id = myList.IndexOf(action);
-
-                AgregarDetalle(productos[id].prod_codi, productos[id].prod_descr, "1", productos[id].prod_precio, productos[id].prod_unid);
-
+                    }
+               
                 }
-
+                else
+                {
+                    await DisplayAlert("SYSTEM","No se encontro ningun Producto", "ok");
+                }
           
             }
 

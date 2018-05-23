@@ -1,4 +1,5 @@
 ﻿using AppEntity;
+using AppMovilFE.Data;
 using AppMovilFE.Services;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace AppMovilFE.Paginas
 	public partial class ProductosPg : ContentPage
 	{
         private EntityFrameworkService _entityFrameworkService;
-
+        DataAcces data = new DataAcces();
 
         public ProductosPg ()
 		{
@@ -39,7 +40,7 @@ namespace AppMovilFE.Paginas
             {
                 var producto = new Producto();
 
-                producto.Id = 0;
+              
                 producto.prod_codi = textcodigo.Text;
                 producto.prod_descr = textnombre.Text;
                 producto.prod_unid = combounidad.SelectedItem.ToString();
@@ -54,11 +55,15 @@ namespace AppMovilFE.Paginas
                 textprecio.Text = "";
                 textcantidad.Text = "";
               
-               _entityFrameworkService.ProductoInse(producto);
+            // _entityFrameworkService.ProductoInse(producto);
+
+            
+
+                 data.Insert<Producto>(producto);
 
   await   DisplayAlert("System", "Producto agregado con exito", "ok");
                 //Alerta.Text = "Producto agregado con exito";
-
+                var result = data.GetList<Producto>(false);
 
             }
             catch (Exception ex)

@@ -2,16 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppMovilFE.Detail"
-             Title="MOVILF@CT">
+             BackgroundImage="fondo.jpg"
+             Title="MovilF@ct">
     <StackLayout Orientation="Vertical">
         <Label Text=""></Label>
         <Label Text=""></Label>
         <Label Text=""></Label>
         <Label Text=""></Label>
-        <Label FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" Text="Sistema de Facturacion Electronica Movil"></Label>
-        <Label FontSize="Medium" HorizontalOptions="Center" Text="KSOFT PARTNER BUSSINES"></Label>
+        <Label FontSize="Large" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" Text="Facturación Electrónica Movil"></Label>
+        <Label FontSize="Medium" TextColor="White" HorizontalOptions="Center" Text="KSOFT PARTNER BUSSINES"></Label>
         <Image HeightRequest="100" HorizontalOptions="Center" Source="logo_escon.png"></Image>
         <Label Text=""></Label>
-        <Label FontSize="Default" HorizontalOptions="Center" Text="LIMA-2018"></Label>
+        <Label FontSize="Default" TextColor="White" HorizontalOptions="Center" Text="LIMA-2018"></Label>
     </StackLayout>
 </ContentPage>

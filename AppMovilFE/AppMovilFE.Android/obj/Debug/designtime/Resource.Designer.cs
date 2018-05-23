@@ -26,7 +26,12 @@ namespace AppMovilFE.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::AppMovilFE.Droid.Resource.String.ApplicationName;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::AppMovilFE.Droid.Resource.String.Hello;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::AppMovilFE.Droid.Resource.Attribute.actionBarSize;
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::AppMovilFE.Droid.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::AppMovilFE.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::AppMovilFE.Droid.Resource.Layout.zxingscannerfragmentlayout;
 		}
 		
 		public partial class Animation
@@ -2246,6 +2251,9 @@ namespace AppMovilFE.Droid
 			// aapt resource value: 2130837594
 			public static int design_snackbar_background = 2130837594;
 			
+			// aapt resource value: 0
+			public static int fondo = 0;
+			
 			// aapt resource value: 2130837587
 			public static int ic_audiotrack_dark = 2130837587;
 			
@@ -2909,6 +2917,9 @@ namespace AppMovilFE.Droid
 			
 			// aapt resource value: 2131492981
 			public static int container = 2131492981;
+			
+			// aapt resource value: 0
+			public static int contentFrame = 0;
 			
 			// aapt resource value: 2131492942
 			public static int contentPanel = 2131492942;
@@ -3627,6 +3638,12 @@ namespace AppMovilFE.Droid
 			// aapt resource value: 0
 			public static int Toolbar = 0;
 			
+			// aapt resource value: 0
+			public static int zxingscanneractivitylayout = 0;
+			
+			// aapt resource value: 0
+			public static int zxingscannerfragmentlayout = 0;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -3758,11 +3775,17 @@ namespace AppMovilFE.Droid
 			// aapt resource value: 2131099681
 			public static int appbar_scrolling_view_behavior = 2131099681;
 			
+			// aapt resource value: 0
+			public static int ApplicationName = 0;
+			
 			// aapt resource value: 2131099682
 			public static int bottom_sheet_behavior = 2131099682;
 			
 			// aapt resource value: 2131099683
 			public static int character_counter_pattern = 2131099683;
+			
+			// aapt resource value: 0
+			public static int Hello = 0;
 			
 			// aapt resource value: 2131099667
 			public static int mr_button_content_description = 2131099667;

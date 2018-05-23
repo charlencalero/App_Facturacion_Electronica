@@ -271,6 +271,42 @@
           "lib/netstandard1.0/Remotion.Linq.dll": {}
         }
       },
+      "SQLite.Net-PCL/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SQLite.Net.Core-PCL": "3.1.1"
+        },
+        "compile": {
+          "lib/net4/SQLite.Net.Platform.Win32.dll": {},
+          "lib/net40/SQLite.Net.Platform.Generic.dll": {}
+        },
+        "runtime": {
+          "lib/net4/SQLite.Net.Platform.Win32.dll": {},
+          "lib/net40/SQLite.Net.Platform.Generic.dll": {}
+        }
+      },
+      "SQLite.Net.Core-PCL/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
+        }
+      },
+      "SQLiteNetExtensions/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.8",
+          "SQLite.Net-PCL": "3.0.5"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/SQLiteNetExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/SQLiteNetExtensions.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_green/1.1.7": {
         "type": "package",
         "dependencies": {
@@ -895,7 +931,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.0.3"
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.0.3",
+          "SQLite.Net-PCL": "3.1.1"
         },
         "compile": {
           "bin/placeholder/AppEntity.dll": {}
@@ -1328,6 +1365,65 @@
         "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.xml",
         "remotion.linq.2.1.1.nupkg.sha512",
         "remotion.linq.nuspec"
+      ]
+    },
+    "SQLite.Net-PCL/3.1.1": {
+      "sha512": "eIaIk+k4MwvBeKyzj1kgIegWXYZlaDAHNzsaYP7wNDgSqAdaza8FgCRun7mIZScJD/RIuKxN/b1V+bkC+/WIeA==",
+      "type": "package",
+      "path": "sqlite.net-pcl/3.1.1",
+      "files": [
+        "lib/MonoAndroid/SQLite.Net.Platform.XamarinAndroid.dll",
+        "lib/Windows8/SQLite.Net.Platform.WinRT.dll",
+        "lib/Xamarin.iOS10/SQLite.Net.Platform.XamarinIOS.Unified.dll",
+        "lib/monotouch/SQLite.Net.Platform.XamarinIOS.dll",
+        "lib/net4/SQLite.Net.Platform.Win32.dll",
+        "lib/net40/SQLite.Net.Platform.Generic.dll",
+        "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll",
+        "lib/portable-win81+wpa81/SQLite.Net.Platform.WinRT.dll",
+        "lib/windowsphone8/ARM/SQLite.Net.Platform.WindowsPhone8.dll",
+        "lib/windowsphone8/x86/SQLite.Net.Platform.WindowsPhone8.dll",
+        "sqlite.net-pcl.3.1.1.nupkg.sha512",
+        "sqlite.net-pcl.nuspec"
+      ]
+    },
+    "SQLite.Net.Core-PCL/3.1.1": {
+      "sha512": "/0VdXnyj2srEh5rM1RW/snXJrVGRsxGB3xjW4EkhZIig9N/8EocZZrEr0vwRJU8a9Lz4BrweoLyKwp2evmSIzg==",
+      "type": "package",
+      "path": "sqlite.net.core-pcl/3.1.1",
+      "files": [
+        "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll",
+        "sqlite.net.core-pcl.3.1.1.nupkg.sha512",
+        "sqlite.net.core-pcl.nuspec"
+      ]
+    },
+    "SQLiteNetExtensions/1.3.0": {
+      "sha512": "XYt89yGciul0pPbZDxrl9Gnj3r8NmFbxC0dfjw7HqRCaSsCxjj9LGy3bBTW4/gykdQ7S3fvAx71f8orROfc9Hg==",
+      "type": "package",
+      "path": "sqlitenetextensions/1.3.0",
+      "files": [
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/SQLiteNetExtensions.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/SQLiteNetExtensions.dll.mdb",
+        "sqlitenetextensions.1.3.0.nupkg.sha512",
+        "sqlitenetextensions.nuspec",
+        "src/Attributes/CascadeOperation.cs",
+        "src/Attributes/ForeignKeyAttribute.cs",
+        "src/Attributes/ManyToManyAttribute.cs",
+        "src/Attributes/ManyToOneAttribute.cs",
+        "src/Attributes/OneToManyAttribute.cs",
+        "src/Attributes/OneToOneAttribute.cs",
+        "src/Attributes/RelationshipAttribute.cs",
+        "src/Attributes/TextBlobAttribute.cs",
+        "src/Exceptions/IncorrectRelationshipException.cs",
+        "src/Extensions/ReadOperations.cs",
+        "src/Extensions/ReflectionExtensions.cs",
+        "src/Extensions/TextBlob/ITextBlobSerializer.cs",
+        "src/Extensions/TextBlob/Serializers/JsonBlobSerializer.cs",
+        "src/Extensions/TextBlob/TextBlobOperations.cs",
+        "src/Extensions/WriteOperations.cs",
+        "src/Properties/AssemblyInfo.cs",
+        "src/obj/Debug/.NETPortable,Version=v4.0,Profile=Profile136.AssemblyAttribute.cs",
+        "src/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs",
+        "src/obj/Release/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs"
       ]
     },
     "SQLitePCLRaw.bundle_green/1.1.7": {
@@ -3923,29 +4019,31 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.0.3",
       "NETStandard.Library >= 2.0.1",
       "Newtonsoft.Json >= 9.0.1",
+      "SQLite.Net-PCL >= 3.1.1",
+      "SQLiteNetExtensions >= 1.3.0",
       "Xamarin.Forms >= 3.0.0.446417",
       "ZXing.Net >= 0.16.4",
       "ZXing.Net.Mobile >= 2.4.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\MAXIMO\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\charlen.calero\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj",
+      "projectUniqueName": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj",
       "projectName": "AppMovilFE",
-      "projectPath": "C:\\Users\\charlen.calero\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\charlen.calero\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\obj\\",
+      "projectPath": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj",
+      "packagesPath": "C:\\Users\\MAXIMO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MAXIMO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3958,8 +4056,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\charlen.calero\\source\\repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj": {
-              "projectPath": "C:\\Users\\charlen.calero\\source\\repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj"
+            "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj": {
+              "projectPath": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppEntity\\AppEntity.csproj"
             }
           }
         }
@@ -3987,6 +4085,14 @@
             "target": "Package",
             "version": "[9.0.1, )"
           },
+          "SQLite.Net-PCL": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          },
+          "SQLiteNetExtensions": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.0.0.446417, )"
@@ -4007,5 +4113,37 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"SQLite.Net-PCL 3.1.1\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETStandard,Version=v2.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "SQLite.Net-PCL",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"SQLite.Net.Core-PCL 3.1.1\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETStandard,Version=v2.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "SQLite.Net.Core-PCL",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"SQLiteNetExtensions 1.3.0\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETStandard,Version=v2.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "SQLiteNetExtensions",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

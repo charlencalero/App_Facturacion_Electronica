@@ -16,6 +16,9 @@ Microsoft.Extensions.Options
 Microsoft.Extensions.Primitives
 Newtonsoft.Json
 Remotion.Linq
+SQLite.Net
+SQLite.Net.Platform.XamarinAndroid
+SQLiteNetExtensions
 SQLitePCLRaw.batteries_green
 SQLitePCLRaw.batteries_v2
 SQLitePCLRaw.core

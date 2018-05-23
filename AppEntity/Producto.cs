@@ -1,5 +1,7 @@
-﻿using System;
+﻿using SQLite.Net.Attributes;
+using System;
 using System.Collections.Generic;
+
 using System.Text;
 
 namespace AppEntity
@@ -21,6 +23,7 @@ namespace AppEntity
             this.prod_stock = prod_stock;
         }
 
+        [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public string prod_codi { get; set; }
         public string prod_descr { get; set; }

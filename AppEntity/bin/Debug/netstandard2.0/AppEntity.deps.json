@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "2ba776c890ef84e82beffdc2c27a0bf302ce9fc6"
+    "signature": "7f8415f82e758f6d98621e34792c27f3387dd655"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": "2.0.3",
           "NETStandard.Library": "2.0.1",
+          "SQLite.Net-PCL": "3.1.1",
           "System.ComponentModel.DataAnnotations": "4.0.0.0"
         },
         "runtime": {
@@ -164,6 +165,20 @@
         },
         "runtime": {
           "lib/netstandard1.0/Remotion.Linq.dll": {}
+        }
+      },
+      "SQLite.Net-PCL/3.1.1": {
+        "dependencies": {
+          "SQLite.Net.Core-PCL": "3.1.1"
+        },
+        "runtime": {
+          "lib/net4/SQLite.Net.Platform.Win32.dll": {},
+          "lib/net40/SQLite.Net.Platform.Generic.dll": {}
+        }
+      },
+      "SQLite.Net.Core-PCL/3.1.1": {
+        "runtime": {
+          "lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_green/1.1.7": {
@@ -577,6 +592,20 @@
       "sha512": "sha512-IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
       "path": "remotion.linq/2.1.1",
       "hashPath": "remotion.linq.2.1.1.nupkg.sha512"
+    },
+    "SQLite.Net-PCL/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eIaIk+k4MwvBeKyzj1kgIegWXYZlaDAHNzsaYP7wNDgSqAdaza8FgCRun7mIZScJD/RIuKxN/b1V+bkC+/WIeA==",
+      "path": "sqlite.net-pcl/3.1.1",
+      "hashPath": "sqlite.net-pcl.3.1.1.nupkg.sha512"
+    },
+    "SQLite.Net.Core-PCL/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/0VdXnyj2srEh5rM1RW/snXJrVGRsxGB3xjW4EkhZIig9N/8EocZZrEr0vwRJU8a9Lz4BrweoLyKwp2evmSIzg==",
+      "path": "sqlite.net.core-pcl/3.1.1",
+      "hashPath": "sqlite.net.core-pcl.3.1.1.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_green/1.1.7": {
       "type": "package",

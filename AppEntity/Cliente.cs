@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+using SQLite.Net.Attributes;
 namespace AppEntity
 {
     public class Cliente
@@ -9,7 +9,7 @@ namespace AppEntity
         public Cliente()
         { }
 
-        public Cliente(int id,string tipodocu,string documento, string nombres, string direccion, string email, string celular)
+        public Cliente(int id, string tipodocu, string documento, string nombres, string direccion, string email, string celular)
         {
             Id = id;
             this.tipodocu = tipodocu;
@@ -20,6 +20,7 @@ namespace AppEntity
             this.celular = celular;
         }
 
+     [PrimaryKey]
         public int Id { get; set; }
         public string tipodocu { get; set; }
         public string documento { get; set; }
