@@ -45,11 +45,15 @@ namespace AppMovilFE.Paginas
 
             ServidorEscon.servidor = "http://calidad.escondatagate.net";
             ServidorEscon.url = "/wsParser/rest/parserWS";
-            ServidorEscon.usuario = "20542471256King02";
-            ServidorEscon.clave = "King2018*";
+            //ServidorEscon.usuario = "20542471256King02";
+            //ServidorEscon.clave = "King2018*";
+            //emi.numeroDocId = "20542471256";
+
+            ServidorEscon.usuario = "20557103920ad_escon";
+            ServidorEscon.clave = "Escon2018*";
+            emi.numeroDocId = "20557103920";
 
             emi.tipoDocId = "6";
-            emi.numeroDocId = "20542471256";
             emi.nombreComercial = "INGENIERIA E INFORMATICA KING SOFTWARE SAC";
             emi.razonSocial = "KSOFT";
             emi.ubigeo = "150131";
@@ -125,6 +129,7 @@ namespace AppMovilFE.Paginas
 
             if (clie != null)
             {
+                TextDni.Text = clie.documento;
                 TextNombre.Text = clie.nombres;
                 TextDireccion.Text = clie.direccion;
                 TextEmail.Text = clie.email;
@@ -151,7 +156,7 @@ namespace AppMovilFE.Paginas
                     if (action != null)
                     {
                     var id = myList.IndexOf(action);
-
+                        TextDni.Text = clientes[id].documento;
                     TextNombre.Text = clientes[id].nombres;
                     TextDireccion.Text = clientes[id].direccion;
                     TextEmail.Text = clientes[id].email;

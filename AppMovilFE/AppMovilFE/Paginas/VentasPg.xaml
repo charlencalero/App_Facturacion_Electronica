@@ -156,33 +156,41 @@
                     </ListView>
                 </StackLayout>
             </Frame>
-            
-            <StackLayout x:Name="StacDetalleOpciones" Orientation="Horizontal" HorizontalOptions="Center">
-                <Button Style="{StaticResource Botones}" Text="+"></Button>
-                <Button Style="{StaticResource Botones}" Text="-"></Button>
-                <Button Style="{StaticResource Botones}" Text="Quitar"></Button>
-                <Button Style="{StaticResource Botones}" Text="Limpiar"></Button>
-            </StackLayout>
 
 
-            <StackLayout x:Name="StacTotal" Orientation="Horizontal" HorizontalOptions="Center">
+
+            <Frame  Padding="10"  Margin="30,10,30,10">
+                <StackLayout>
+                    
+                
+                <StackLayout x:Name="StacDetalleOpciones" Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button Style="{StaticResource Botones}" Text="+"></Button>
+                    <Button Style="{StaticResource Botones}" Text="-"></Button>
+                    <Button Style="{StaticResource Botones}" Text="Quitar"></Button>
+                    <Button Style="{StaticResource Botones}" Text="Limpiar"></Button>
+                </StackLayout>
 
 
-                <Label WidthRequest="80" Text="Subtotal"></Label>
-                <Entry Style="{StaticResource Texto}" WidthRequest="80" Text="0.00" x:Name="TextSubtotal"></Entry>
-                <Label WidthRequest="80" Text="Igv"></Label>
-                <Entry Style="{StaticResource Texto}" WidthRequest="80" Text="0.00" x:Name="TextIgv"></Entry>
-                <Label WidthRequest="80" Text="Total"></Label>
-                <Entry Style="{StaticResource Texto}" WidthRequest="80" Text="0.00" x:Name="TextTotal"></Entry>
+                <StackLayout x:Name="StacTotal" Orientation="Horizontal" HorizontalOptions="Center">
 
 
-            </StackLayout>
+                    <Label WidthRequest="80" Text="Subtotal"></Label>
+                    <Entry Style="{StaticResource Texto}" WidthRequest="80" Text="0.00" x:Name="TextSubtotal"></Entry>
+                    <Label WidthRequest="80" Text="Igv"></Label>
+                    <Entry Style="{StaticResource Texto}" WidthRequest="80" Text="0.00" x:Name="TextIgv"></Entry>
+                    <Label WidthRequest="80" Text="Total"></Label>
+                    <Entry Style="{StaticResource Texto}" WidthRequest="80" Text="0.00" x:Name="TextTotal"></Entry>
 
-            <StackLayout x:Name="StacFooter" Orientation="Horizontal" HorizontalOptions="Center">
-                <Button  Style="{StaticResource Botones}" Clicked="Button_Clicked"  Text="Guardar"></Button>
-                <Button  Style="{StaticResource Botones}" Text="Salir"></Button>
-            </StackLayout>
 
+                </StackLayout>
+
+                <StackLayout x:Name="StacFooter" Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button  Style="{StaticResource Botones}" Clicked="Button_Clicked"  Text="Guardar"></Button>
+                    <Button  Style="{StaticResource Botones}" Text="Salir"></Button>
+                </StackLayout>
+
+                </StackLayout>
+            </Frame>
 
         </StackLayout>
         </ScrollView>

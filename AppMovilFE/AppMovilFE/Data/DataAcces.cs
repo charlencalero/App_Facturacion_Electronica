@@ -18,7 +18,7 @@ namespace AppMovilFE.Data
         public DataAcces()
         {
             var config = DependencyService.Get<ISqlConfi>();
-            connection = new SQLiteConnection(config.Platform, System.IO.Path.Combine(config.DirectoryDB, "EFDb7.db3"));
+            connection = new SQLiteConnection(config.Platform, System.IO.Path.Combine(config.DirectoryDB, "EFDb9.db3"));
             connection.CreateTable<Producto>();
             connection.CreateTable<Cliente>();
             connection.CreateTable<Comprobante>();

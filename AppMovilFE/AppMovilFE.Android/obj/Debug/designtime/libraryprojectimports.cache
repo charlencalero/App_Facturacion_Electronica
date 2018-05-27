@@ -3,41 +3,41 @@
   <Jars>
     <Jar>obj\Debug\lp\2\jl\formsviewgroup.jar</Jar>
     <Jar>obj\Debug\lp\32\jl\support-annotations.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\2\jl\formsviewgroup.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\31\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\32\jl\support-annotations.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\33\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\34\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\35\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\36\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\37\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\38\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\39\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\40\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\41\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\42\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\43\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\44\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\45\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\46\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\2\jl\formsviewgroup.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\31\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\32\jl\support-annotations.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\33\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\34\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\35\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\36\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\37\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\38\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\39\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\40\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\41\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\42\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\43\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\44\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\45\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\46\jl\bin\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\1\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\19\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\21\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\22\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\23\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\24\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\25\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\36\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\39\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\40\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\41\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\42\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\43\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\45\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\51\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\54\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\1\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\19\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\21\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\22\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\23\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\24\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\25\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\36\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\39\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\40\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\41\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\42\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\43\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\45\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\51\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\54\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\lp\1\jl\assets</ResolvedAssetDirectory>
@@ -53,21 +53,21 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\1.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\19.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\21.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\22.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\23.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\24.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\25.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\36.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\39.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\40.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\41.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\42.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\43.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\45.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\51.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\Source\Repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\54.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\1.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\19.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\21.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\22.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\23.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\24.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\25.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\36.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\39.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\40.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\41.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\42.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\43.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\45.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\51.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\MAXIMO\source\repos\App_Facturacion_Electronica\AppMovilFE\AppMovilFE.Android\obj\Debug\lp\54.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

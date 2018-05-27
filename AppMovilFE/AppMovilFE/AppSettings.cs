@@ -6,6 +6,6 @@ namespace AppMovilFE
 {
     public class AppSettings
     {
-        public static string DatabaseName = "EFDb7.db3";
+        public static string DatabaseName = "EFDb8.db3";
     }
 }

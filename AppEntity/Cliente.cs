@@ -20,7 +20,7 @@ namespace AppEntity
             this.celular = celular;
         }
 
-     [PrimaryKey]
+     [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public string tipodocu { get; set; }
         public string documento { get; set; }
