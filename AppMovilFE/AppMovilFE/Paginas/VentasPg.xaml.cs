@@ -400,9 +400,11 @@ namespace AppMovilFE.Paginas
 
             DLL_KS_OSE.Bussines.CrearComp crear = new DLL_KS_OSE.Bussines.CrearComp();
             var resp =await crear.Crear(comp, emi,ServidorEscon.servidor,ServidorEscon.url,ServidorEscon.usuario,ServidorEscon.clave);
-            await   DisplayAlert("SYSTEM", resp,"OK");
+            await   DisplayAlert("SYSTEM", resp.responseContent,"OK");
 
-            DependencyService.Get<ISaveAndLoad>().SaveText(comp.serie+"-"+comp.nume+".json", resp);
+            if (resp.responseCode == "0")
+            {
+DependencyService.Get<ISaveAndLoad>().SaveText(comp.serie+"-"+comp.nume+".zip", resp.details.cdr);
 
             //INSERTAR BD
 
@@ -418,6 +420,9 @@ namespace AppMovilFE.Paginas
             //var result = _entityFrameworkService.ComprobanteAll();
             obtener_numero();
 
+            }
+
+            
         }
 
         private  void BuscProd_Clicked(object sender, EventArgs e)

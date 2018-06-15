@@ -7501,11 +7501,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.iOS\\AppMovilFE.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.iOS\\AppMovilFE.iOS.csproj",
       "projectName": "AppMovilFE.iOS",
-      "projectPath": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.iOS\\AppMovilFE.iOS.csproj",
+      "projectPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.iOS\\AppMovilFE.iOS.csproj",
       "packagesPath": "C:\\Users\\MAXIMO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.iOS\\obj\\",
+      "outputPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -7522,8 +7522,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj": {
-              "projectPath": "C:\\Users\\MAXIMO\\Source\\Repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj"
+            "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj": {
+              "projectPath": "C:\\Users\\MAXIMO\\source\\repos\\App_Facturacion_Electronica\\AppMovilFE\\AppMovilFE\\AppMovilFE.csproj"
             }
           }
         }
